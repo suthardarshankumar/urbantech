@@ -1,0 +1,27 @@
+.container {
+    width: 100vw;
+    padding: 7vh 5vw;
+}
+
+.heading {
+    font-size: 5vh;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #171717;
+    margin-bottom: 5vh;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: scroll;
+}
+
+.row::-webkit-scrollbar {
+    display: none;
+}
+
+.img {
+    width: 8vw;
+    height: 15vh;
+}

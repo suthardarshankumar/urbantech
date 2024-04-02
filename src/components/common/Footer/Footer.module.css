@@ -1,0 +1,37 @@
+.footer {
+    width: 100vw;
+    padding: 7vh 5vw;
+    color: #f2f2f2;
+    background-color: #171717;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footerContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-heading {
+    font-size: 3.5vh;
+    margin-bottom: 2vh;
+}
+
+.footer-ul {
+    font-size: 2.3vh;
+    list-style: none;
+}
+
+.footer-para {
+    margin-bottom: 1.5vh;
+}
+
+.footer-list {
+    margin-bottom: 1vh;
+    transition: 0.3s linear;
+}
+
+.footer-list:hover {
+    color: #ff5722;
+    transform: scale(1.2);
+}

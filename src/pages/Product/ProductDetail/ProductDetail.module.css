@@ -1,0 +1,356 @@
+.container {
+    width: 100vw;
+    background-color: #ffffff;
+    padding: 5vh 5vw;
+    display: flex;
+}
+
+.left {
+    width: 50vw;
+    display: flex;
+}
+
+.imgSideBarContain {
+    width: 4vw;
+}
+
+.imgSideBar {
+    width: 100%;
+    height: 7.5vh;
+    border: 0.1vh solid #171717;
+    border-radius: 10px;
+}
+
+.mainImgContain {
+    width: 46vw;
+    height: 84vh;
+    padding: 0 1vw;
+}
+
+.mainImg {
+    width: 100%;
+    height: 100%;
+}
+
+.right {
+    width: 40vw;
+    padding: 0 1.5vw;
+}
+
+.productName {
+    color: #171717;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 3.5vh;
+}
+
+.priceRow {
+    font-family: "Roboto Condensed", sans-serif;
+    border-top: 0.1vw solid lightgray;
+    border-bottom: 0.1vw solid lightgray;
+    margin-top: 3vh;
+    padding: 3vh 0;
+    font-size: 3.5vh;
+    color: #171717;
+}
+
+.mrpPrice {
+    margin-top: 1vh;
+    color: #17171791;
+    font-size: 1.7vh;
+}
+
+.realPrice {
+    text-decoration: line-through;
+}
+
+.tax {
+    color: #171717;
+    font-size: 2vh;
+    margin-top: 1vh;
+    font-weight: 400;
+}
+
+.colorSection {
+    width: 100%;
+    padding: 2vh 0;
+    border-bottom: 0.1vw solid lightgray;
+}
+
+.colorHeading {
+    color: #171717;
+    font-size: 2.5vh;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.colorRow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1vh;
+}
+
+.btnSection {
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.btnContain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    background-color: #f2f2f2;
+    border-radius: 2vw;
+}
+
+.minusBtn,
+.addBtn {
+    padding: 1.5vh 1.5vw;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showQuantity {
+    text-align: center;
+    width: 2vw;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+.minusIcon,
+.addIcon {
+    font-size: 2.5vh;
+}
+
+.buttonSection {
+    width: 100%;
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    /* Variables */
+    --button_radius: 0.75em;
+    --button_color: #fff;
+    --button_outline_color: #000000;
+    font-size: 2vh;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+}
+
+.button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+}
+
+.button:hover .button_top {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+}
+
+.button:active .button_top {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
+}
+
+/* styles.module.css */
+
+.cartButton {
+    /* Variables */
+    --button_radius: 0.75em;
+    --button_color: #fff;
+    --button_outline_color: #007bff;
+    font-size: 2vh;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+}
+
+.cartButton_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+}
+
+.cartButton:hover .cartButton_top {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+}
+
+.cartButton:active .cartButton_top {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
+}
+
+.serviceContainer {
+    margin-top: 3vh;
+    padding: 2vh 2vw;
+}
+
+.serviceRow {
+    width: 100%;
+    display: flex;
+}
+
+.iconContainer {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.5vh 0;
+}
+
+.icon {
+    font-size: 4vh;
+    color: #FF7E22;
+}
+
+.detailContainer {
+    padding: 1.5vh 0;
+    width: 85%;
+}
+
+.top {
+    border-top: 0.1vh solid lightgray;
+    border-left: 0.1vh solid lightgray;
+    border-right: 0.1vh solid lightgray;
+    border-top-left-radius: 0.3vw;
+    border-top-right-radius: 0.3vw;
+}
+
+.bottom {
+    border: 0.1vh solid lightgray;
+    border-bottom-left-radius: 0.3vw;
+    border-bottom-right-radius: 0.3vw;
+}
+
+.heading,
+.para {
+    font-family: "Open Sans", sans-serif;
+}
+
+.heading {
+    font-weight: 600;
+}
+
+.para {
+    margin-top: 0.5vh;
+    font-weight: 400;
+    color: #171717;
+    opacity: 0.7;
+    font-size: 1.8vh;
+}
+
+.para:hover {
+    text-decoration: underline;
+}
+
+.detailSpan {
+    text-decoration: underline;
+}
+
+.productDetailsContainer {
+    margin-top: 3vh;
+}
+
+.productDetailsSection {
+    display: flex;
+    width: 100%;
+    padding-bottom: 2vh;
+    border-bottom: 0.1vw solid lightgrey;
+}
+
+.productHeading {
+    width: 90%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.iconsProduct {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.productIcon {
+    font-size: 2.5vh;
+}
+
+.tableContainer {
+    width: 100%;
+    margin-top: 3vh;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in;
+    max-height: 0;
+}
+
+.open {
+    max-height: 150vh;
+}
+
+.close {
+    max-height: 0;
+}
+
+.table {
+    width: 100%;
+    font-family: "Roboto Condensed", sans-serif;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 0.1vh solid #e2e2e2;
+}
+
+.tableRow {
+    background-color: #e2e2e2;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.rowHeading,
+.rowData {
+    text-align: left;
+    padding: 1vh;
+    border: none;
+}
+
+.rowHeading {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #171717;
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+.rowData {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #171717;
+    font-size: 2vh;
+    font-weight: 300;
+}

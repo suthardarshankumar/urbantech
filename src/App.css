@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+.first-color {
+  background: #222831;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.second-color {
+  background: #393e46;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.second-color-ext {
+  background: #363636;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.third-color {
+  background: #ff5722;
 }
 
-.App-link {
-  color: #61dafb;
+.third-color-ext {
+  background: #e8630a;
+  color: #FF7E22;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fourth-color {
+  background: #eeeeee;
 }
+
+/* 
+midnight-blue: #101720
+deep navy blue: #011222
+charcoal gray: #171717
+rich black: #020d19
+oil black: ocococ/ #0c0c0c
+dark slate gray: #0d1717
+obsidian: #0b1215
+*/
+
+/*
+320-479
+480-599
+600-767
+768-991
+992-1381
+1382-1500
+*/
+
+/* logo 
+.major-mono display-regular {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+
+/* navbar 
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
+/* body and footer 
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+
+/* product name 
+.oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* Headings  and price
+.roboto-condensed-<uniquifier> {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* Buttons 
+.raleway-<uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* Labels and Badges 
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+} */

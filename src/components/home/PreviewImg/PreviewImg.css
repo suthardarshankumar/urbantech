@@ -1,0 +1,117 @@
+.preview {
+    width: 100vw;
+    height: 89vh;
+    position: relative;
+    box-shadow: 0 5vh 5vh #f2f2f2;
+    /* padding: 2.5vh 5vw; */
+    z-index: 1;
+}
+
+.previewimg {
+    width: 100%;
+    height: 100%;
+    /* border-radius: 1vw; */
+}
+
+.preview-details {
+    position: absolute;
+    width: 25vw;
+    top: 30vh;
+    left: 5vw;
+}
+
+.preview-heading,
+.preview-para,
+.preview-button {
+    color: #171717;
+}
+
+.preview-heading,
+.preview-para {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.preview-button {
+    font-family: "Raleway", sans-serif;
+}
+
+.preview-heading {
+    font-size: 6vh;
+    line-height: 0.9;
+}
+
+.preview-para {
+    padding-top: 2vh;
+    font-size: 2vh;
+}
+
+.preview-button {
+    padding: 2vh 2vw;
+    font-size: 2vh;
+    border: 0.1vw solid #171717;
+    border-radius: 1vw;
+    color: #171717;
+    background-color: transparent;
+    margin-top: 2vh;
+    transition: 0.7s ease-in-out;
+}
+
+.preview-button:hover {
+    color: #f2f2f2;
+    background-color: #171717;
+    border-color: #f2f2f2;
+    box-shadow: 0 0 7vh 0.3vh #171717;
+}
+
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-top: 2vh;
+}
+
+.cta span {
+    padding-bottom: 1vh;
+    letter-spacing: 4px;
+    font-size: 2vh;
+    padding-right: 1vw;
+    text-transform: uppercase;
+}
+
+.cta svg {
+    transform: translateX(-1vh);
+    transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active svg {
+    transform: scale(0.9);
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: #171717;
+    padding-bottom: 2.3vh;
+    font-family: "Raleway", sans-serif;
+}
+
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #171717;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}

@@ -1,0 +1,35 @@
+.container {
+    width: 100vw;
+    padding: 7vh 5vw;
+}
+
+.heading {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 5vh;
+    color: #171717;
+    margin-bottom: 5vh;
+}
+
+.letters {
+    font-family: "Major Mono Display", monospace;
+    font-size: 5vh;
+    color: #171717;
+}
+
+.new-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.big-banner-img {
+    width: 40vw;
+    height: 42vh;
+    border-radius: 1vw;
+}
+
+.small-banner-img {
+    width: 24vw;
+    height: 42vh;
+    border-radius: 1vw;
+}

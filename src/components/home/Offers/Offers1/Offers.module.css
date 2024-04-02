@@ -1,0 +1,14 @@
+.container {
+    width: 100vw;
+    padding: 7vh 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    width: 44vw;
+    height: 16vh;
+    border: 0.1vh solid #171717;
+    border-radius: 1vw;
+    box-shadow: 0 0 1vh 0.1vh #171717;
+}

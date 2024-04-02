@@ -1,0 +1,86 @@
+.row {
+    width: 100vw;
+    height: 85vh;
+    padding: 7vh 5vw;
+}
+
+.row-sec {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col {
+    width: 48.5%;
+    height: 100%;
+    border-radius: 2vw;
+    background-color: #EBECEE;
+    /* background-color: #f2f2f2; */
+    position: relative;
+    overflow: hidden;
+}
+
+.img {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+}
+
+.Ipad {
+    right: -17vw;
+    bottom: -16vh;
+}
+
+.AppleWatch {
+    right: -24vw;
+    bottom: -10vh;
+}
+
+.col-detail {
+    padding: 10vh 4vw;
+}
+
+.heading,
+.para,
+.btn {
+    color: #171717;
+}
+
+.heading,
+.para {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.heading {
+    font-size: 6.5vh;
+    line-height: 1.2;
+    margin-bottom: 4vh;
+}
+
+.para {
+    font-size: 3vh;
+    line-height: 1.5;
+    margin-bottom: 5vh;
+    font-weight: 300;
+}
+
+.btn {
+    font-size: 2vh;
+    font-family: "Raleway", sans-serif;
+    padding: 2vh 2vw;
+    background-color: transparent;
+    border: 0.1vw solid #171717;
+    border-radius: 1vw;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.Ipad-btn:hover,
+.AppleWatch-btn:hover,
+.btn:hover {
+    color: #EBECEE;
+    background-color: #171717;
+    box-shadow: 0 0 10vh 1vh #171717;
+}
