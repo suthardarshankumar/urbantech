@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Footer.module.css';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -16,23 +17,35 @@ const Footer = () => {
                     <divs className={styles.footerSection}>
                         <h3 className={`${styles['footer-heading']}`}>Shop</h3>
                         <ul className={`${styles['footer-ul']}`}>
-                            <li className={`${styles['footer-list']}`}>Shop All</li>
-                            <li className={`${styles['footer-list']}`}>Computers</li>
-                            <li className={`${styles['footer-list']}`}>Tablets</li>
-                            <li className={`${styles['footer-list']}`}>Audio</li>
-                            <li className={`${styles['footer-list']}`}>Mobile</li>
-                            <li className={`${styles['footer-list']}`}>T.V & Home Cinema</li>
-                            <li className={`${styles['footer-list']}`}>Wearable Tech</li>
-                            <li className={`${styles['footer-list']}`}>Sale</li>
+                            <li className={`${styles['footer-list']}`}>
+                                <Link to='shop' className={`${styles['footer-link']}`}>Shop All</Link>
+                            </li>
+                            <li className={`${styles['footer-list']}`}>
+                                <Link to='mobile-shop' className={`${styles['footer-link']}`}>Mobile</Link>
+                            </li>
+                            <li className={`${styles['footer-list']}`}>
+                                <Link to='tablets-and-ipads' className={`${styles['footer-link']}`}>Tablets</Link>
+                            </li>
+                            <li className={`${styles['footer-list']}`}>
+                                <Link to='audio-product' className={`${styles['footer-link']}`}>Audio</Link>
+                            </li>
+                            <li className={`${styles['footer-list']}`}>
+                                <Link to='laptop' className={`${styles['footer-link']}`}>Laptop</Link>
+                            </li>
+                            <li className={`${styles['footer-list']}`}>
+                                <Link to='smartwatch' className={`${styles['footer-link']}`}>SmartWatch</Link>
+                            </li>
+                            <li className={`${styles['footer-list']}`}>
+                                <Link to='accessories' className={`${styles['footer-link']}`}>Accessories</Link>
+                            </li>
                         </ul>
                     </divs>
                     <div className={styles.footerSection}>
                         <h3 className={`${styles['footer-heading']}`}>Customer Support</h3>
                         <ul className={`${styles['footer-ul']}`}>
-                            <li className={`${styles['footer-list']}`}>Contact Us</li>
-                            <li className={`${styles['footer-list']}`}>Help Center</li>
-                            <li className={`${styles['footer-list']}`}>About Us</li>
-                            <li className={`${styles['footer-list']}`}>Careers</li>
+                            <li className={`${styles['footer-list']}`}><Link to='' className={`${styles['footer-link']}`}>Contact Us</Link></li>
+                            <li className={`${styles['footer-list']}`}><Link to='' className={`${styles['footer-link']}`}>Help Center</Link></li>
+                            <li className={`${styles['footer-list']}`}><Link to='' className={`${styles['footer-link']}`}>About Us</Link></li>
                         </ul>
                     </div>
                     <div className={styles.footerSection}>

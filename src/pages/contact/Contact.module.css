@@ -1,0 +1,114 @@
+.section {
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 30vw;
+    border-radius: 3vh;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #d9d9d9,
+        -20px -20px 60px #ffffff;
+    padding: 0 3vw;
+}
+
+.headingSection {
+    text-align: left;
+}
+
+.title,
+.message {
+    font-family: "Nunito", sans-serif;
+    color: #171717;
+}
+
+.title {
+    margin-top: 3vh;
+    font-size: 5vh;
+}
+
+.message {
+    margin-top: 0.5vh;
+    font-size: 2.2vh;
+}
+
+.labelSection {
+    width: 100%;
+    padding: 3vh 0 0;
+}
+
+.labels {
+    margin: 1.5vh 0;
+}
+
+.input {
+    width: 100%;
+    font-size: 2vh;
+    font-weight: 350;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 2vw;
+    padding: 1.25vh 1.25vw;
+    border: 0.12vw solid #171717;
+    outline: none;
+}
+
+.input:focus {
+    border: 0.12vw solid #ff5722;
+}
+
+.forgetPassword {
+    font-size: 2.1vh;
+    font-family: "Ubuntu", sans-serif;
+    text-align: right;
+    color: #ff5722;
+    transition: 0.3s;
+}
+
+.forgetPassword:hover {
+    transform: scale(1.05);
+}
+
+.btnSection {
+    padding: 3vh 0 3vh;
+}
+
+.btn {
+    font-size: 2.1vh;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    border: none;
+    padding: 2vh;
+    width: 100%;
+    border-radius: 3vw;
+    border: 0.12vw solid #171717;
+    background-color: #171717;
+    color: #f2f2f2;
+    transition: 0.3s ease-in;
+}
+
+.btn:hover {
+    border: 0.12vw solid #ff5722;
+    background-color: #ff5722;
+}
+
+.btn:focus {
+    background-color: transparent;
+    color: #ff5722;
+    border: 0.12vw solid #ff5722;
+}
+
+.message {
+    padding: 1.25vh;
+    width: 100%;
+    border-radius: 1vw;
+    height: 20vh;
+    border: 0.12vw solid #171717;
+    outline: none;
+}
+
+.message:focus {
+    border: 0.12vw solid #ff5722;
+}

@@ -5,32 +5,6 @@
     display: flex;
 }
 
-.left {
-    width: 50vw;
-    display: flex;
-}
-
-.imgSideBarContain {
-    width: 4vw;
-}
-
-.imgSideBar {
-    width: 100%;
-    height: 7.5vh;
-    border: 0.1vh solid #171717;
-    border-radius: 10px;
-}
-
-.mainImgContain {
-    width: 46vw;
-    height: 84vh;
-    padding: 0 1vw;
-}
-
-.mainImg {
-    width: 100%;
-    height: 100%;
-}
 
 .right {
     width: 40vw;
@@ -91,41 +65,6 @@
     margin-top: 1vh;
 }
 
-.btnSection {
-    width: 100%;
-    margin-top: 4vh;
-}
-
-.btnContain {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10vw;
-    background-color: #f2f2f2;
-    border-radius: 2vw;
-}
-
-.minusBtn,
-.addBtn {
-    padding: 1.5vh 1.5vw;
-    border: none;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.showQuantity {
-    text-align: center;
-    width: 2vw;
-    font-family: "Roboto Condensed", sans-serif;
-}
-
-
-.minusIcon,
-.addIcon {
-    font-size: 2.5vh;
-}
 
 .buttonSection {
     width: 100%;
@@ -206,74 +145,8 @@
     transform: translateY(0);
 }
 
-.serviceContainer {
-    margin-top: 3vh;
-    padding: 2vh 2vw;
-}
 
-.serviceRow {
-    width: 100%;
-    display: flex;
-}
-
-.iconContainer {
-    width: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 1.5vh 0;
-}
-
-.icon {
-    font-size: 4vh;
-    color: #FF7E22;
-}
-
-.detailContainer {
-    padding: 1.5vh 0;
-    width: 85%;
-}
-
-.top {
-    border-top: 0.1vh solid lightgray;
-    border-left: 0.1vh solid lightgray;
-    border-right: 0.1vh solid lightgray;
-    border-top-left-radius: 0.3vw;
-    border-top-right-radius: 0.3vw;
-}
-
-.bottom {
-    border: 0.1vh solid lightgray;
-    border-bottom-left-radius: 0.3vw;
-    border-bottom-right-radius: 0.3vw;
-}
-
-.heading,
-.para {
-    font-family: "Open Sans", sans-serif;
-}
-
-.heading {
-    font-weight: 600;
-}
-
-.para {
-    margin-top: 0.5vh;
-    font-weight: 400;
-    color: #171717;
-    opacity: 0.7;
-    font-size: 1.8vh;
-}
-
-.para:hover {
-    text-decoration: underline;
-}
-
-.detailSpan {
-    text-decoration: underline;
-}
-
-.productDetailsContainer {
+.productContainer {
     margin-top: 3vh;
 }
 
@@ -324,14 +197,15 @@
     border-collapse: separate;
     border-spacing: 0;
     border: 0.1vh solid #e2e2e2;
+    margin-bottom: 3vh;
 }
 
 .tableRow {
-    background-color: #e2e2e2;
+    background-color: #f2f2f2;
 }
 
 .tableRow:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
 }
 
 .rowHeading,

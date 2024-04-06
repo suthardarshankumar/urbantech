@@ -1,0 +1,66 @@
+.serviceContainer {
+    margin-top: 3vh;
+    padding: 2vh 2vw;
+}
+
+.serviceRow {
+    width: 100%;
+    display: flex;
+}
+
+.iconContainer {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1.5vh 0;
+}
+
+.icon {
+    font-size: 4vh;
+    color: #FF7E22;
+}
+
+.detailContainer {
+    padding: 1.5vh 0;
+    width: 85%;
+}
+
+.top {
+    border-top: 0.1vh solid lightgray;
+    border-left: 0.1vh solid lightgray;
+    border-right: 0.1vh solid lightgray;
+    border-top-left-radius: 0.3vw;
+    border-top-right-radius: 0.3vw;
+}
+
+.bottom {
+    border: 0.1vh solid lightgray;
+    border-bottom-left-radius: 0.3vw;
+    border-bottom-right-radius: 0.3vw;
+}
+
+.heading,
+.para {
+    font-family: "Open Sans", sans-serif;
+}
+
+.heading {
+    font-weight: 600;
+}
+
+.para {
+    margin-top: 0.5vh;
+    font-weight: 400;
+    color: #171717;
+    opacity: 0.7;
+    font-size: 1.8vh;
+}
+
+.para:hover {
+    text-decoration: underline;
+}
+
+.detailSpan {
+    text-decoration: underline;
+}

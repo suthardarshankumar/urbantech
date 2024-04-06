@@ -96,6 +96,9 @@
     color: #171717;
     padding-bottom: 2.3vh;
     font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    font-size: 2.5vh;
+    letter-spacing: 2px;
 }
 
 .hover-underline-animation:after {

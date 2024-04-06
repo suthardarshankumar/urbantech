@@ -7,129 +7,178 @@
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    min-width: 22vw;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 20px;
-    position: relative;
+    width: 30vw;
+    border-radius: 3vh;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #d9d9d9,
+        -20px -20px 60px #ffffff;
+    padding: 0 3vw;
+}
+
+.headingSection {
+    text-align: left;
+}
+
+.title,
+.message {
+    font-family: "Nunito", sans-serif;
+    color: #171717;
 }
 
 .title {
-    font-size: 28px;
-    color: royalblue;
-    font-weight: 600;
-    letter-spacing: -1px;
-    position: relative;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
+    margin-top: 3vh;
+    font-size: 5vh;
 }
 
-.title::before,
-.title::after {
-    position: absolute;
-    content: "";
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    left: 0px;
-    background-color: royalblue;
+.message {
+    margin-top: 0.5vh;
+    font-size: 2.2vh;
 }
 
-.title::before {
-    width: 18px;
-    height: 18px;
-    background-color: royalblue;
-}
-
-.title::after {
-    width: 18px;
-    height: 18px;
-    animation: pulse 1s linear infinite;
-}
-
-.message,
-.signin {
-    color: rgba(88, 87, 87, 0.822);
-    font-size: 14px;
-}
-
-.signin {
-    text-align: center;
-}
-
-.signin a {
-    color: royalblue;
-}
-
-.signin a:hover {
-    text-decoration: underline royalblue;
-}
-
-.form label {
-    position: relative;
-}
-
-.form label .input {
+.labelSection {
     width: 100%;
-    padding: 10px 10px 20px 10px;
-    outline: 0;
-    border: 1px solid rgba(105, 105, 105, 0.397);
-    border-radius: 10px;
+    padding: 3vh 0 0;
 }
 
-.form label .input+span {
-    position: absolute;
-    left: 10px;
-    top: 15px;
-    color: grey;
-    font-size: 0.9em;
-    cursor: text;
-    transition: 0.3s ease;
+.labels {
+    margin: 1.5vh 0;
 }
 
-.form label .input:placeholder-shown+span {
-    top: 15px;
-    font-size: 0.9em;
-}
-
-.form label .input:focus+span,
-.form label .input:valid+span {
-    top: 30px;
-    font-size: 0.7em;
-    font-weight: 600;
-}
-
-.form label .input:valid+span {
-    color: green;
-}
-
-.submit {
-    border: none;
+.input {
+    width: 100%;
+    font-size: 2vh;
+    font-weight: 350;
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 2vw;
+    padding: 1.25vh 1.25vw;
+    border: 0.12vw solid #171717;
     outline: none;
-    background-color: royalblue;
+}
+
+.input:focus {
+    border: 0.12vw solid #ff5722;
+}
+
+.forgetPassword {
+    font-size: 2.1vh;
+    font-family: "Ubuntu", sans-serif;
+    text-align: right;
+    color: #ff5722;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.forgetPassword:hover {
+    transform: scale(1.05);
+}
+
+.btnSection {
+    padding: 3vh 0 3vh;
+}
+
+.btn {
+    font-size: 2.1vh;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    border: none;
+    padding: 2vh;
+    width: 100%;
+    border-radius: 3vw;
+    border: 0.12vw solid #171717;
+    background-color: #171717;
+    color: #f2f2f2;
+    transition: 0.3s ease-in;
+}
+
+.btn:hover {
+    border: 0.12vw solid transparent;
+    background: linear-gradient(45deg, #FF5722, #FF7E22);
+    border-image: linear-gradient(45deg, #FF5722, #FF7E22);
+}
+
+.btn:focus {
+    background-color: transparent;
+    color: #ff5722;
+    border: 0.12vw solid #ff5722;
+}
+
+.container {
+    width: 100%;
+    margin-top: 2vh;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.heading {
+    text-align: center;
+    opacity: 0.6;
+}
+
+.iconsSection {
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+}
+
+.iconContain {
+    margin: 2vh 0 5vh;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
     padding: 10px;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 16px;
-    transform: .3s ease;
+    font-size: 5vh;
+    color: #f2f2f2;
+    border-radius: 50%;
+    background-color: #171717;
+    transition: 0.4s;
 }
 
-.submit:hover {
-    background-color: rgb(56, 90, 194);
+.icon:hover {
+    background: linear-gradient(45deg, #FF5722, #FF7E22);
+    transform: scale(1.2);
 }
 
-@keyframes pulse {
-    from {
-        transform: scale(0.9);
-        opacity: 1;
-    }
+.signupContainer {
+    margin-top: 36px;
+    width: 30vw;
+    border-top: 1px solid #d9d9d9;
+}
 
-    to {
-        transform: scale(1.8);
-        opacity: 0;
-    }
+.headingSign {
+    color: #d9d9d9;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signupbtn {
+    padding: 3vh 0 3vh;
+}
+
+.signbtn {
+    font-size: 2.1vh;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    border: none;
+    padding: 2vh;
+    width: 100%;
+    border-radius: 3vw;
+    border: 0.12vw solid #171717;
+    background-color: #171717;
+    color: #f2f2f2;
+    transition: 0.3s ease-in;
+}
+
+.signbtn:hover {
+    border: 0.12vw solid transparent;
+    background: linear-gradient(45deg, #FF5722, #FF7E22);
+    border-image: linear-gradient(45deg, #FF5722, #FF7E22);
+}
+
+.signbtn:focus {
+    background-color: transparent;
+    color: #ff5722;
+    border: 0.12vw solid #ff5722;
 }

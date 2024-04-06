@@ -2,12 +2,122 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
+import AudioProduct from './pages/AudioProduct/AudioProduct';
+import Home from './pages/Home/Home';
+import Laptop from './pages/Laptop/Laptop';
+import MobileShop from './pages/MobileShop/MobileShop';
+import DetailPages from './pages/Product/DetailPages/DetailPages';
+import Shop from './pages/Shop/Shop';
+import TabletsAndiPads from './pages/TabletsAndiPads/TabletsAndiPads';
+import AllProduct from './pages/AllProduct/AllProduct';
+
+import SignUp from './pages/SignUp/SignUp';
+import LogIn from './pages/LogIn/Login';
+import ResetPassword from './pages/ResetPassword/ResetPassword';
+import ContactUs from './pages/contact/ContactUs';
+import Accessories from './pages/Accessories/Accessories';
+import SmartWatch from './pages/SmartWatch/SmartWatch';
+import LogInPage from './pages/LogIn/LogInPage';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    children: [
+      {
+        path: '',
+        element: <Home />,
+      },
+      {
+        path: 'shop',
+        element: <Shop />,
+        children: [
+          {
+            path: '',
+            element: <AllProduct />,
+          },
+          {
+            path: 'mobile-shop',
+            element: <MobileShop />,
+          },
+          {
+            path: 'tablets-and-ipads',
+            element: <TabletsAndiPads />,
+          },
+          {
+            path: 'laptop',
+            element: <Laptop />,
+          },
+          {
+            path: 'smartwatch',
+            element: <SmartWatch />,
+          },
+          {
+            path: 'audio-product',
+            element: <AudioProduct />,
+          },
+          {
+            path: 'accessories',
+            element: <Accessories />,
+          },
+        ],
+      },
+      {
+        path: 'mobile-shop',
+        element: <MobileShop />,
+      },
+      {
+        path: 'tablets-and-ipads',
+        element: <TabletsAndiPads />,
+      },
+      {
+        path: 'laptop',
+        element: <Laptop />,
+      },
+      {
+        path: 'smartwatch',
+        element: <SmartWatch />,
+      },
+      {
+        path: 'audio-product',
+        element: <AudioProduct />,
+      },
+      {
+        path: 'accessories',
+        element: <Accessories />,
+      },
+      {
+        path: 'logInPage',
+        element: <LogInPage />,
+        children: [
+          {
+            path: '',
+            element: <LogIn />,
+          },
+          {
+            path: 'signUp',
+            element: <SignUp />,
+          },
+          {
+            path: 'forget-password',
+            element: <ResetPassword />,
+          },
+        ],
+      },
+      {
+        path: 'contact-us',
+        element: <ContactUs />,
+      },
+    ],
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

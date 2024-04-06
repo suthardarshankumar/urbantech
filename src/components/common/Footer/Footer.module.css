@@ -2,7 +2,7 @@
     width: 100vw;
     padding: 7vh 5vw;
     color: #f2f2f2;
-    background-color: #171717;
+    background-color: #0d1717;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -14,6 +14,7 @@
 
 .footer-heading {
     font-size: 3.5vh;
+    font-family: "Ubuntu", sans-serif;
     margin-bottom: 2vh;
 }
 
@@ -31,7 +32,11 @@
     transition: 0.3s linear;
 }
 
+.footer-link {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
 .footer-list:hover {
-    color: #ff5722;
-    transform: scale(1.2);
+    transform: translate(5px);
 }

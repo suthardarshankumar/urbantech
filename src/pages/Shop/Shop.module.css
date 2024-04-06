@@ -1,0 +1,117 @@
+.shopContainer {
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.headingContainer {
+    padding: 0 5vw;
+}
+
+.heading {
+    font-family: "Nunito", sans-serif;
+    font-size: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.categorySection {
+    padding: 0 5vw;
+    margin-top: 5vh;
+}
+
+.categoryBar {
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 5vh;
+    padding: 1.25vh 2vw;
+    display: flex;
+    gap: 1.25vw;
+}
+
+.items {
+    border: none;
+    color: #171717;
+    font-size: 2.3vh;
+    font-weight: 100;
+    background-color: white;
+    padding: 1.5vh 1.5vw;
+    border-radius: 3vw;
+    transition: 0.3s ease-in-out;
+}
+
+.items:hover {
+    color: #f2f2f2;
+    background-color: #171717;
+}
+
+
+.navbar {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2.5vh 5vw;
+    z-index: 8;
+    position: relative;
+}
+
+.nav-part2 {
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    z-index: inherit;
+}
+
+.nav-part2 h4 {
+    padding: 1.5vh 1.5vw;
+    border: 0.2vh solid #0d1717;
+    border-radius: 3vh;
+    font-weight: 500;
+    color: #0d1717;
+    transition: all ease 0.4s;
+    position: relative;
+    font-size: 2vh;
+    overflow: hidden;
+}
+
+.nav-part2 h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0d1717;
+    left: 0;
+    bottom: -100%;
+    border-radius: 3vh;
+    transition: all ease 0.4s;
+}
+
+.nav-part2 h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
+}
+
+.nav-part2 h4 .nav-link {
+    color: #0d1717;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #0d1717;
+}
+
+.nav-part2 h4:hover .nav-link {
+    color: #f2f2f2;
+}

@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { PiShoppingCart } from "react-icons/pi";
 import styles from './Card.module.css';
 
-const Cart = ({ title, heading, images }) => {
+const Card = ({ title, heading, images }) => {
+
+    const [visibleCount, setVisibleCount] = useState(8);
+
+    const handleViewMore = () => {
+        setVisibleCount(prevCount => prevCount + 8);
+    };
+
     return (
         <>
             <div className={`${styles['container']}`}>
@@ -10,7 +17,7 @@ const Cart = ({ title, heading, images }) => {
                     <span className={`${styles['title']}`}>{title}</span>
                 </h1>
                 <div className={styles.row}>
-                    {images.map((image, index) => (
+                    {images.slice(0, visibleCount).map((image, index) => (
 
                         <div className={styles.card} key={index}>
                             <div className={styles.imageContainer}>
@@ -30,9 +37,14 @@ const Cart = ({ title, heading, images }) => {
                         </div>
                     ))}
                 </div>
+                <div className={styles.btnRow}>
+                    {images.length > visibleCount && (
+                        <button onClick={handleViewMore} className={styles.btn}>View More</button>
+                    )}
+                </div>
             </div>
         </>
     )
 }
 
-export default Cart;
+export default Card;

@@ -1,0 +1,26 @@
+.left {
+    width: 50vw;
+    display: flex;
+}
+
+.imgSideBarContain {
+    width: 4vw;
+}
+
+.imgSideBar {
+    width: 100%;
+    height: 7.5vh;
+    border: 0.1vh solid #171717;
+    border-radius: 10px;
+}
+
+.mainImgContain {
+    width: 46vw;
+    height: 84vh;
+    padding: 0 1vw;
+}
+
+.mainImg {
+    width: 100%;
+    height: 100%;
+}

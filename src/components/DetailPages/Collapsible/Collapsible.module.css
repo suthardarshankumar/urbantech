@@ -1,0 +1,91 @@
+.productDetailsContainer {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.productDetailsSection {
+    display: flex;
+    width: 100%;
+    padding: 2vh 2vw;
+    border: 0.1vw solid lightgrey;
+    border-radius: 7vw;
+    transition: 0.3s ease-in-out;
+}
+
+.productDetailsSection:hover {
+    background-color: #171717;
+    color: #f2f2f2;
+}
+
+.productHeading {
+    width: 90%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 3vh;
+}
+
+.iconsProduct {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.productIcon {
+    font-size: 2.5vh;
+}
+
+.tableContainer {
+    width: 100%;
+    margin-top: 3vh;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in;
+    max-height: 0;
+    padding: 0 2vw;
+}
+
+.open {
+    max-height: 150vh;
+}
+
+.close {
+    max-height: 0;
+}
+
+.table {
+    width: 100%;
+    font-family: "Roboto Condensed", sans-serif;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 0.1vh solid #e2e2e2;
+    margin-bottom: 3vh;
+}
+
+.tableRow {
+    background-color: #f2f2f2;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.rowHeading,
+.rowData {
+    text-align: left;
+    padding: 1vh;
+    border: none;
+}
+
+.rowHeading {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #171717;
+    font-size: 2vh;
+    font-weight: 400;
+}
+
+.rowData {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #171717;
+    font-size: 2vh;
+    font-weight: 300;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Previewimg from '../../../assets/Img/HomeImg/home3.jpeg';
 import './PreviewImg.css';
+import { Link } from 'react-router-dom';
 
 const PreviewImg = () => {
     return (
@@ -13,8 +14,8 @@ const PreviewImg = () => {
                     {/* <button class="preview-button">
                         Show Now!
                     </button> */}
-                    <button class="cta">
-                        <span class="hover-underline-animation"> Shop now </span>
+                    <button className="cta">
+                        <Link to='shop' className="hover-underline-animation"> Shop now </Link>
                         <svg
                             id="arrow-horizontal"
                             xmlns="http://www.w3.org/2000/svg"
