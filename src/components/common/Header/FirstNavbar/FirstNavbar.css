@@ -144,6 +144,13 @@
 .searchIcon {
     font-size: 5vh;
     margin-right: 1vw;
+    color: #f2f2f2;
+    transition: 0.3s ease-in-out;
+}
+
+.searchIcon:hover {
+    color: #FF5722;
+    scale: 1.1;
 }
 
 .searchInput {

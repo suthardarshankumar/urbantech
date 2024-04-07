@@ -9,6 +9,7 @@ import FlagshipPhones from '../../components/mobileShop/FlagshipPhones/FlagshipP
 import BudgetSmartphones from '../../components/mobileShop/SmartphonesRangeSection/BudgetSmartphones';
 import MidRangeSmartphone from '../../components/mobileShop/SmartphonesRangeSection/MidRangeSmartphone';
 import PremiumSmartphones from '../../components/mobileShop/SmartphonesRangeSection/PremiumSmartphones';
+import SearchBar from '../../components/common/SearchBar/SearchBar';
 
 
 const MobileShop = () => {
@@ -18,6 +19,7 @@ const MobileShop = () => {
     return (
         <>
             <div className={styles.container}>
+                <SearchBar />
                 <JustLaunched imagesSet={images} />
                 <LatestMobilePhonesForYou />
                 <FlagshipPhones />

@@ -1,0 +1,217 @@
+.navbar {
+    background-color: #0d1717;
+    width: 100%;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2.5vh 5vw;
+    z-index: 8;
+    position: relative;
+}
+
+.navbar-left {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    z-index: inherit;
+}
+
+.title {
+    font-size: 5vh;
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    background-color: inherit;
+    text-transform: uppercase;
+    color: #f2f2f2;
+}
+
+.title:hover {
+    background: linear-gradient(45deg, #FF5722, #FF7E22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-part2 {
+    gap: 1vw;
+    display: flex;
+    align-items: center;
+    z-index: inherit;
+}
+
+.nav-part2 h4 {
+    padding: 1.5vh 1.5vw;
+    border: 0.2vh solid #f2f2f2c7;
+    border-radius: 3vh;
+    font-weight: 500;
+    color: #f2f2f2;
+    transition: all ease 0.4s;
+    position: relative;
+    font-size: 2vh;
+    overflow: hidden;
+}
+
+.nav-part2 h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
+    left: 0;
+    bottom: -100%;
+    border-radius: 3vh;
+    transition: all ease 0.4s;
+}
+
+.nav-part2 h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
+}
+
+.nav-part2 h4 .nav-link {
+    color: #f2f2f2;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-part2 h4:hover .nav-link {
+    color: #0d1717;
+}
+
+.navbar-menu {
+    display: none;
+}
+
+.dropdownSection {
+    position: absolute;
+    z-index: 10;
+    top: 11vh;
+    left: 0;
+    width: 100vw;
+    overflow: hidden;
+    margin: 2vh 1vw 0;
+    transition: max-height 0.4s ease-in;
+    background-color: transparent;
+}
+
+.dropdownContainer {
+    width: 98vw;
+    padding: 4vh;
+    border-radius: 1.25vh;
+    /* background-color: #f8f8ff; */
+    background-color: #0d1717;
+    color: #f2f2f2;
+    text-align: right;
+}
+
+.profile-link {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 5vh;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    margin-right: 0.5vw;
+    transition: 0.3s ease-in;
+}
+
+.profile-link:hover {
+    background: linear-gradient(45deg, #FF5722, #FF7E22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.searchBarContain {
+    width: 100%;
+    padding: 3vh 1vw;
+}
+
+.searchBarSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchIcon {
+    font-size: 5vh;
+    margin-right: 1vw;
+    color: #f2f2f2;
+    transition: 0.3s ease-in-out;
+}
+
+.searchIcon:hover {
+    color: #FF5722;
+    scale: 1.1;
+}
+
+.searchInput {
+    width: 100%;
+    font-size: 3.5vh;
+    color: #f2f2f2;
+    padding: 1vh 1vw;
+    background-color: #0d1717;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #f2f2f2;
+    outline: none;
+}
+
+.link-contain {
+    margin-bottom: 10px;
+}
+
+.open {
+    max-height: 100vh;
+}
+
+.close {
+    max-height: 0;
+}
+
+/* .shop-menu {
+    display: none;
+    position: absolute;
+    z-index: 7;
+    width: 100%;
+    height: 0;
+    background-color: transparent;
+    top: 11vh;
+    left: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out, display 0.1s 0.4s;
+    padding: 0vh;
+}
+
+.support-trigger:hover+.shop-menu {
+    height: auto;
+    opacity: 1;
+    display: block;
+    transition-delay: 0.5s;
+}
+
+.menu-container {
+    width: 100%;
+    background-color: #0d1717;
+    padding: 5vh;
+    border-radius: 1vh;
+}
+
+.menu-heading {
+    width: 10vw;
+    color: #f2f2f2;
+    font-size: 3vh;
+    font-family: "Montserrat", sans-serif;
+    padding: 2vh 2vw;
+    border-right: 0.1vh solid #f2f2f2;
+} */

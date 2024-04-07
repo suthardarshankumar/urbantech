@@ -1,0 +1,36 @@
+.container {
+    width: 100vw;
+    padding: 5vh 5vw;
+}
+
+.searchContain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    font-size: 5vh;
+    margin-right: 1vw;
+    color: #0d1717;
+    transition: 0.3s linear;
+}
+
+.searchIcon:hover {
+    color: #FF5722;
+    transform: scale(1.1);
+}
+
+.searchInput {
+    width: 100%;
+    font-size: 3.5vh;
+    font-family: "Open Sans", sans-serif;
+    color: #0d1717;
+    padding: 1vh 1vw;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #0d1717;
+    outline: none;
+}

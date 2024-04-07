@@ -1,11 +1,7 @@
-import React, { useState } from 'react';
-import styles from '../Shop/Shop.module.css';
-
-// Components import
+import React from 'react';
+import { useLocation } from 'react-router-dom';
 import Card from '../../components/common/Card/Card';
-import ShopSlider from '../../components/shop/slider/ShopSlider';
 
-// images import for card
 import iPhone15 from '../../assets/Img/HomeImg/AppleAUT/iPhone15.png';
 import iPhone15Pro from '../../assets/Img/HomeImg/AppleAUT/iPhone15Pro.png';
 import iPhone15ProMax from '../../assets/Img/HomeImg/AppleAUT/iPhone15ProMax.png';
@@ -37,21 +33,12 @@ import realmeBudsT300 from '../../assets/Img/HomeImg/ProductAUT/realmeBudsT300.p
 import Samsung25W from '../../assets/Img/HomeImg/ProductAUT/Samsung25W.png';
 import samsungBuds2Pro from '../../assets/Img/HomeImg/ProductAUT/samsungBuds2Pro.png';
 
-// import images for slider
-import boatSpeakerRGBAD from '../../assets/Img/ShopImg/NewAllProduct/boatspeakerrgb.gif';
-import boultZ40AD from '../../assets/Img/ShopImg/NewAllProduct/boultz40.gif';
-import boatLunarSmartWatch from '../../assets/Img/ShopImg/NewAllProduct/boatLunarSmartWatch.gif';
-import samsungFit3 from '../../assets/Img/ShopImg/NewAllProduct/samsungFit3.jpg';
-import onePlusPadGo from '../../assets/Img/ShopImg/NewAllProduct/onePlusPadGo.jpg';
-import samsungTabS9FE from '../../assets/Img/ShopImg/NewAllProduct/samsungTabS9FE.jpg';
-import zebKeyBd from '../../assets/Img/ShopImg/NewAllProduct/zebKeyBd.jpg';
-import SearchBar from '../../components/common/SearchBar/SearchBar';
+const SearchResultPage = () => {
+    const location = useLocation();
+    const searchParams = new URLSearchParams(location.search);
+    const query = searchParams.get('query');
 
-const AllProduct = () => {
-
-    // object for card
-    const headingName = 'All Product';
-    const data = [
+    const products = [
         {
             img: HP14s,
             name: 'HP 14s',
@@ -208,24 +195,17 @@ const AllProduct = () => {
             price: '₹59,999',
         },
     ];
+    const searchHeading = `Search Results for ${query}`;
 
-    // objects for slider
-    const slider1 = [
-        onePlusPadGo, boatSpeakerRGBAD, boatLunarSmartWatch, boultZ40AD, samsungTabS9FE, zebKeyBd, samsungFit3
-    ]
+    const filteredProducts = products.filter(product =>
+        product.name.toLowerCase().includes(query.toLowerCase())
+    );
 
     return (
-        <>
-            <div className={`${styles['container']}`}>
-                <SearchBar />
-                <Card images={data} heading={headingName} />
-                {/* <div className={`${styles['headingContainer']}`}>
-                        <h1 className={styles.heading}>All Products</h1>
-                    </div> */}
-                <ShopSlider sliderData={slider1} />
-            </div>
-        </>
-    )
+        <div>
+            <Card images={filteredProducts} heading={searchHeading} />
+        </div>
+    );
 }
 
-export default AllProduct;
+export default SearchResultPage;

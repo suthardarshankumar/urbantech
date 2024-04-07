@@ -16,6 +16,7 @@ import AllProduct from './pages/AllProduct/AllProduct';
 import SignUp from './pages/SignUp/SignUp';
 import LogIn from './pages/LogIn/Login';
 import ResetPassword from './pages/ResetPassword/ResetPassword';
+import SearchResult from './pages/SearchResult/SearchResult';
 import ContactUs from './pages/contact/ContactUs';
 import Accessories from './pages/Accessories/Accessories';
 import SmartWatch from './pages/SmartWatch/SmartWatch';
@@ -61,6 +62,10 @@ const router = createBrowserRouter([
           {
             path: 'accessories',
             element: <Accessories />,
+          },
+          {
+            path: 'search-result',
+            element: <SearchResult />,
           },
         ],
       },
@@ -109,6 +114,10 @@ const router = createBrowserRouter([
       {
         path: 'contact-us',
         element: <ContactUs />,
+      },
+      {
+        path: 'search-result',
+        element: <SearchResult />,
       },
     ],
   }

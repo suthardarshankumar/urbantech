@@ -21,6 +21,8 @@ const FirstNavbar = () => {
         setSearchBarShow(!searchBarShow)
     }
 
+    const [searchTerm, setSearchTerm] = useState('');
+
     return (
         <>
             <nav className='navbar'>
@@ -62,8 +64,13 @@ const FirstNavbar = () => {
                     <div className='dropdownContainer'>
                         <div className='searchBarContain'>
                             <div className='searchBarSection'>
-                                <FaSearch className='searchIcon' />
-                                <input type="text" placeholder="UrbanTech.in" className='searchInput' />
+                                <Link to={`/search-result?query=${encodeURIComponent(searchTerm)}`}>
+                                    <FaSearch className='searchIcon' />
+                                </Link>
+                                <input type="text" placeholder="UrbanTech.in" className='searchInput'
+                                    value={searchTerm}
+                                    onChange={(e) => setSearchTerm(e.target.value)}
+                                />
                             </div>
                         </div>
                     </div>
