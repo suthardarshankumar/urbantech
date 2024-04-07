@@ -7,20 +7,26 @@ import { Link } from 'react-router-dom';
 const FirstNavbar = () => {
     const [profileShow, setProfileShow] = useState(false);
     const profileDropDown = () => {
-        setProfileShow(!profileShow)
+        setProfileShow(!profileShow);
     };
 
     const [shopShow, setShopShow] = useState(false);
     const shopDropDown = () => {
-        setShopShow(!shopShow)
-    }
+        setShopShow(!shopShow);
+    };
 
     const [searchBarShow, setSearchBarShow] = useState(false);
     const searchBarDropDown = () => {
-        setSearchBarShow(!searchBarShow)
-    }
+        setSearchBarShow(!searchBarShow);
+    };
 
     const [searchTerm, setSearchTerm] = useState('');
+
+    const closeDropdowns = () => {
+        setProfileShow(false);
+        setShopShow(false);
+        setSearchBarShow(false);
+    };
 
     return (
         <>
@@ -39,31 +45,31 @@ const FirstNavbar = () => {
 
                 <div className={`${styles.dropdownSection} ${profileShow ? styles.open : styles.close}`}>
                     <div className={styles.dropdownContainer}>
-                        <div className={styles['link-contain']}><Link to='logInPage' className={`${styles['profile-link']} ${styles['profile-LogIn']}`}>LogIn</Link></div>
-                        <div className={styles['link-contain']}><Link to='' className={styles['profile-link']}>My Profile</Link></div>
-                        <div className={styles['link-contain']}><Link to='' className={styles['profile-link']}>My Orders</Link></div>
-                        <div className={styles['link-contain']}><Link to='' className={styles['profile-link']}>Cart</Link></div>
-                        <div className={styles['link-contain']}><Link to='contact-us' className={styles['profile-link']}>Contact Us</Link></div>
-                        <div className={styles['link-contain']}><Link to='' className={styles['profile-link']}>My Service Requests</Link></div>
+                        <div className={styles['link-contain']}><Link to='logInPage' className={`${styles['profile-link']} ${styles['profile-LogIn']}`} onClick={closeDropdowns}>LogIn</Link></div>
+                        <div className={styles['link-contain']}><Link to='' className={styles['profile-link']} onClick={closeDropdowns}>My Profile</Link></div>
+                        <div className={styles['link-contain']}><Link to='' className={styles['profile-link']} onClick={closeDropdowns}>My Orders</Link></div>
+                        <div className={styles['link-contain']}><Link to='' className={styles['profile-link']} onClick={closeDropdowns}>Cart</Link></div>
+                        <div className={styles['link-contain']}><Link to='contact-us' className={styles['profile-link']} onClick={closeDropdowns}>Contact Us</Link></div>
+                        <div className={styles['link-contain']}><Link to='' className={styles['profile-link']} onClick={closeDropdowns}>My Service Requests</Link></div>
                     </div>
                 </div>
 
                 <div className={`${styles.dropdownSection} ${shopShow ? styles.open : styles.close}`}>
                     <div className={styles.dropdownContainer}>
-                        <div className={styles['link-contain']}><Link to='shop/' className={`${styles['profile-link']} ${styles['profile-LogIn']}`}>All Product</Link></div>
-                        <div className={styles['link-contain']}><Link to='mobile-shop' className={styles['profile-link']}>Mobile</Link></div>
-                        <div className={styles['link-contain']}><Link to='laptop' className={styles['profile-link']}>Laptop</Link></div>
-                        <div className={styles['link-contain']}><Link to='tablets-and-ipads' className={styles['profile-link']}>Tablets & iPads</Link></div>
-                        <div className={styles['link-contain']}><Link to='audio-product' className={styles['profile-link']}>Audio Product</Link></div>
-                        <div className={styles['link-contain']}><Link to='smartwatch' className={styles['profile-link']}>SmartWatches</Link></div>
-                        <div className={styles['link-contain']}><Link to='accessories' className={styles['profile-link']}>Accessories</Link></div>
+                        <div className={styles['link-contain']}><Link to='shop/' className={`${styles['profile-link']} ${styles['profile-LogIn']}`} onClick={closeDropdowns}>All Product</Link></div>
+                        <div className={styles['link-contain']}><Link to='mobile-shop' className={styles['profile-link']} onClick={closeDropdowns}>Mobile</Link></div>
+                        <div className={styles['link-contain']}><Link to='laptop' className={styles['profile-link']} onClick={closeDropdowns}>Laptop</Link></div>
+                        <div className={styles['link-contain']}><Link to='tablets-and-ipads' className={styles['profile-link']} onClick={closeDropdowns}>Tablets & iPads</Link></div>
+                        <div className={styles['link-contain']}><Link to='audio-product' className={styles['profile-link']} onClick={closeDropdowns}>Audio Product</Link></div>
+                        <div className={styles['link-contain']}><Link to='smartwatch' className={styles['profile-link']} onClick={closeDropdowns}>SmartWatches</Link></div>
+                        <div className={styles['link-contain']}><Link to='accessories' className={styles['profile-link']} onClick={closeDropdowns}>Accessories</Link></div>
                     </div>
                 </div>
                 <div className={`${styles.dropdownSection} ${searchBarShow ? styles.open : styles.close}`}>
                     <div className={styles.dropdownContainer}>
                         <div className={styles.searchBarContain}>
                             <div className={styles.searchBarSection}>
-                                <Link to={`/search-result?query=${encodeURIComponent(searchTerm)}`}>
+                                <Link to={`/search-result?query=${encodeURIComponent(searchTerm)}`} onClick={closeDropdowns}>
                                     <FaSearch className={styles.searchIcon} />
                                 </Link>
                                 <input type="text" placeholder="UrbanTech.in" className={styles.searchInput}
