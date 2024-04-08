@@ -8,7 +8,6 @@ import AudioProduct from './pages/AudioProduct/AudioProduct';
 import Home from './pages/Home/Home';
 import Laptop from './pages/Laptop/Laptop';
 import MobileShop from './pages/MobileShop/MobileShop';
-import DetailPages from './pages/Product/DetailPages/DetailPages';
 import Shop from './pages/Shop/Shop';
 import TabletsAndiPads from './pages/TabletsAndiPads/TabletsAndiPads';
 import AllProduct from './pages/AllProduct/AllProduct';
@@ -21,6 +20,7 @@ import ContactUs from './pages/contact/ContactUs';
 import Accessories from './pages/Accessories/Accessories';
 import SmartWatch from './pages/SmartWatch/SmartWatch';
 import LogInPage from './pages/LogIn/LogInPage';
+import ProductDetails from './pages/Product/ProductDetail/ProductDetail';
 
 const router = createBrowserRouter([
   {
@@ -118,6 +118,10 @@ const router = createBrowserRouter([
       {
         path: 'search-result',
         element: <SearchResult />,
+      },
+      {
+        path: 'product-details',
+        element: <ProductDetails />,
       },
     ],
   }

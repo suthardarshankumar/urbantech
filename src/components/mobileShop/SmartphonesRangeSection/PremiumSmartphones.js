@@ -1,13 +1,6 @@
 import React from 'react';
 import Card from '../../common/Card/Card';
 
-// import  from '../../../assets/Img/MobileShop/PremiumSmartphones';
-// ,
-//         {
-//             img: ,
-//             name: "",
-//             price: "₹",
-//         }
 import iphone13 from '../../../assets/Img/MobileShop/PremiumSmartphones/iphone13.png';
 import iphone15 from '../../../assets/Img/MobileShop/PremiumSmartphones/iphone15.png';
 import iqoo12 from '../../../assets/Img/MobileShop/PremiumSmartphones/iqoo12.png';
@@ -28,6 +21,18 @@ import samsungZFlip5 from '../../../assets/Img/MobileShop/PremiumSmartphones/sam
 import onePlusOpen from '../../../assets/Img/MobileShop/PremiumSmartphones/onePlusOpen.png';
 import motorolaRazr40 from '../../../assets/Img/MobileShop/PremiumSmartphones/motorolaRazr40.png';
 import motorolaRazr40Ultra from '../../../assets/Img/MobileShop/PremiumSmartphones/motorolaRazr40Ultra.png';
+
+import SamsungS24Ultra1 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra.webp';
+import SamsungS24Ultra2 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra2.webp';
+import SamsungS24Ultra3 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra3.webp';
+import SamsungS24Ultra4 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra4.webp';
+import SamsungS24Ultra5 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra5.webp';
+
+import SamsungS24Ultra11 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra11.jpg';
+import SamsungS24Ultra12 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra12.jpg';
+import SamsungS24Ultra13 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra13.jpg';
+import SamsungS24Ultra14 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra14.jpg';
+import SamsungS24Ultra15 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra15.jpg';
 
 const PremiumSmartphones = () => {
 

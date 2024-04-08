@@ -37,7 +37,8 @@ const FirstNavbar = () => {
                     </Link>
                 </div>
                 <div className={styles['nav-part2']}>
-                    <h4 className={styles['navbar-menu']}><span className={styles['nav-link']}>Menu</span></h4>
+                    {/* navbar-menu*/}
+                    <h4 className={styles['navbar-men']}><span className={styles['nav-link']}><Link to='product-details'>Menu</Link></span></h4>
                     <h4 onClick={searchBarDropDown}><span className={styles['nav-link']}>Search</span></h4>
                     <h4 onClick={shopDropDown}><span className={styles['nav-link']}>Shop</span></h4>
                     <h4 onClick={profileDropDown}><span className={styles['nav-link']}>Profile</span></h4>
@@ -72,7 +73,9 @@ const FirstNavbar = () => {
                                 <Link to={`/search-result?query=${encodeURIComponent(searchTerm)}`} onClick={closeDropdowns}>
                                     <FaSearch className={styles.searchIcon} />
                                 </Link>
-                                <input type="text" placeholder="UrbanTech.in" className={styles.searchInput}
+                                <input
+                                    type="text" placeholder="UrbanTech.in"
+                                    className={styles.searchInput}
                                     value={searchTerm}
                                     onChange={(e) => setSearchTerm(e.target.value)}
                                 />

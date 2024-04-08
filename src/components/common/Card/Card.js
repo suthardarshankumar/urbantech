@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { PiShoppingCart } from "react-icons/pi";
 import styles from './Card.module.css';
 
-const Card = ({ title, heading, images }) => {
+const Card = ({ title, heading, images, handleProductClick }) => {
 
     const [visibleCount, setVisibleCount] = useState(8);
 

@@ -202,7 +202,7 @@ const SearchResultPage = () => {
     );
 
     return (
-        <div>
+        <div style={{ minHeight: '89vh' }}>
             <Card images={filteredProducts} heading={searchHeading} />
         </div>
     );
