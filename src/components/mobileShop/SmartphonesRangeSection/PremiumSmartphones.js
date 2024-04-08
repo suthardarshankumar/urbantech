@@ -22,17 +22,7 @@ import onePlusOpen from '../../../assets/Img/MobileShop/PremiumSmartphones/onePl
 import motorolaRazr40 from '../../../assets/Img/MobileShop/PremiumSmartphones/motorolaRazr40.png';
 import motorolaRazr40Ultra from '../../../assets/Img/MobileShop/PremiumSmartphones/motorolaRazr40Ultra.png';
 
-import SamsungS24Ultra1 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra.webp';
-import SamsungS24Ultra2 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra2.webp';
-import SamsungS24Ultra3 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra3.webp';
-import SamsungS24Ultra4 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra4.webp';
-import SamsungS24Ultra5 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra5.webp';
 
-import SamsungS24Ultra11 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra11.jpg';
-import SamsungS24Ultra12 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra12.jpg';
-import SamsungS24Ultra13 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra13.jpg';
-import SamsungS24Ultra14 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra14.jpg';
-import SamsungS24Ultra15 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra15.jpg';
 
 const PremiumSmartphones = () => {
 
@@ -112,11 +102,13 @@ const PremiumSmartphones = () => {
             price: "₹79,999",
         },
         {
+            productNameId: 'samsungS23FE',
             img: samsungS23FE,
             name: "Samsung Galaxy S23 FE",
             price: "₹40,999",
         },
         {
+            productNameId: 'samsungS24Ultra',
             img: samsungS24Ultra,
             name: "Samsung Galaxy S24 Ultra",
             price: "₹1,24,999",

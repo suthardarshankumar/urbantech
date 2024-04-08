@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { MdOutlineLocalShipping } from 'react-icons/md';
 import { LuPackage2 } from 'react-icons/lu';
 import { FiMinus } from 'react-icons/fi';
@@ -41,8 +41,8 @@ import Slider from '../../../components/DetailPages/Slider/Slider';
 
 const ProductDetail = () => {
     const [quantity, setQuantity] = useState(1);
-
-    const productDetails = {
+    const { productNameId } = useParams();
+    const samsungS24Ultra = {
         name: 'Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Black, 12GB, 512GB Storage)',
         price: '₹1,39,999',
         mrp: 'M.R.P.: ₹1,49,999',
@@ -116,17 +116,25 @@ const ProductDetail = () => {
             { img: [SamsungS24UltraDetails11] },
             { img: [SamsungS24UltraDetails21, SamsungS24UltraDetails22, SamsungS24UltraDetails23] },
             { img: [SamsungS24UltraDetails31, SamsungS24UltraDetails32, SamsungS24UltraDetails33, SamsungS24UltraDetails34] },
-            { img: [SamsungS24UltraDetails31, SamsungS24UltraDetails32, SamsungS24UltraDetails33, SamsungS24UltraDetails34] },
             { img: [SamsungS24UltraDetails41, SamsungS24UltraDetails42, SamsungS24UltraDetails43, SamsungS24UltraDetails44] },
             { img: [SamsungS24UltraDetails51, SamsungS24UltraDetails52, SamsungS24UltraDetails53, SamsungS24UltraDetails54] },
             { img: [SamsungS24UltraDetails61, SamsungS24UltraDetails62, SamsungS24UltraDetails63] }
         ]
     };
+    const getProductByName = (productName) => {
+        switch (productName) {
+            case 'samsungS24Ultra':
+                return samsungS24Ultra;
+            default:
+                return null;
+        }
+    };
+    const productDetails = getProductByName(productNameId);;
 
-    const firstImgData = productDetails.imgData[0];
-    const firstImgData2 = productDetails.imgData2[0];
+
+    const firstImgData = productDetails?.imgData[0];
+    const firstImgData2 = productDetails?.imgData2[0];
     const [mainImg, setMainImg] = useState(firstImgData);
-
     const [imgShow, setImgShow] = useState(productDetails.imgData);
 
     const incrementQuantity = () => {

@@ -38,7 +38,7 @@ const FirstNavbar = () => {
                 </div>
                 <div className={styles['nav-part2']}>
                     {/* navbar-menu*/}
-                    <h4 className={styles['navbar-men']}><span className={styles['nav-link']}><Link to='product-details'>Menu</Link></span></h4>
+                    <h4 className={styles['navbar-menu']}><span className={styles['nav-link']}><Link to='product-details'>Menu</Link></span></h4>
                     <h4 onClick={searchBarDropDown}><span className={styles['nav-link']}>Search</span></h4>
                     <h4 onClick={shopDropDown}><span className={styles['nav-link']}>Shop</span></h4>
                     <h4 onClick={profileDropDown}><span className={styles['nav-link']}>Profile</span></h4>

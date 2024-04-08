@@ -63,6 +63,10 @@
     width: 16vw;
 }
 
+.cardLink {
+    text-decoration: none;
+}
+
 .cardHeading {
     font-size: 2vh;
     font-family: "Roboto Condensed", sans-serif;

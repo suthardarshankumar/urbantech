@@ -120,9 +120,9 @@ const router = createBrowserRouter([
         element: <SearchResult />,
       },
       {
-        path: 'product-details',
+        path: '/product-details/:productNameId',
         element: <ProductDetails />,
-      },
+      }
     ],
   }
 ])
