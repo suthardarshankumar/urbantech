@@ -26,8 +26,8 @@ import samsungBuds2Pro from '../../../assets/Img/HomeImg/ProductAUT/samsungBuds2
 
 const ProductAUT = () => {
 
-    const BrandName = 'Product At ';
-    const Title = 'URBANTECH'
+    const BrandName = 'All Products';
+    const Title = ''
 
     const dataSet = [{
         img: AcerNitroVGaming,

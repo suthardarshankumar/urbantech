@@ -12,26 +12,29 @@ import ApppleCharger from '../../../assets/Img/HomeImg/AppleAUT/appleCharger.png
 
 
 const AppleAUT = () => {
-    const BrandName = 'Apple At ';
-    const Title = 'URBANTECH'
+    const BrandName = 'All Apple Product';
+    const Title = ''
 
     const imgSet = [{
         img: iPhone15,
         name: 'iPhone 15',
         price: '₹69,999',
         rating: '⭐️4.1/5',
+        productNameId: 'iPhone15',
     },
     {
         img: iPhone15Pro,
         name: 'iPhone 15 Pro',
         price: '₹1,27,999',
         rating: '⭐️4.7/5',
+        productNameId: 'iPhone15Pro',
     },
     {
         img: iPhone15ProMax,
         name: 'iPhone 15 Pro Max',
         price: '₹1,49,999',
         rating: '⭐️4.4/5',
+        productNameId: 'iPhone15ProMax',
     },
     {
         img: iPadAir5Gen,
