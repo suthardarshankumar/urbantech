@@ -9,7 +9,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 const Slider = ({ dataImgSlider }) => {
     return (
         <>
-            <h1 className={styles.sliderHeading}>From the manufacturer</h1>
+            <h1 className={styles.sliderHeading}>{dataImgSlider.heading}</h1>
             {dataImgSlider.sliderImgSet.map((swiperSliderData, index) => (
                 <Swiper
                     slidesPerView={1}

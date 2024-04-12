@@ -41,30 +41,35 @@ const AppleAUT = () => {
         name: 'iPad Air 5 Generation',
         price: '₹57,999',
         rating: '⭐️3.9/5',
+        productNameId: 'iPadAir5thGen'
     },
     {
         img: airPodsPro2Gen,
         name: 'AirPods Pro 2 Generation',
         price: '₹24,999',
         rating: '⭐️4.0/5',
+        productNameId: 'AppleAirPodsPro2Gen',
     },
     {
         img: Macbook2022M2,
         name: 'Macbook Air 2022 M2 Chip',
         price: '₹99,999',
         rating: '⭐️4.8/5',
+        productNameId: 'MacBookAirM2Chip',
     },
     {
         img: ApppleCharger,
         name: '20W Charger for iPhone',
         price: '₹699',
         rating: '⭐️4.7/5',
+        productNameId: 'AppleCharger',
     },
     {
         img: iphone14,
         name: 'Apple iPhone 14',
         price: '₹59,999',
         rating: '⭐️4.6/5',
+        productNameId: 'iPhone14',
     }];
 
     return (

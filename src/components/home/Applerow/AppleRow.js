@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './AppleRow.module.css';
 import iPadAir from '../../../assets/Img/HomeImg/HomeSection2/home1.png';
 import AppleWatch from '../../../assets/Img/HomeImg/HomeSection2/home2.png';
+import { Link } from 'react-router-dom';
 
 const AppleRow = () => {
     return (
@@ -13,7 +14,7 @@ const AppleRow = () => {
                         <div className={`${styles['col-detail']}`}>
                             <h1 className={`${styles['heading']}`}>Apple<br />iPad Air</h1>
                             <p className={`${styles['para']}`}>Serious performance<br />in a thin and light design.</p>
-                            <button className={`${styles['btn']} ${styles['Ipad-btn']}`}>Buy Now</button>
+                            <Link to={`/product-details/iPadAir5thGen`} className={styles.cardLink}><button className={`${styles['btn']} ${styles['Ipad-btn']}`}>Buy Now</button></Link>
                         </div>
                     </div>
                     <div className={`${styles['col']}`}>
@@ -21,7 +22,7 @@ const AppleRow = () => {
                         <div className={`${styles['col-detail']}`}>
                             <h1 className={`${styles['heading']}`}>Apple<br />Watch SE</h1>
                             <p className={`${styles['para']}`}>All the essentials.<br />Light on price.</p>
-                            <button className={`${styles['btn']} ${styles['AppleWatch-btn']}`}>Buy Now</button>
+                            <Link to={`/product-details/iPadAir5thGen`} className={styles.cardLink}><button className={`${styles['btn']} ${styles['Ipad-btn']}`}>Buy Now</button></Link>
                         </div>
                     </div>
                 </div>
