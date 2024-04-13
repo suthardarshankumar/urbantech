@@ -123,7 +123,8 @@
     transform: scale(1.1);
 }
 
-.btnSection {
+.btnSection,
+.buyBtnSection {
     width: 100%;
     margin-top: 4vh;
 }
@@ -135,6 +136,13 @@
     width: 10vw;
     background-color: #f2f2f2;
     border-radius: 2vw;
+}
+
+.buyBtnContain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .minusBtn,
@@ -157,6 +165,25 @@
 .minusIcon,
 .addIcon {
     font-size: 2.5vh;
+}
+
+.buyBtn {
+    width: 49%;
+    padding: 1.7vh 0;
+    font-size: 2.5vh;
+    font-family: "Roboto Condensed", sans-serif;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    border: none;
+    border-radius: 1vh;
+    color: #f2f2f2;
+    background-color: #0d1717;
+    cursor: pointer;
+}
+
+.buyBtn:hover {
+    background: linear-gradient(150deg, #FF7E22, #FF5722);
+    transform: translateY(-5px);
 }
 
 .serviceContainer {

@@ -17,36 +17,44 @@ const MacBooks = () => {
             img: MacBookAirLaptopM1chip,
             name: "Apple MacBook Air Laptop M1 chip",
             price: "₹79,999",
+            productNameId: 'samsungS24Ultra',
         }, {
             img: MacBookAir13inchLaptopwithM3chip,
             name: "Apple 2024 MacBook Air 13″ Laptop with M3 chip",
             price: "₹1,14,999",
+            productNameId: 'samsungS24Ultra',
         }, {
             img: Apple2023MacBookPro16inchM3Maxchip,
             name: "Apple 2023 MacBook Pro (16-inch, M3 Max chip with 16‑core CPU and 40‑core GPU",
             price: "₹3,99,999",
+            productNameId: 'samsungS24Ultra',
         }, {
             img: Apple2022MacBookAirLaptopwithM2chip,
             name: "Apple 2022 MacBook Air Laptop with M2 chip",
             price: " ₹99,999",
+            productNameId: 'samsungS24Ultra',
         }, {
             img: Apple2023MacBookAir15inchM2chip,
             name: "Apple 2023 MacBook Air (15-inch, M2 chip with 8‑core CPU and 10‑core GPU, 8GB Unified Memory, 256GB) ",
             price: "₹1,15,999",
+            productNameId: 'samsungS24Ultra',
         }, {
             img: Apple2023MacBookPro14inchM3chip,
             name: "Apple 2023 MacBook Pro (14-inch, M3 chip",
             price: "₹1,89,999",
+            productNameId: 'samsungS24Ultra',
         },
         {
             img: Apple2024MacBookAir15inchLaptopwithM3chip,
             name: "Apple 2024 MacBook Air 15″ Laptop with M3 chip",
             price: "₹1,34,999",
+            productNameId: 'samsungS24Ultra',
         },
         {
             img: Apple2023MacBookPro16inchM3Prochip,
             name: "Apple 2023 MacBook Pro (16-inch, M3 Pro chip",
             price: "₹2,89,999",
+            productNameId: 'samsungS24Ultra',
         },
     ]
 

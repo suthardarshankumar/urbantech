@@ -23,33 +23,40 @@ const Ipads = () => {
             img: iPad10thGenA14,
             name: "Apple iPad (10th Generation): with A14 Bionic chip",
             price: "₹36,999",
+            productNameId: 'samsungS24Ultra',
         }, {
             img: iPadPro114thGen,
             name: "Apple iPad Pro 11″ (4th Generation): with M2 chip",
             price: "₹89,999",
+            productNameId: 'samsungS24Ultra',
         }, {
             img: iPadPro116thGen,
             name: "Apple iPad Pro 12.9″ (6th Generation): with M2 chip",
             price: "₹1,12,999",
+            productNameId: 'samsungS24Ultra',
         }, {
             img: iPadMini6thGenA15,
             name: "Apple iPad Mini (6th Generation): with A15 Bionic chip",
             price: "₹49,999",
+            productNameId: 'samsungS24Ultra',
         },
         {
             img: iPadAir5thGen,
             name: "Apple iPad Air (5th Generation): with M1 chip",
             price: "₹72,999",
+            productNameId: 'samsungS24Ultra',
         },
         {
             img: iPad9thGen,
             name: "Apple iPad (9th Generation): with A13 Bionic chip",
             price: "₹29,999",
+            productNameId: 'samsungS24Ultra',
         },
         {
             img: iPadPro2021,
             name: "Apple 2021 iPad Pro M1 chip",
             price: "₹1,36,999",
+            productNameId: 'samsungS24Ultra',
         },
     ];
 

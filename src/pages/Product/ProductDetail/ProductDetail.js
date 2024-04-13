@@ -142,29 +142,70 @@ import AppleCharger13 from '../../../assets/Img/ProductDetailsImg/Acces/AppleCha
 import AppleCharger14 from '../../../assets/Img/ProductDetailsImg/Acces/AppleCharger/14.jpeg';
 
 // iPhone 14
-// iPhone 15
-import iPhone1411 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/11.jpg';
-import iPhone1412 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/12.jpg';
-import iPhone1413 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/13.jpg';
-import iPhone1414 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/14.jpg';
-import iPhone1415 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/15.jpg';
-import iPhone1421 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/21.jpg';
-import iPhone1422 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/22.jpg';
-import iPhone1423 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/23.jpg';
-import iPhone1424 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/24.jpg';
-import iPhone1425 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/25.jpg';
-import iPhone1431 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/31.jpg';
-import iPhone1432 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/32.jpg';
-import iPhone1433 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/33.jpg';
-import iPhone1434 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/34.jpg';
-import iPhone1435 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/35.jpg';
-import iPhone1436 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/36.jpg';
-import iPhone1441 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/41.jpg';
-import iPhone1442 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/42.jpg';
-import iPhone1443 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/43.jpg';
-import iPhone1444 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/44.jpg';
-import iPhone1445 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/45.jpg';
-import iPhone1446 from '../../../assets/Img//ProductDetailsImg/Mobiles/Iphone14/46.jpg';
+import iPhone1411 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/11.jpg';
+import iPhone1412 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/12.jpg';
+import iPhone1413 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/13.jpg';
+import iPhone1414 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/14.jpg';
+import iPhone1415 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/15.jpg';
+import iPhone1421 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/21.jpg';
+import iPhone1422 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/22.jpg';
+import iPhone1423 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/23.jpg';
+import iPhone1424 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/24.jpg';
+import iPhone1425 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/25.jpg';
+import iPhone1431 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/31.jpg';
+import iPhone1432 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/32.jpg';
+import iPhone1433 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/33.jpg';
+import iPhone1434 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/34.jpg';
+import iPhone1435 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/35.jpg';
+import iPhone1436 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/36.jpg';
+import iPhone1441 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/41.jpg';
+import iPhone1442 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/42.jpg';
+import iPhone1443 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/43.jpg';
+import iPhone1444 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/44.jpg';
+import iPhone1445 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/45.jpg';
+import iPhone1446 from '../../../assets/Img/ProductDetailsImg/Mobiles/Iphone14/46.jpg';
+
+//realme nazro 60X 5G
+import realmenarzo60X5G11 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/11.jpg';
+import realmenarzo60X5G12 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/12.jpg';
+import realmenarzo60X5G13 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/13.jpg';
+import realmenarzo60X5G14 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/14.jpg';
+import realmenarzo60X5G15 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/15.jpg';
+import realmenarzo60X5G16 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/16.jpg';
+import realmenarzo60X5G21 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/21.jpg';
+import realmenarzo60X5G22 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/22.jpg';
+import realmenarzo60X5G23 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/23.jpg';
+import realmenarzo60X5G24 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/24.jpg';
+import realmenarzo60X5G25 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/25.jpg';
+import realmenarzo60X5G26 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/26.jpg';
+import realmenarzo60X5GSlider11 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/detailsImg/11.jpg';
+import realmenarzo60X5GSlider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/detailsImg/21.jpg';
+import realmenarzo60X5GSlider22 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/detailsImg/22.jpg';
+import realmenarzo60X5GSlider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/detailsImg/31.jpg';
+import realmenarzo60X5GSlider32 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/detailsImg/32.jpg';
+import realmenarzo60X5GSlider41 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/detailsImg/41.jpg';
+import realmenarzo60X5GSlider42 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/detailsImg/42.jpg';
+import realmenarzo60X5GSlider51 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/detailsImg/51.jpg';
+import realmenarzo60X5GSlider52 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60X5G/detailsImg/52.jpg';
+
+//realme nazro 60
+import realmenarzo6011 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/11.jpg';
+import realmenarzo6012 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/12.jpg';
+import realmenarzo6013 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/13.jpg';
+import realmenarzo6014 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/14.jpg';
+import realmenarzo6015 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/15.jpg';
+import realmenarzo6016 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/16.jpg';
+import realmenarzo6021 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/21.jpg';
+import realmenarzo6022 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/22.jpg';
+import realmenarzo6023 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/23.jpg';
+import realmenarzo6024 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/24.jpg';
+import realmenarzo6025 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/25.jpg';
+import realmenarzo6026 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/26.jpg';
+import realmenarzo60Slider11 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/detailsImg/11.jpg';
+import realmenarzo60Slider12 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/detailsImg/12.jpg';
+import realmenarzo60Slider22 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/detailsImg/22.jpg';
+import realmenarzo60Slider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/detailsImg/21.jpg';
+import realmenarzo60Slider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/detailsImg/31.jpg';
 
 import Slider from '../../../components/DetailPages/Slider/Slider';
 
@@ -174,7 +215,7 @@ const ProductDetail = () => {
     const samsungS24Ultra = {
         name: 'Samsung Galaxy S24 Ultra 5G AI Smartphone (Titanium Black, 12GB, 512GB Storage)',
         price: '₹1,39,999',
-        mrp: 'M.R.P.: ₹1,49,999',
+        mrp: '₹1,49,999',
         tax: 'Inclusive of all taxes',
         size: 'Size:',
         color: 'Color:',
@@ -256,7 +297,7 @@ const ProductDetail = () => {
     const iPhone15 = {
         name: 'Apple iPhone 15 (128 GB) - Black',
         price: '₹73,999',
-        mrp: 'M.R.P.: ₹79,999',
+        mrp: '₹79,999',
         tax: 'Inclusive of all taxes',
         size: 'Size:',
         color: 'Color:',
@@ -349,7 +390,7 @@ const ProductDetail = () => {
     const iPhone15Pro = {
         name: 'Apple iPhone 15 Pro (128 GB) - Natural Titanium',
         price: '₹1,25,999',
-        mrp: 'M.R.P.: ₹1,30,999',
+        mrp: '₹1,30,999',
         tax: 'Inclusive of all taxes',
         size: 'Size:',
         color: 'Color:',
@@ -441,7 +482,7 @@ const ProductDetail = () => {
     const iPhone15ProMax = {
         name: 'Apple iPhone 15 Pro Max (1 TB) - Blue Titanium',
         price: '₹1,49,999',
-        mrp: 'M.R.P.: ₹1,59,999',
+        mrp: '₹1,59,999',
         tax: 'Inclusive of all taxes',
         size: 'Size:',
         color: 'Color:',
@@ -545,7 +586,7 @@ const ProductDetail = () => {
     const iPadAir5ThGen = {
         name: 'Apple iPad Air (5th Generation): with M1 chip, 27.69 cm (10.9″) Liquid Retina Display, 64GB, Wi-Fi 6, 12MP front/12MP Back Camera, Touch ID, All-Day Battery Life – Blue',
         price: '₹54,999',
-        mrp: 'M.R.P.: ₹59,999',
+        mrp: '₹59,999',
         tax: 'Inclusive of all taxes',
         size: 'Size:',
         color: 'Color:',
@@ -632,7 +673,7 @@ const ProductDetail = () => {
     const AppleAirPodsPro2Gen = {
         name: 'Apple AirPods Pro (2nd Generation) with MagSafe Case (USB‑C) ​​​​​​​',
         price: '₹12,999',
-        mrp: 'M.R.P.: ₹15,999',
+        mrp: '₹15,999',
         tax: 'Inclusive of all taxes',
         size: '',
         color: 'Color:',
@@ -682,7 +723,7 @@ const ProductDetail = () => {
     const MacBookAirM2Chip = {
         name: 'Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 512GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone/iPad; Starlight​',
         price: '₹1,25,999',
-        mrp: 'M.R.P.: ₹,135,999',
+        mrp: '₹,135,999',
         tax: 'Inclusive of all taxes',
         size: 'Size:',
         color: 'Color:',
@@ -737,7 +778,7 @@ const ProductDetail = () => {
     const AppleCharger = {
         name: 'Apple 20W USB-C Power Adapter (for iPhone, iPad & AirPods)​',
         price: '₹1,699',
-        mrp: 'M.R.P.: ₹1,799',
+        mrp: '₹1,799',
         tax: 'Inclusive of all taxes',
         size: '',
         color: '',
@@ -784,7 +825,7 @@ const ProductDetail = () => {
     const iPhone14 = {
         name: 'Apple iPhone 14 (128 GB) - Blue',
         price: '₹59,999',
-        mrp: 'M.R.P.: ₹62,999',
+        mrp: '₹62,999',
         tax: 'Inclusive of all taxes',
         size: 'Size:',
         color: 'Color:',
@@ -883,6 +924,169 @@ const ProductDetail = () => {
 
         ]
     };
+    const realmenarzo60X5G = {
+        name: 'realme narzo 60X 5G (Nebula Purple 4GB, 128GB Storage) Up to 2TB External Memory | 50 MP AI Primary Camera | Segments only 33W Supervooc Charge',
+        price: '₹14,999',
+        mrp: '₹12,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            realmenarzo60X5G11,
+            realmenarzo60X5G12,
+            realmenarzo60X5G13,
+            realmenarzo60X5G14,
+            realmenarzo60X5G15,
+            realmenarzo60X5G16,
+        ],
+        imgData2: [
+            realmenarzo60X5G21,
+            realmenarzo60X5G22,
+            realmenarzo60X5G23,
+            realmenarzo60X5G24,
+            realmenarzo60X5G25,
+            realmenarzo60X5G26,
+        ],
+        productData: [
+            { "label": "Brand", "value": "Realme" },
+            { "label": "Model Name", "value": "Narzo 60X 5G" },
+            { "label": "Display", "value": "6.72-inch Dynamic Ultra Smooth Display (up to 120Hz)" },
+            { "label": "Processor", "value": "MediaTek Dimensity 6100+ 5G Chipset (6nm process)" },
+            { "label": "Operating System", "value": "realme UI 4.0 (based on Android 13)" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Battery Capacity", "value": "5000mAh (typical)" }
+        ],
+        technicalData: [
+            { "label": "RAM", "value": "4GB or 6GB LPDDR4X" },
+            { "label": "Storage", "value": "128GB" },
+            { "label": "Expandable Storage", "value": "Up to 2TB microSD card (sold separately)" },
+            { "label": "Rear Camera", "value": "50MP AI Primary Camera" },
+            { "label": "Front Camera", "value": " unspecified" }, { "label": "Charging", "value": "33W SUPERVOOC Charge" },
+            { "label": "Dimensions", "value": "165.7mm x 76.0mm x 7.89mm" },
+            { "label": "Weight", "value": " unspecified" }, { "label": "Fingerprint Sensor", "value": "In-display fingerprint sensor (expected)" }, { "label": "GPS", "value": "Yes (GPS/AGPS, Beidou, GLONASS, Galileo)" },
+            { "label": "Audio Jack", "value": "No" },
+            { "label": "Operating System Updates", "value": "Uncertain (depends on Realme update policy)" },
+            { "label": "Water Resistance", "value": "Not water resistant (refer to official website for confirmation)" }],
+
+        sizeOptions: [
+            '6GB + 128GB',
+            '8GB + 128GB',
+        ],
+        colorOptions: [
+            realmenarzo60X5G11,
+            realmenarzo60X5G21,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [
+                    realmenarzo60X5GSlider11
+                ]
+            },
+            {
+                img: [realmenarzo60X5GSlider21, realmenarzo60X5GSlider22]
+            },
+            {
+                img: [realmenarzo60X5GSlider31, realmenarzo60X5GSlider32]
+            },
+            {
+                img: [realmenarzo60X5GSlider41, realmenarzo60X5GSlider42]
+            },
+            {
+                img: [realmenarzo60X5GSlider51, realmenarzo60X5GSlider52]
+            }
+
+        ],
+        heading: 'From the manufacturer',
+
+    };
+    const realmenarzo60 = {
+        name: 'realme narzo 60 5G (Cosmic Black,8GB+128GB) | 90Hz Super AMOLED Display | Ultra Sharp 64 MP Camera | with 33W SUPERVOOC Charger',
+        price: '₹14,999',
+        mrp: '₹19,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            realmenarzo6011,
+            realmenarzo6012,
+            realmenarzo6013,
+            realmenarzo6014,
+            realmenarzo6015,
+            realmenarzo6016,
+        ],
+        imgData2: [
+            realmenarzo6021,
+            realmenarzo6022,
+            realmenarzo6023,
+            realmenarzo6024,
+            realmenarzo6025,
+            realmenarzo6026,
+        ],
+        productData: [
+            { "label": "Brand", "value": "Realme" },
+            { "label": "Model Name", "value": "Narzo 60" },
+            { "label": "Display", "value": "6.43-inch Super AMOLED display" },
+            { "label": "Processor", "value": "MediaTek Dimensity 6000 or Dimensity 7000 (depending on variant)" },
+            { "label": "Operating System", "value": "Android 12" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Storage Capacity", "value": "Available in various configurations (check retailer websites for details)" },
+            { "label": "RAM", "value": "Available in various configurations (check retailer websites for details)" },
+            { "label": "Battery Capacity", "value": "5000mAh" },
+        ],
+        technicalData: [
+            { "label": "Rear Camera", "value": "64MP main sensor with additional lenses (details may vary)" },
+            { "label": "Front Camera", "value": "16MP (possible, based on some sources)" },
+            { "label": "Charging", "value": "33W SUPERVOOC fast charging" },
+            { "label": "Fingerprint Sensor", "value": "In-display fingerprint sensor (possible, based on some sources)" },
+            { "label": "Other Features", "value": "Wi-Fi, Bluetooth 5.1, GPS" }
+        ],
+
+        sizeOptions: [
+            '6GB + 128GB',
+            '8GB + 128GB',
+        ],
+        colorOptions: [
+            realmenarzo6011,
+            realmenarzo6021,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [
+                    realmenarzo60Slider11, realmenarzo60Slider12
+                ]
+            },
+            {
+                img: [realmenarzo60Slider21, realmenarzo60Slider22]
+            },
+            {
+                img: [realmenarzo60Slider31]
+            }
+        ],
+        heading: 'From the manufacturer',
+
+    };
     const getProductByName = (productName) => {
         switch (productName) {
             case 'samsungS24Ultra':
@@ -903,6 +1107,10 @@ const ProductDetail = () => {
                 return MacBookAirM2Chip;
             case 'AppleCharger':
                 return AppleCharger;
+            case 'realmenarzo60X5G':
+                return realmenarzo60X5G;
+            case 'realmenarzo60':
+                return realmenarzo60;
             default:
                 return null;
         }
@@ -987,6 +1195,12 @@ const ProductDetail = () => {
                             <button className={styles.minusBtn} onClick={decrementQuantity}><FiMinus className={styles.minusIcon} /></button>
                             <span className={styles.showQuantity}>{quantity}</span>
                             <button className={styles.addBtn} onClick={incrementQuantity}><IoMdAdd className={styles.addIcon} /></button>
+                        </div>
+                    </div>
+                    <div className={styles.buyBtnSection}>
+                        <div className={styles.buyBtnContain}>
+                            <button className={styles.buyBtn}>Buy Now</button>
+                            <button className={styles.buyBtn}>Add to Cart</button>
                         </div>
                     </div>
                     <div className={styles.serviceContainer}>

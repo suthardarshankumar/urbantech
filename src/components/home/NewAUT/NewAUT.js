@@ -8,17 +8,7 @@ const NewAUT = () => {
     return (
         <>
             <div className={`${styles['container']}`}>
-                <h1 className={`${styles['heading']}`}>New Product At <span>
-                    <span className={`${styles['letters']}`}>U</span>
-                    <span className={`${styles['letters']}`}>R</span>
-                    <span className={`${styles['letters']}`}>B</span>
-                    <span className={`${styles['letters']}`}>A</span>
-                    <span className={`${styles['letters']}`}>N</span>
-                    <span className={`${styles['letters']}`}>T</span>
-                    <span className={`${styles['letters']}`}>E</span>
-                    <span className={`${styles['letters']}`}>C</span>
-                    <span className={`${styles['letters']}`}>H</span>
-                </span></h1>
+                <h1 className={`${styles['heading']}`}>New Product</h1>
                 <div className={`${styles['new-row']}`}>
                     <img className={`${styles['big-banner-img']}`} src={New1Img} alt='' />
                     <img className={`${styles['small-banner-img']}`} src={New2Img} alt='' />

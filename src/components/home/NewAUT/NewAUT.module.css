@@ -4,8 +4,9 @@
 }
 
 .heading {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 5vh;
+    font-family: "Nunito", sans-serif;
+    font-size: 4vh;
+    font-weight: 600;
     color: #171717;
     margin-bottom: 5vh;
 }

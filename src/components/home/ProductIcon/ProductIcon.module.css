@@ -5,8 +5,9 @@
 
 .product-heading {
     color: #171717;
-    font-size: 6vh;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Nunito", sans-serif;
+    font-size: 4vh;
+    font-weight: 600;
     margin-bottom: 7vh;
 }
 
@@ -27,12 +28,21 @@
     margin-bottom: 3vh;
 }
 
+.col:hover {
+    background-color: #171717;
+}
+
+
 .heading-sec {
     min-width: 22vw;
     display: flex;
     justify-content: left;
     align-items: center;
     padding: 0 2vw;
+}
+
+.col:hover .heading-sec {
+    color: #f2f2f2;
 }
 
 .heading,

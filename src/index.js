@@ -22,6 +22,8 @@ import SmartWatch from './pages/SmartWatch/SmartWatch';
 import LogInPage from './pages/LogIn/LogInPage';
 import ProductDetails from './pages/Product/ProductDetail/ProductDetail';
 
+
+
 const router = createBrowserRouter([
   {
     path: '/',

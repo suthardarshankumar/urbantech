@@ -4,23 +4,12 @@ import styles from './Card.module.css';
 import { Link } from 'react-router-dom';
 
 const Card = ({ title, heading, images }) => {
-    // const [likes, setLikes] = useState(0);
-    // const [icon, setIcon] = useState("+");
+
     const [visibleCount, setVisibleCount] = useState(8);
 
     const handleViewMore = () => {
         setVisibleCount(prevCount => prevCount + 8);
     };
-
-    // const add = () => {
-    //     if (likes % 2 === 0) {
-    //         setLikes(likes + 1);
-    //         setIcon("-");
-    //     } else {
-    //         setLikes(likes - 1);
-    //         setIcon("+");
-    //     }
-    // }
 
     return (
         <div className={styles.container}>
@@ -40,8 +29,6 @@ const Card = ({ title, heading, images }) => {
                             <div className={styles.cardLeft}>
                                 <h1 className={styles.cardHeading}>{image.name}</h1>
                                 <h3 className={styles.price}>{image.price}</h3>
-                                {/* <h1 className={styles.cardHeading}>{likes}</h1>
-                                <button onClick={add}>{icon}</button> */}
                             </div>
                             <div className={styles.cardRight}>
                                 <span className={styles.iconContain}>

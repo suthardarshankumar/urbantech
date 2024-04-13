@@ -50,15 +50,16 @@ const ProductIcon = () => {
                 <h1 className={`${styles['product-heading']}`}>All Category</h1>
                 <div className={`${styles['product-row']}`}>
                     {dataSet.map((categoryData, index) => (
-                        <div className={`${styles['col']}`} key={index}>
-                            <div className={`${styles['heading-sec']}`}>
-                                <h1 className={`${styles['heading']}`}><Link to={categoryData.link} className={styles.link}>{categoryData.imgName}</Link></h1>
+                        <Link to={categoryData.link} className={styles.link} key={index}>
+                            <div className={`${styles['col']}`}>
+                                <div className={`${styles['heading-sec']}`}>
+                                    {categoryData.imgName}
+                                </div>
+                                <div className={`${styles['img-sec']}`}>
+                                    <img className={`${styles['img']}`} src={categoryData.imgUrl} alt='' />
+                                </div>
                             </div>
-                            <div className={`${styles['img-sec']}`}>
-                                <img className={`${styles['img']}`} src={categoryData.imgUrl} alt='' />
-                            </div>
-                        </div>
-
+                        </Link>
                     ))}
                 </div>
             </div>
