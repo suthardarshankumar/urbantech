@@ -207,7 +207,156 @@ import realmenarzo60Slider22 from '../../../assets/Img/ProductDetailsImg/Mobiles
 import realmenarzo60Slider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/detailsImg/21.jpg';
 import realmenarzo60Slider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/realmeNarzo60/detailsImg/31.jpg';
 
+// samsung m14
+import samsungM1411 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/11.jpg';
+import samsungM1412 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/12.jpg';
+import samsungM1413 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/13.jpg';
+import samsungM1414 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/14.jpg';
+import samsungM1415 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/15.jpg';
+import samsungM1416 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/16.jpg';
+import samsungM1421 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/21.jpg';
+import samsungM1422 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/22.jpg';
+import samsungM1423 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/23.jpg';
+import samsungM1424 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/24.jpg';
+import samsungM1425 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/25.jpg';
+import samsungM1426 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/26.jpg';
+import samsungM1431 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/31.jpg';
+import samsungM1432 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/32.jpg';
+import samsungM1433 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/33.jpg';
+import samsungM1434 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/34.jpg';
+import samsungM1435 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/35.jpg';
+import samsungM1436 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/36.jpg';
+import samsungM14slider11 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/11.jpg';
+import samsungM14Slider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/12.jpg';
+import samsungM14Slider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/31.jpg';
+import samsungM14Slider32 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/32.jpg';
+import samsungM14Slider33 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/33.jpg';
+import samsungM14Slider41 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/41.jpg';
+import samsungM14Slider42 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/42.jpg';
+import samsungM14Slider43 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/43.jpg';
+import samsungM14Slider44 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/44.jpg';
+import samsungM14Slider51 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/51.jpg';
+import samsungM14Slider52 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/52.jpg';
+import samsungM14Slider53 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/53.jpg';
+import samsungM14Slider61 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/61.jpg';
+import samsungM14Slider62 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM14/detailsImg/62.jpg';
+
+// iqooZ6Lite
+import iqooZ6Lite11 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ6Lite/11.jpg';
+import iqooZ6Lite12 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ6Lite/12.jpg';
+import iqooZ6Lite13 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ6Lite/13.jpg';
+import iqooZ6Lite14 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ6Lite/14.jpg';
+import iqooZ6Lite15 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ6Lite/15.jpg';
+import iqooZ6Lite16 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ6Lite/16.jpg';
+
+//redmi 12
+import redmi1211 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/11.jpg';
+import redmi1212 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/12.jpg';
+import redmi1213 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/13.jpg';
+import redmi1214 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/14.jpg';
+import redmi1215 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/15.jpg';
+import redmi1221 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/21.jpg';
+import redmi1222 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/22.jpg';
+import redmi1223 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/23.jpg';
+import redmi1224 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/24.jpg';
+import redmi1225 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/25.jpg';
+import redmi1231 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/31.jpg';
+import redmi1232 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/32.jpg';
+import redmi1233 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/33.jpg';
+import redmi1234 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/34.jpg';
+import redmi1235 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/35.jpg';
+import redmi12Silder11 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/11.jpg';
+import redmi12Silder12 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/12.jpg';
+import redmi12Silder13 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/13.jpg';
+import redmi12Silder14 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/14.jpg';
+import redmi12Silder21 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/21.jpg';
+import redmi12Silder22 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/22.jpg';
+import redmi12Silder23 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/23.jpg';
+import redmi12Silder24 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/24.jpg';
+import redmi12Silder31 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/31.jpg';
+import redmi12Silder32 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/32.jpg';
+import redmi12Silder41 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/41.jpg';
+import redmi12Silder42 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/42.jpg';
+import redmi12Silder43 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/43.jpg';
+import redmi12Silder44 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/44.jpg';
+import redmi12Silder51 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/51.jpg';
+import redmi12Silder52 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/52.jpg';
+import redmi12Silder53 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/53.jpg';
+import redmi12Silder54 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/54.jpg';
+import redmi12Silder55 from '../../../assets/Img/ProductDetailsImg/Mobiles/redmi12/detailsImg/55.jpg';
+
+// onePlus Nord CE 3 Lite
+import onePlusNordCE3Lite11 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/11.jpg';
+import onePlusNordCE3Lite12 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/12.jpg';
+import onePlusNordCE3Lite13 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/13.jpg';
+import onePlusNordCE3Lite14 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/14.jpg';
+import onePlusNordCE3Lite15 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/15.jpg';
+import onePlusNordCE3Lite16 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/16.jpg';
+import onePlusNordCE3Lite21 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/21.jpg';
+import onePlusNordCE3Lite22 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/22.jpg';
+import onePlusNordCE3Lite23 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/23.jpg';
+import onePlusNordCE3Lite24 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/24.jpg';
+import onePlusNordCE3Lite25 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/25.jpg';
+import onePlusNordCE3Lite26 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/26.jpg';
+import onePlusNordCE3LiteSlider11 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/detailImg/11.jpg';
+import onePlusNordCE3LiteSlider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/detailImg/21.jpg';
+import onePlusNordCE3LiteSlider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/detailImg/31.jpg';
+import onePlusNordCE3LiteSlider41 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/detailImg/41.jpg';
+import onePlusNordCE3LiteSlider42 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/detailImg/42.jpg';
+import onePlusNordCE3LiteSlider43 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/detailImg/43.jpg';
+import onePlusNordCE3LiteSlider44 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/detailImg/44.jpg';
+import onePlusNordCE3LiteSlider51 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/detailImg/51.jpg';
+import onePlusNordCE3LiteSlider61 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3Lite/detailImg/61.jpg';
+
+// onePlus Nord CE 3
+import onePlusNordCE311 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/11.jpg';
+import onePlusNordCE312 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/12.jpg';
+import onePlusNordCE313 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/13.jpg';
+import onePlusNordCE314 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/14.jpg';
+import onePlusNordCE315 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/15.jpg';
+import onePlusNordCE321 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/21.jpg';
+import onePlusNordCE322 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/22.jpg';
+import onePlusNordCE323 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/23.jpg';
+import onePlusNordCE324 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/24.jpg';
+import onePlusNordCE325 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/25.jpg';
+import onePlusNordCE3Slider11 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/11.jpg';
+import onePlusNordCE3Slider12 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/12.jpg';
+import onePlusNordCE3Slider13 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/13.jpg';
+import onePlusNordCE3Slider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/21.jpg';
+import onePlusNordCE3Slider22 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/22.jpg';
+import onePlusNordCE3Slider23 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/23.jpg';
+import onePlusNordCE3Slider24 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/24.jpg';
+import onePlusNordCE3Slider25 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/25.jpg';
+import onePlusNordCE3Slider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/31.jpg';
+import onePlusNordCE3Slider32 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/32.jpg';
+import onePlusNordCE3Slider33 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/33.jpg';
+import onePlusNordCE3Slider34 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/34.jpg';
+import onePlusNordCE3Slider41 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/41.jpg';
+import onePlusNordCE3Slider42 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/42.jpg';
+import onePlusNordCE3Slider43 from '../../../assets/Img/ProductDetailsImg/Mobiles/onePlusNordCE3/detailImg/43.jpg';
+
+//iqoo Z7 Pro 
+import iqooZ7Pro11 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/11.jpg';
+import iqooZ7Pro12 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/12.jpg';
+import iqooZ7Pro13 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/13.jpg';
+import iqooZ7Pro14 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/14.jpg';
+import iqooZ7Pro21 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/21.jpg';
+import iqooZ7Pro22 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/22.jpg';
+import iqooZ7Pro23 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/23.jpg';
+import iqooZ7Pro24 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/24.jpg';
+import iqooZ7ProSlider11 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/detailImg/11.jpg';
+import iqooZ7ProSlider12 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/detailImg/12.jpg';
+import iqooZ7ProSlider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/detailImg/21.jpg';
+import iqooZ7ProSlider22 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/detailImg/22.jpg';
+import iqooZ7ProSlider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/detailImg/31.jpg';
+import iqooZ7ProSlider41 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/detailImg/41.jpg';
+import iqooZ7ProSlider42 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/detailImg/42.jpg';
+import iqooZ7ProSlider43 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/detailImg/43.jpg';
+import iqooZ7ProSlider44 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/detailImg/44.jpg';
+import iqooZ7ProSlider51 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/detailImg/51.jpg';
+
 import Slider from '../../../components/DetailPages/Slider/Slider';
+
 
 const ProductDetail = () => {
     const [quantity, setQuantity] = useState(1);
@@ -1087,6 +1236,515 @@ const ProductDetail = () => {
         heading: 'From the manufacturer',
 
     };
+    const samsungM14 = {
+        name: 'Samsung Galaxy M14 5G (Smoky Teal,6GB,128GB)|50MP Triple Cam|Segments Only 6000 mAh 5G SP| 5nm Processor| 2 Gen.OS Upgrade & 4 Year Security Update | 12GB RAM with RAM Plus | Android 13 | Without Charger',
+        price: '₹13,999',
+        mrp: '₹18,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            samsungM1411,
+            samsungM1412,
+            samsungM1413,
+            samsungM1414,
+            samsungM1415,
+            samsungM1416,
+        ],
+        imgData2: [
+            samsungM1421,
+            samsungM1422,
+            samsungM1423,
+            samsungM1424,
+            samsungM1425,
+            samsungM1426,
+        ],
+        imgData3: [
+            samsungM1431,
+            samsungM1432,
+            samsungM1433,
+            samsungM1434,
+            samsungM1435,
+            samsungM1436,
+        ],
+        productData: [
+            { "label": "Brand", "value": "Samsung" },
+            { "label": "Model Name", "value": "Galaxy M14" },
+            { "label": "Display", "value": "6.6-inch Full HD+ display" },
+            { "label": "Processor", "value": "Exynos 1330 or MediaTek Dimensity 6100+ (depending on variant)" },
+            { "label": "Operating System", "value": "Android 13" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Storage Capacity", "value": "Available in various configurations (check retailer websites for details)" },
+            { "label": "RAM", "value": "Available in various configurations (check retailer websites for details)" },
+            { "label": "Battery Capacity", "value": "6000mAh" },
+        ],
+        technicalData: [
+            { "label": "Rear Camera", "value": "Triple-camera system: 50MP main sensor with additional lenses (details may vary)" },
+            { "label": "Front Camera", "value": "Possible megapixel range: 8MP - 16MP (details not confirmed yet)" },
+            { "label": "Charging", "value": "Fast charging supported (exact wattage may vary)" },
+            { "label": "Fingerprint Sensor", "value": "In-display fingerprint sensor (expected)" },
+            { "label": "Other Features", "value": "Wi-Fi, Bluetooth, GPS" },
+            { "label": "Expandable Storage", "value": "microSD card slot (possible, based on some sources)" },
+        ],
+
+        sizeOptions: [
+            '4GB + 128GB',
+            '6GB + 128GB',
+
+        ],
+        colorOptions: [
+            samsungM1411,
+            samsungM1421,
+            samsungM1431,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            },
+            () => {
+                setImgShow(productDetails.imgData3);
+                setMainImg(firstImgData3);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [
+                    samsungM14slider11
+                ]
+            },
+            {
+                img: [samsungM14Slider21]
+            },
+            {
+                img: [samsungM14Slider31, samsungM14Slider32, samsungM14Slider33]
+            },
+            {
+                img: [samsungM14Slider41, samsungM14Slider42, samsungM14Slider43, samsungM14Slider44]
+            },
+            {
+                img: [samsungM14Slider51, samsungM14Slider52, samsungM14Slider53]
+            },
+            {
+                img: [samsungM14Slider61, samsungM14Slider62]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
+    const iqooZ6Lite = {
+        name: 'iQOO Z6 Lite 5G (Stellar Green, 6GB RAM, 128GB Storage) with Charger | Qualcomm Snapdragon 4 Gen 1 Processor | 120Hz FHD+ Display | Travel Adaptor Included in The Box',
+        price: '₹12,999',
+        mrp: '₹18,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            iqooZ6Lite11,
+            iqooZ6Lite12,
+            iqooZ6Lite13,
+            iqooZ6Lite14,
+            iqooZ6Lite15,
+            iqooZ6Lite16,
+        ],
+        productData: [
+            { "label": "Brand", "value": "vivo" },
+            { "label": "Model Name", "value": "iQOO Z6 Lite" },
+            { "label": "Display", "value": "6.58-inch 1080x2408 pixels FHD+ display" },
+            { "label": "Processor", "value": "Qualcomm Snapdragon 4 Gen 1" },
+            { "label": "Operating System", "value": "iQOO UI (based on Android 12)" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Battery Capacity", "value": "5000mAh" },
+            { "label": "Battery Charging", "value": "18W fast charging" }
+        ],
+        technicalData: [
+            { "label": "Storage Capacity", "value": "Available in various configurations (check retailer websites for details)" },
+            { "label": "RAM", "value": "Available in various configurations (check retailer websites for details)" },
+            { "label": "Rear Camera", "value": "50MP main sensor with additional lenses (details may vary)" },
+            { "label": "Front Camera", "value": "Details not confirmed yet" },
+            { "label": "Fingerprint Sensor", "value": "Side-mounted fingerprint sensor (possible, based on some sources)" },
+            { "label": "Other Features", "value": "Wi-Fi, Bluetooth, GPS" }
+        ],
+
+        sizeOptions: [
+            '6GB + 128GB',
+            '8GB + 128GB',
+
+        ],
+        colorOptions: [
+            iqooZ6Lite11,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [
+
+                ]
+            }
+        ]
+    };
+    const redmi12 = {
+        name: 'Redmi 12 5G Pastel Blue 6GB RAM 128GB ROM',
+        price: '₹12,999',
+        mrp: '₹17,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            redmi1211,
+            redmi1212,
+            redmi1213,
+            redmi1214,
+            redmi1215,
+        ],
+        imgData2: [
+            redmi1221,
+            redmi1222,
+            redmi1223,
+            redmi1224,
+            redmi1225,
+        ],
+        imgData3: [
+            redmi1231,
+            redmi1232,
+            redmi1233,
+            redmi1234,
+            redmi1235,
+        ],
+        productData: [
+            { "label": "Brand", "value": "Xiaomi" },
+            { "label": "Model Name", "value": "Redmi 12" },
+            { "label": "Display", "value": "6.79-inch IPS LCD display with FHD+ resolution (1080x2460 pixels)" },
+            { "label": "Refresh Rate", "value": "90Hz" },
+            { "label": "Processor", "value": "MediaTek Helio G88 octa-core processor" },
+            { "label": "Operating System", "value": "Android 13 with MIUI 14" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Storage Capacity", "value": "Available in variants: 4GB RAM + 128GB storage, 6GB RAM + 128GB storage, 8GB RAM + 128GB storage, 8GB RAM + 256GB storage" },
+            { "label": "Expandable Storage", "value": "Supports microSD card up to 1TB for additional storage (check device manual for compatibility)" },
+            { "label": "Battery Capacity", "value": "5000mAh" },
+            { "label": "Battery Charging", "value": "18W fast charging" },
+        ],
+        technicalData: [
+            { "label": "Rear Camera System", "value": "Triple camera system:" },
+            { "label": "Rear Camera 1", "value": "50MP main sensor with f/1.8 aperture" },
+            { "label": "Rear Camera 2", "value": "8MP wide-angle sensor" },
+            { "label": "Rear Camera 3", "value": "2MP macro sensor for close-up shots (details may vary)" },
+            { "label": "Front Camera", "value": "8MP front-facing camera for selfies and video calls" },
+            { "label": "Fingerprint Sensor", "value": "Side-mounted fingerprint sensor for secure unlocking" },
+            { "label": "Water Resistance", "value": "IP53 splash and dust resistant (limited protection)" },
+            { "label": "Other Features", "value": "Wi-Fi, Bluetooth 5.1, GPS, NFC (may vary depending on market)" },
+            { "label": "Dimensions", "value": "168.60mm x 76.28mm x 8.17mm" },
+            { "label": "Weight", "value": "198.5 grams" }
+        ],
+
+        sizeOptions: [
+            '4GB + 128GB',
+            '6GB + 128GB',
+            '8GB + 256GB',
+        ],
+        colorOptions: [
+            redmi1211,
+            redmi1221,
+            redmi1231,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            },
+            () => {
+                setImgShow(productDetails.imgData3);
+                setMainImg(firstImgData3);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [
+                    redmi12Silder11, redmi12Silder12, redmi12Silder13, redmi12Silder14
+                ]
+            },
+            {
+                img: [redmi12Silder21, redmi12Silder22, redmi12Silder23, redmi12Silder24]
+            },
+            {
+                img: [redmi12Silder31, redmi12Silder32]
+            },
+            {
+                img: [redmi12Silder41, redmi12Silder42, redmi12Silder43, redmi12Silder44]
+            },
+            {
+                img: [redmi12Silder51, redmi12Silder52, redmi12Silder53, redmi12Silder54, redmi12Silder55]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
+    const onePlusNordCE3Lite = {
+        name: 'OnePlus Nord CE 3 Lite 5G (8GB RAM, 128GB Storage)',
+        price: '₹17,999',
+        mrp: '₹19,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            onePlusNordCE3Lite11,
+            onePlusNordCE3Lite12,
+            onePlusNordCE3Lite13,
+            onePlusNordCE3Lite14,
+            onePlusNordCE3Lite15,
+            onePlusNordCE3Lite16,
+        ],
+        imgData2: [
+            onePlusNordCE3Lite21,
+            onePlusNordCE3Lite22,
+            onePlusNordCE3Lite23,
+            onePlusNordCE3Lite24,
+            onePlusNordCE3Lite25,
+            onePlusNordCE3Lite26,
+        ],
+        productData: [
+            { "label": "Brand", "value": "OnePlus" },
+            { "label": "Model Name", "value": "Nord CE 3 Lite 5G" },
+            { "label": "Display", "value": "17.07cm (6.72-inch) 120Hz display" },
+            { "label": "Processor", "value": "Qualcomm® Snapdragon™ 695 5G Chipset" },
+            { "label": "Operating System", "value": "OxygenOS 13.1" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Battery Capacity", "value": "5000mAh" },
+            { "label": "Battery Charging", "value": "67W SUPERVOOC Endurance Edition fast charging" },
+            { "label": "Available Colors", "value": "Pastel Lime, Chromatic Gray" },
+        ],
+        technicalData: [
+            { "label": "Storage Capacity", "value": "Available in variants: 8GB RAM + 128GB storage, 8GB RAM + 256GB storage" },
+            { "label": "Rear Camera System", "value": "Triple camera system:" },
+            { "label": "Rear Camera 1", "value": "108MP main sensor with f/1.8 aperture" },
+            { "label": "Rear Camera 2", "value": "2MP macro sensor for close-up shots" },
+            { "label": "Rear Camera 3", "value": "2MP depth sensor" },
+            { "label": "Front Camera", "value": "16MP front-facing camera for selfies and video calls" },
+            { "label": "Fingerprint Sensor", "value": "Side-mounted fingerprint sensor for secure unlocking" },
+            { "label": "Other Features", "value": "Wi-Fi 802.11 a/b/g/n/ac, Bluetooth 5.1, GPS, NFC (market dependent)" },
+            { "label": "Dimensions", "value": "165.5mm x 76.0mm x 8.3mm" },
+            { "label": "Weight", "value": "195g" }
+        ],
+
+        sizeOptions: [
+            '8GB + 128GB',
+            '8GB + 256GB',
+        ],
+        colorOptions: [
+            onePlusNordCE3Lite11,
+            onePlusNordCE3Lite21,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [
+                    onePlusNordCE3LiteSlider11
+                ]
+            },
+            {
+                img: [onePlusNordCE3LiteSlider21]
+            },
+            {
+                img: [onePlusNordCE3LiteSlider31]
+            },
+            {
+                img: [onePlusNordCE3LiteSlider41, onePlusNordCE3LiteSlider42, onePlusNordCE3LiteSlider43, onePlusNordCE3LiteSlider44]
+            },
+            {
+                img: [onePlusNordCE3LiteSlider51]
+            },
+            {
+                img: [onePlusNordCE3LiteSlider61]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
+    const onePlusNordCE3 = {
+        name: 'Oneplus Nord CE 3 5G (8GB RAM, 128GB Storage)',
+        price: '₹24,999',
+        mrp: '₹26,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            onePlusNordCE311,
+            onePlusNordCE312,
+            onePlusNordCE313,
+            onePlusNordCE314,
+            onePlusNordCE315,
+        ],
+        imgData2: [
+            onePlusNordCE321,
+            onePlusNordCE322,
+            onePlusNordCE323,
+            onePlusNordCE324,
+            onePlusNordCE325,
+        ],
+        productData: [
+            { "label": "Brand", "value": "OnePlus" },
+            { "label": "Model Name", "value": "Nord CE 3 5G" },
+            { "label": "Display", "value": "17.02cm (6.7”) 120Hz AMOLED display" },
+            { "label": "Processor", "value": "Qualcomm® Snapdragon™ 782G Chipset" },
+            { "label": "Operating System", "value": "OxygenOS 13.1" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Battery Capacity", "value": "5000mAh" },
+            { "label": "Battery Charging", "value": "80W SUPERVOOC Endurance Edition fast charging" },
+            { "label": "Available Colors", "value": "Aqua Surge, Gray Shimmer" },
+        ],
+        technicalData: [
+            { "label": "Storage Capacity", "value": "Available in variants: 8GB RAM + 128GB storage, 12GB RAM + 256GB storage" },
+            { "label": "Rear Camera System", "value": "Triple camera system:" },
+            { "label": "Rear Camera 1", "value": "50MP Sony IMX890 main sensor with f/1.8 aperture" },
+            { "label": "Rear Camera 2", "value": "8MP wide-angle sensor" },
+            { "label": "Rear Camera 3", "value": "2MP macro sensor for close-up shots" },
+            { "label": "Front Camera", "value": "16MP front-facing camera for selfies and video calls" },
+            { "label": "Fingerprint Sensor", "value": "In-display fingerprint sensor for secure unlocking" },
+            { "label": "Other Features", "value": "Wi-Fi 802.11 a/b/g/n/ac/ax, Bluetooth 5.3, GPS, NFC, IR blaster" },
+            { "label": "Dimensions", "value": "160.6mm x 75.7mm x 8.5mm" },
+            { "label": "Weight", "value": "179g" }
+        ],
+
+        sizeOptions: [
+            '8GB + 128GB',
+            '8GB + 256GB',
+        ],
+        colorOptions: [
+            onePlusNordCE311,
+            onePlusNordCE321,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [
+                    onePlusNordCE3Slider11, onePlusNordCE3Slider12, onePlusNordCE3Slider13
+                ]
+            },
+            {
+                img: [onePlusNordCE3Slider21, onePlusNordCE3Slider22, onePlusNordCE3Slider23, onePlusNordCE3Slider24, onePlusNordCE3Slider25]
+            },
+            {
+                img: [onePlusNordCE3Slider31, onePlusNordCE3Slider32, onePlusNordCE3Slider33, onePlusNordCE3Slider34]
+            },
+            {
+                img: [onePlusNordCE3Slider41, onePlusNordCE3Slider42, onePlusNordCE3Slider43]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
+    const iqooZ7Pro = {
+        name: 'iQOO Z7 Pro 5G (Blue Lagoon, 8GB RAM, 256GB Storage) | 3D Curved AMOLED Display | 4nm MediaTek Dimesity 7200 5G Processor | 64MP Aura Light OIS Camera | Segments Slimmest & Lightest Smartphone',
+        price: '₹24,999',
+        mrp: '₹27,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            iqooZ7Pro11,
+            iqooZ7Pro12,
+            iqooZ7Pro13,
+            iqooZ7Pro14,
+        ],
+        imgData2: [
+            iqooZ7Pro21,
+            iqooZ7Pro22,
+            iqooZ7Pro23,
+            iqooZ7Pro24,
+        ],
+        productData: [
+            { "label": "Brand", "value": "vivo" },
+            { "label": "Model Name", "value": "iQOO Z7 Pro" },
+            { "label": "Display", "value": "6.67-inch 120Hz AMOLED display" },
+            { "label": "Processor", "value": "MediaTek Dimensity 7200 5G Mobile Platform" },
+            { "label": "Operating System", "value": "Funtouch OS 13 (based on Android 13)" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Battery Capacity", "value": "4600mAh" },
+            { "label": "Battery Charging", "value": "66W FlashCharge fast charging" },
+        ],
+        technicalData: [
+            { "label": "Storage Capacity", "value": "Available in variants: 8GB RAM + 128GB storage, 12GB RAM + 256GB storage" },
+            { "label": "Rear Camera System", "value": "Triple camera system:" },
+            { "label": "Rear Camera 1", "value": "64MP main sensor with f/1.79 aperture" },
+            { "label": "Rear Camera 2", "value": "2MP depth sensor" },
+            { "label": "Rear Camera 3", "value": "Details on the third sensor may vary (possible macro sensor)" },
+            { "label": "Front Camera", "value": "16MP front-facing camera for selfies and video calls" },
+            { "label": "Fingerprint Sensor", "value": "In-display fingerprint sensor for secure unlocking" },
+            { "label": "Other Features", "value": "Wi-Fi 6, Bluetooth 5.3, GPS, Liquid Cooling System for better heat management" },
+            { "label": "Dimensions", "value": "165.2mm x 76.8mm x 8.50mm" },
+            { "label": "Weight", "value": "196g" }
+        ],
+
+        sizeOptions: [
+            '8GB + 128GB',
+            '8GB + 256GB',
+        ],
+        colorOptions: [
+            iqooZ7Pro11,
+            iqooZ7Pro21,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [iqooZ7ProSlider11, iqooZ7ProSlider12]
+            },
+            {
+                img: [iqooZ7ProSlider21, iqooZ7ProSlider22]
+            },
+            {
+                img: [iqooZ7ProSlider31]
+            },
+            {
+                img: [iqooZ7ProSlider41, iqooZ7ProSlider42, iqooZ7ProSlider43, iqooZ7ProSlider44]
+            },
+            {
+                img: [iqooZ7ProSlider51]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
     const getProductByName = (productName) => {
         switch (productName) {
             case 'samsungS24Ultra':
@@ -1111,6 +1769,18 @@ const ProductDetail = () => {
                 return realmenarzo60X5G;
             case 'realmenarzo60':
                 return realmenarzo60;
+            case 'samsungM14':
+                return samsungM14;
+            case 'iqooZ6Lite':
+                return iqooZ6Lite;
+            case 'redmi12':
+                return redmi12;
+            case 'onePlusNordCE3Lite':
+                return onePlusNordCE3Lite;
+            case 'onePlusNordCE3':
+                return onePlusNordCE3;
+            case 'iqooZ7Pro':
+                return iqooZ7Pro;
             default:
                 return null;
         }

@@ -37,19 +37,19 @@ const BudgetSmartphones = () => {
             img: samsungM14,
             name: "Samsung Galaxy M14 5G",
             price: "₹10,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'samsungM14',
         },
         {
             img: iqooZ6Lite,
             name: "IQOO Z6 Lite 5G",
             price: "₹11,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'iqooZ6Lite',
         },
         {
             img: redmi12,
             name: "Redmi 12 5G",
             price: "₹11,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'redmi12',
         },
         {
             img: pocoM6Pro,
