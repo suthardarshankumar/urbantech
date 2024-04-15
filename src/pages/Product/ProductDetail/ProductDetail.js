@@ -509,6 +509,84 @@ import samsungZFold5Slider63 from '../../../assets/Img/ProductDetailsImg/Mobiles
 import samsungZFold5Slider64 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/64.jpg';
 import samsungZFold5Slider65 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/65.jpg';
 
+// Latops Images
+
+// Macbook Air M1 Chip
+import MacbookAirM1Chip11 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM1Chip/11.jpg';
+import MacbookAirM1Chip12 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM1Chip/12.jpg';
+import MacbookAirM1Chip13 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM1Chip/13.jpg';
+import MacbookAirM1Chip14 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM1Chip/14.jpg';
+import MacbookAirM1Chip15 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM1Chip/15.jpg';
+import MacbookAirM1Chip16 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM1Chip/16.jpg';
+import MacbookAirM1Chip21 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM1Chip/21.jpg';
+import MacbookAirM1Chip22 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM1Chip/22.jpg';
+import MacbookAirM1Chip23 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM1Chip/23.jpg';
+import MacbookAirM1Chip24 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM1Chip/24.jpg';
+import MacbookAirM1Chip25 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM1Chip/25.jpg';
+import MacbookAirM1Chip26 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM1Chip/26.jpg';
+
+// Macbook Air M2 Chip
+import MacbookAirM3Chip11 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/11.jpg';
+import MacbookAirM3Chip12 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/12.jpg';
+import MacbookAirM3Chip13 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/13.jpg';
+import MacbookAirM3Chip14 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/14.jpg';
+import MacbookAirM3Chip15 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/15.jpg';
+import MacbookAirM3Chip16 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/16.jpg';
+import MacbookAirM3Chip21 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/21.jpg';
+import MacbookAirM3Chip22 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/22.jpg';
+import MacbookAirM3Chip23 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/23.jpg';
+import MacbookAirM3Chip24 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/24.jpg';
+import MacbookAirM3Chip25 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/25.jpg';
+import MacbookAirM3Chip26 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/26.jpg';
+import MacbookAirM3Chip31 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/31.jpg';
+import MacbookAirM3Chip32 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/32.jpg';
+import MacbookAirM3Chip33 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/33.jpg';
+import MacbookAirM3Chip34 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/34.jpg';
+import MacbookAirM3Chip35 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/35.jpg';
+import MacbookAirM3Chip36 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3Chip/36.jpg';
+
+// Macbook Pro M3Max Chip
+import MacbookProM3MaxChip11 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3MaxChip/11.jpg';
+import MacbookProM3MaxChip12 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3MaxChip/12.jpg';
+import MacbookProM3MaxChip13 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3MaxChip/13.jpg';
+import MacbookProM3MaxChip14 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3MaxChip/14.jpg';
+import MacbookProM3MaxChip15 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3MaxChip/15.jpg';
+import MacbookProM3MaxChip16 from '../../../assets/Img/ProductDetailsImg/Laptop/MacBookAirM3MaxChip/16.jpg';
+
+//Dell 15
+import Dell1511 from '../../../assets/Img/ProductDetailsImg/Laptop/Dell15/11.jpg';
+import Dell1512 from '../../../assets/Img/ProductDetailsImg/Laptop/Dell15/12.jpg';
+import Dell1513 from '../../../assets/Img/ProductDetailsImg/Laptop/Dell15/13.jpg';
+import Dell1514 from '../../../assets/Img/ProductDetailsImg/Laptop/Dell15/14.jpg';
+import Dell1515 from '../../../assets/Img/ProductDetailsImg/Laptop/Dell15/15.jpg';
+import Dell1516 from '../../../assets/Img/ProductDetailsImg/Laptop/Dell15/16.jpg';
+
+//LenovoIdeaPadSlim3
+import LenovoIdeaPadSlim311 from '../../../assets/Img/ProductDetailsImg/Laptop/LenovoIdeaPadSlim3/11.jpg';
+import LenovoIdeaPadSlim312 from '../../../assets/Img/ProductDetailsImg/Laptop/LenovoIdeaPadSlim3/12.jpg';
+import LenovoIdeaPadSlim313 from '../../../assets/Img/ProductDetailsImg/Laptop/LenovoIdeaPadSlim3/13.jpg';
+import LenovoIdeaPadSlim314 from '../../../assets/Img/ProductDetailsImg/Laptop/LenovoIdeaPadSlim3/14.jpg';
+import LenovoIdeaPadSlim315 from '../../../assets/Img/ProductDetailsImg/Laptop/LenovoIdeaPadSlim3/15.jpg';
+import LenovoIdeaPadSlim316 from '../../../assets/Img/ProductDetailsImg/Laptop/LenovoIdeaPadSlim3/16.jpg';
+
+//AsusVivobook14
+import AsusVivobook1411 from '../../../assets/Img/ProductDetailsImg/Laptop/AsusVivobook14/11.jpg';
+import AsusVivobook1412 from '../../../assets/Img/ProductDetailsImg/Laptop/AsusVivobook14/12.jpg';
+import AsusVivobook1413 from '../../../assets/Img/ProductDetailsImg/Laptop/AsusVivobook14/13.jpg';
+import AsusVivobook1414 from '../../../assets/Img/ProductDetailsImg/Laptop/AsusVivobook14/14.jpg';
+import AsusVivobook1415 from '../../../assets/Img/ProductDetailsImg/Laptop/AsusVivobook14/15.jpg';
+import AsusVivobook1416 from '../../../assets/Img/ProductDetailsImg/Laptop/AsusVivobook14/16.jpg';
+import AsusVivobook1417 from '../../../assets/Img/ProductDetailsImg/Laptop/AsusVivobook14/17.jpg';
+
+//AcerAspireLite12ThGen
+import AcerAspireLite12ThGen11 from '../../../assets/Img/ProductDetailsImg/Laptop/AcerAspireLite12ThGen/11.jpg';
+import AcerAspireLite12ThGen12 from '../../../assets/Img/ProductDetailsImg/Laptop/AcerAspireLite12ThGen/12.jpg';
+import AcerAspireLite12ThGen13 from '../../../assets/Img/ProductDetailsImg/Laptop/AcerAspireLite12ThGen/13.jpg';
+import AcerAspireLite12ThGen14 from '../../../assets/Img/ProductDetailsImg/Laptop/AcerAspireLite12ThGen/14.jpg';
+import AcerAspireLite12ThGen15 from '../../../assets/Img/ProductDetailsImg/Laptop/AcerAspireLite12ThGen/15.jpg';
+import AcerAspireLite12ThGen16 from '../../../assets/Img/ProductDetailsImg/Laptop/AcerAspireLite12ThGen/16.jpg';
+import AcerAspireLite12ThGen17 from '../../../assets/Img/ProductDetailsImg/Laptop/AcerAspireLite12ThGen/17.jpg';
+
 
 import Slider from '../../../components/DetailPages/Slider/Slider';
 
@@ -1008,61 +1086,6 @@ const ProductDetail = () => {
         sizeOptions: [],
         colorOptions: [
             AppleAirPodes2Gen11,
-        ],
-        colorChange: [
-            () => {
-                setImgShow(productDetails.imgData);
-                setMainImg(firstImgData);
-            },
-        ],
-        sliderImgSet: [
-            {
-                img: [
-
-                ]
-            }
-
-        ]
-    };
-    const MacBookAirM2Chip = {
-        name: 'Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 512GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone/iPad; Starlight​',
-        price: '₹1,25,999',
-        mrp: '₹,135,999',
-        tax: 'Inclusive of all taxes',
-        size: 'Size:',
-        color: 'Color:',
-        imgData: [
-            MacBookAirM2Chip11,
-            MacBookAirM2Chip12,
-            MacBookAirM2Chip13,
-            MacBookAirM2Chip14,
-            MacBookAirM2Chip15,
-            MacBookAirM2Chip16,
-        ],
-        productData: [
-            { "label": "Brand", "value": "Apple" },
-            { "label": "Model Name", "value": "MacBook Air (2022)" },
-            { "label": "Chip", "value": "Apple M2 chip" },
-            { "label": "Display", "value": "13.6-inch Liquid Retina display with True Tone" },
-            { "label": "Operating System", "value": "macOS Monterey" },
-            { "label": "Storage Capacity", "value": "Available in various capacities (check Apple website for details)" },
-            { "label": "Memory", "value": "Available in various configurations (check Apple website for details)" },
-            { "label": "Battery Life", "value": "Up to 18 hours of battery life (typical)" },
-        ],
-        technicalData: [
-            { "label": "Keyboard", "value": "Magic Keyboard with Touch ID" },
-            { "label": "Trackpad", "value": "Force Touch trackpad" },
-            { "label": "Ports", "value": "Two Thunderbolt / USB 4 ports, MagSafe 3 charging port" },
-            { "label": "Camera", "value": "1080p FaceTime HD camera" },
-            { "label": "Material", "value": "Sleek aluminum enclosure" },
-        ],
-        sizeOptions: [
-            '256GB',
-            '512GB',
-            '1TB',
-        ],
-        colorOptions: [
-            MacBookAirM2Chip11,
         ],
         colorChange: [
             () => {
@@ -2398,6 +2421,503 @@ const ProductDetail = () => {
         heading: 'From the manufacturer',
     };
 
+    // Laptops Objects 
+    const MacBookAirM1Chip = {
+        name: 'Apple MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad',
+        price: '₹76,999',
+        mrp: '₹99,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            MacbookAirM1Chip11,
+            MacbookAirM1Chip12,
+            MacbookAirM1Chip13,
+            MacbookAirM1Chip14,
+            MacbookAirM1Chip15,
+            MacbookAirM1Chip16,
+        ],
+        imgData2: [
+            MacbookAirM1Chip21,
+            MacbookAirM1Chip22,
+            MacbookAirM1Chip23,
+            MacbookAirM1Chip24,
+            MacbookAirM1Chip25,
+            MacbookAirM1Chip26,
+        ],
+        productData: [
+            { "label": "Brand", "value": "Apple" },
+            { "label": "Model Name", "value": "MacBook Air" },
+            { "label": "Chip", "value": "Apple M1 chip" },
+            { "label": "Display", "value": "13.3-inch Retina display with True Tone" },
+            { "label": "CPU", "value": "8-core CPU" },
+            { "label": "GPU", "value": "7-core GPU" },
+            { "label": "Operating System", "value": "macOS Monterey (upgradable to newer versions)" },
+            { "label": "Memory", "value": "Available in variants: 8GB unified memory, 16GB unified memory" },
+            { "label": "Storage Capacity", "value": "Available in variants: 256GB SSD storage, 512GB SSD storage, 1TB SSD storage" },
+            { "label": "Battery Life", "value": "Up to 18 hours of battery life (according to Apple)" },
+        ],
+        technicalData: [
+            { "label": "Keyboard", "value": "Magic Keyboard with Touch ID" },
+            { "label": "Trackpad", "value": "Force Touch trackpad" },
+            { "label": "Ports", "value": "Two Thunderbolt / USB 4 ports" },
+            { "label": "Wireless", "value": "Wi-Fi 6, Bluetooth 5.0" },
+            { "label": "Camera", "value": "720p FaceTime HD camera" },
+            { "label": "Dimensions", "value": "Check Apple website for details" },
+            { "label": "Weight", "value": "Check Apple website for details" },
+        ],
+        sizeOptions: [
+            '8GB + 256GB',
+        ],
+        colorOptions: [
+            MacbookAirM1Chip11,
+            MacbookAirM1Chip21,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: []
+            },
+        ],
+        heading: '',
+    };
+    const MacBookAirM2Chip = {
+        name: 'Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 512GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone/iPad; Starlight​',
+        price: '₹1,25,999',
+        mrp: '₹1,35,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            MacBookAirM2Chip11,
+            MacBookAirM2Chip12,
+            MacBookAirM2Chip13,
+            MacBookAirM2Chip14,
+            MacBookAirM2Chip15,
+            MacBookAirM2Chip16,
+        ],
+        productData: [
+            { "label": "Brand", "value": "Apple" },
+            { "label": "Model Name", "value": "MacBook Air (2022)" },
+            { "label": "Chip", "value": "Apple M2 chip" },
+            { "label": "Display", "value": "13.6-inch Liquid Retina display with True Tone" },
+            { "label": "Operating System", "value": "macOS Monterey" },
+            { "label": "Storage Capacity", "value": "Available in various capacities (check Apple website for details)" },
+            { "label": "Memory", "value": "Available in various configurations (check Apple website for details)" },
+            { "label": "Battery Life", "value": "Up to 18 hours of battery life (typical)" },
+        ],
+        technicalData: [
+            { "label": "Keyboard", "value": "Magic Keyboard with Touch ID" },
+            { "label": "Trackpad", "value": "Force Touch trackpad" },
+            { "label": "Ports", "value": "Two Thunderbolt / USB 4 ports, MagSafe 3 charging port" },
+            { "label": "Camera", "value": "1080p FaceTime HD camera" },
+            { "label": "Material", "value": "Sleek aluminum enclosure" },
+        ],
+        sizeOptions: [
+            '256GB',
+            '512GB',
+            '1TB',
+        ],
+        colorOptions: [
+            MacBookAirM2Chip11,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [
+
+                ]
+            }
+
+        ]
+    };
+    const MacBookAirM3Chip = {
+        name: 'Apple 2022 MacBook Air Laptop with M2 chip: 34.46 cm (13.6-inch) Liquid Retina Display, 8GB RAM, 512GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone/iPad; Starlight​',
+        price: '₹1,07,999',
+        mrp: '₹1,34,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            MacbookAirM3Chip11,
+            MacbookAirM3Chip12,
+            MacbookAirM3Chip13,
+            MacbookAirM3Chip14,
+            MacbookAirM3Chip15,
+            MacbookAirM3Chip16,
+        ],
+        imgData2: [
+            MacbookAirM3Chip21,
+            MacbookAirM3Chip22,
+            MacbookAirM3Chip23,
+            MacbookAirM3Chip24,
+            MacbookAirM3Chip25,
+            MacbookAirM3Chip26,
+        ],
+        imgData3: [
+            MacbookAirM3Chip31,
+            MacbookAirM3Chip32,
+            MacbookAirM3Chip33,
+            MacbookAirM3Chip34,
+            MacbookAirM3Chip35,
+            MacbookAirM3Chip36,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "Apple" },
+            { "label": "Model Name", "value": "MacBook Air" },
+            { "label": "Year", "value": "2024" },
+            { "label": "Chip", "value": "Apple M3 chip" },
+            { "label": "Display", "value": "13.6-inch Liquid Retina display with True Tone" },
+            { "label": "CPU", "value": "8-core CPU with 4 performance cores and 4 efficiency cores" },
+            { "label": "GPU", "value": "Configurable: 8-core GPU or 10-core GPU" },
+            { "label": "Operating System", "value": "macOS Ventura (latest version)" },
+            { "label": "Memory", "value": "Available in variants: 8GB unified memory, 16GB unified memory, 24GB unified memory" },
+            { "label": "Storage Capacity", "value": "Available in variants: 256GB SSD storage, 512GB SSD storage, 1TB SSD storage, 2TB SSD storage" },
+            { "label": "Battery Life", "value": "Up to 18 hours of battery life (according to Apple)" },
+        ],
+        "technicalData": [
+            { "label": "Keyboard", "value": "Magic Keyboard with Touch ID" },
+            { "label": "Trackpad", "value": "Force Touch trackpad" },
+            { "label": "Ports", "value": "Two Thunderbolt / USB 4 ports with support for charging and external displays" },
+            { "label": "Wireless", "value": "Likely Wi-Fi 6E and Bluetooth 5.3 (official specs not yet confirmed)" },
+            { "label": "Camera", "value": "1080p FaceTime HD camera" },
+            { "label": "Dimensions", "value": "Check Apple website for details" },
+            { "label": "Weight", "value": "Check Apple website for details" },
+        ],
+        sizeOptions: [
+            '256GB',
+            '512GB',
+            '1TB',
+        ],
+        colorOptions: [
+            MacbookAirM3Chip11,
+            MacbookAirM3Chip21,
+            MacbookAirM3Chip31,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            },
+            () => {
+                setImgShow(productDetails.imgData3);
+                setMainImg(firstImgData3);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [
+
+                ]
+            }
+
+        ]
+    };
+    const MacBookProM3MaxChip = {
+        name: 'Apple 2023 MacBook Pro (16-inch, M3 Max chip with 16‑core CPU and 40‑core GPU, 48GB Unified Memory, 1TB) - Space Black​',
+        price: '₹3,49,999',
+        mrp: '₹3,99,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            MacbookProM3MaxChip11,
+            MacbookProM3MaxChip12,
+            MacbookProM3MaxChip13,
+            MacbookProM3MaxChip14,
+            MacbookProM3MaxChip15,
+            MacbookProM3MaxChip16,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "Apple" },
+            { "label": "Model Name", "value": "MacBook Pro" },
+            { "label": "Year", "value": "2023" },
+            { "label": "Display", "value": "16.2-inch Liquid Retina XDR display with ProMotion technology" },
+            { "label": "Chip", "value": "Apple M3 Max chip with 16‑core CPU and 40‑core GPU" },
+            { "label": "CPU", "value": "16-core CPU" },
+            { "label": "GPU", "value": "40-core GPU" },
+            { "label": "Memory", "value": "48GB unified memory" },
+            { "label": "Storage Capacity", "value": "1TB SSD storage" },
+            { "label": "Operating System", "value": "macOS Ventura (latest version)" },
+            { "label": "Color", "value": "Space Black" },
+        ],
+        "technicalData": [
+            { "label": "Keyboard", "value": "Magic Keyboard with Touch ID and function keys" },
+            { "label": "Trackpad", "value": "Force Touch trackpad" },
+            { "label": "Ports", "value": "Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port" },
+            { "label": "Wireless", "value": "Wi-Fi 6E and Bluetooth 5.3" },
+            { "label": "Camera", "value": "1080p FaceTime HD camera with improved low-light performance (possible detail based on rumors)" },
+            { "label": "Battery Life", "value": "Up to 17 hours of video playback (according to Apple)" },
+            { "label": "Dimensions", "value": "Check Apple website for details" },
+            { "label": "Weight", "value": "Check Apple website for details" },
+        ],
+        sizeOptions: [
+            '256GB',
+            '512GB',
+            '1TB',
+        ],
+        colorOptions: [
+            MacbookProM3MaxChip11,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [
+
+                ]
+            }
+
+        ]
+    };
+
+    // Window
+    const Dell15 = {
+        name: 'Dell 15 Laptop, Intel Core i5-1135G7 Processor/ 8GB/ 1TB+256GB SSD/15.6"(39.62cm) FHD Display/Mobile Connect/Windows 11 + MSO 21/15 Month McAfee/Spill-Resistant Keyboard/Black/Thin & Light 1.69kg​',
+        price: '₹45,999',
+        mrp: '₹69,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            Dell1511,
+            Dell1512,
+            Dell1513,
+            Dell1514,
+            Dell1515,
+            Dell1516,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "Dell" },
+            { "label": "Model Name", "value": "Dell 15" },
+            { "label": "Processor", "value": "Intel Core i5-1135G7 Processor" },
+            { "label": "Display", "value": "Details on display size and resolution may vary (check Dell website for available configurations)" },
+            { "label": "Operating System", "value": "Windows 11 Home or Windows 10 (possible depending on retailer and purchase date)" },
+            { "label": "Memory", "value": "Available in variants with varying RAM capacities (check Dell website for details)" },
+            { "label": "Storage Capacity", "value": "Available in variants with varying SSD capacities (check Dell website for details)" },
+            { "label": "Graphics", "value": "Intel Iris Xe Graphics" },
+        ],
+        "technicalData": [
+            { "label": "Battery", "value": "Details on battery capacity and charging may vary (check Dell website for details)" },
+            { "label": "Ports", "value": "Likely includes USB ports, HDMI port, headphone jack (specific ports may vary)" },
+            { "label": "Connectivity", "value": "Possible Wi-Fi 6, Bluetooth 5.1 (check Dell website for details)" },
+            { "label": "Weight", "value": "Check Dell website for details" },
+            { "label": "Dimensions", "value": "Check Dell website for details" },
+        ],
+        sizeOptions: [
+            '256GB',
+            '512GB',
+        ],
+        colorOptions: [
+            Dell1511,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [
+
+                ]
+            }
+
+        ]
+    };
+    const LenovoIdeaPadSlim3 = {
+        name: 'Lenovo IdeaPad Slim 3 Intel Core i7 12th Gen 15.6 inch (39.62cm) FHD Thin & Light Laptop (16GB/512GB SSD/Windows 11/Office 2021/3months Game Pass/Arctic Grey/1.63Kg), 82RK011EIN​',
+        price: '₹62,999',
+        mrp: '₹82,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            LenovoIdeaPadSlim311,
+            LenovoIdeaPadSlim312,
+            LenovoIdeaPadSlim313,
+            LenovoIdeaPadSlim314,
+            LenovoIdeaPadSlim315,
+            LenovoIdeaPadSlim316,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "Lenovo" },
+            { "label": "Model Name", "value": "IdeaPad Slim 3" },
+            { "label": "Display", "value": "Available in 14-inch and 15.6-inch Full HD (1920 x 1080) display options" },
+            { "label": "Processor", "value": "Available in variants with Intel Core i3, i5, or AMD Ryzen processors (specific models to be confirmed)" },
+            { "label": "Operating System", "value": "Windows 11 Home in S mode or Windows 11 Home (availability may vary)" },
+            { "label": "Memory", "value": "Available in variants with 4GB, 8GB, or 16GB of RAM (specific configurations to be confirmed)" },
+            { "label": "Storage Capacity", "value": "Available in variants with 128GB, 256GB, or 512GB SSD storage (specific configurations to be confirmed)" },
+            { "label": "Graphics", "value": "Integrated graphics (specific model to be confirmed)" },
+        ],
+        "technicalData": [
+            { "label": "Battery Life", "value": "Up to 7 hours (according to Lenovo estimates, may vary depending on usage)" },
+            { "label": "Weight", "value": "Lightweight design, weight varies depending on configuration (check Lenovo website for details)" },
+            { "label": "Ports", "value": "May include USB-A ports, USB-C port, HDMI port, headphone jack (specific ports may vary)" },
+            { "label": "Connectivity", "value": "Wi-Fi 5 or Wi-Fi 6 (depending on model), Bluetooth (version may vary)" },
+            { "label": "Security", "value": "Fingerprint reader (optional on some models)" },
+            { "label": "Camera", "value": "720p HD webcam" },
+            { "label": "Dimensions", "value": "Check Lenovo website for details" },
+        ],
+        sizeOptions: [
+            '512GB',
+            '1TB',
+        ],
+        colorOptions: [
+            LenovoIdeaPadSlim311,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [
+
+                ]
+            }
+
+        ]
+    };
+    const AsusVivobook14 = {
+        name: 'ASUS Vivobook 14, Intel Core i3-1115G4 11th Gen, 14" (35.56 cms) FHD, Thin and Light Laptop (8GB/512GB SSD/Windows 11/Office 2021/Indie Black/1.60 kg), X1400EA-EK323WS​',
+        price: '₹31,999',
+        mrp: '₹48,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            AsusVivobook1411,
+            AsusVivobook1412,
+            AsusVivobook1413,
+            AsusVivobook1414,
+            AsusVivobook1415,
+            AsusVivobook1416,
+            AsusVivobook1417,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "ASUS" },
+            { "label": "Model Name", "value": "Vivobook 14" },
+            { "label": "Processor", "value": "Intel Core i3-1115G4 Processor (3.0 GHz base clock, up to 4.1 GHz Turbo Boost, 2 cores)" },
+            { "label": "Display", "value": "14.0-inch Full HD (1920 x 1080) anti-glare display" },
+            { "label": "Operating System", "value": "Windows 11 Home (upgradeable to Windows 11 Pro)" },
+            { "label": "Memory", "value": "8GB DDR4 RAM (4GB onboard + 4GB SO-DIMM, expandable up to 12GB)" },
+            { "label": "Storage Capacity", "value": "Available in variants with 256GB SSD, 512GB SSD, or combination with an additional HDD (check retailer for details)" },
+            { "label": "Graphics", "value": "Intel UHD Graphics" },
+        ],
+        "technicalData": [
+            { "label": "Battery", "value": "Up to 16 hours (according to ASUS estimates, may vary depending on usage)" },
+            { "label": "Weight", "value": "1.60 kg (lightweight design)" },
+            { "label": "Ports", "value": "One USB 3.2 Gen 2 Type-C port, two USB 3.2 Gen 1 Type-A ports, one HDMI port, microSD card reader, headphone jack" },
+            { "label": "Connectivity", "value": "Wi-Fi 5, Bluetooth 5.0" },
+            { "label": "Camera", "value": "720p HD webcam" },
+            { "label": "Storage Expansion", "value": "One M.2 2280 PCIe 3.0x2 slot and one SATA slot for additional storage" },
+            { "label": "Dimensions", "value": "32.4 centimeter (W) x 21.5 centimeter (D) x 1.8 centimeter (H)" },
+        ],
+        sizeOptions: [
+            '512GB',
+            '1TB',
+        ],
+        colorOptions: [
+            AsusVivobook1411,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [
+
+                ]
+            }
+
+        ]
+    };
+    const AcerAspireLite12ThGen = {
+        name: 'Acer Aspire Lite 12th Gen Intel Core i3-1215U Premium Metal Laptop (Windows 11 Home/8 GB RAM/512GB SSD) AL15-52, 39.62cm (15.6") Full HD Display, Metal Body, Steel Gray, 1.59 Kg​',
+        price: '₹31,999',
+        mrp: '₹52,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            AcerAspireLite12ThGen11,
+            AcerAspireLite12ThGen12,
+            AcerAspireLite12ThGen13,
+            AcerAspireLite12ThGen14,
+            AcerAspireLite12ThGen15,
+            AcerAspireLite12ThGen16,
+            AcerAspireLite12ThGen17,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "Acer" },
+            { "label": "Model Name", "value": "Aspire Lite" },
+            { "label": "Processor", "value": "Intel Core i3-1215U Processor" },
+            { "label": "Display", "value": "15.6-inch Full HD (1920 x 1080) anti-glare TFT LCD display" },
+            { "label": "Operating System", "value": "Windows 11 Home" },
+            { "label": "Memory", "value": "Available in variants with 8GB or 16GB DDR4 RAM" },
+            { "label": "Storage Capacity", "value": "Available in variants with 256GB or 512GB PCIe Gen3 NVMe SSD" },
+            { "label": "Graphics", "value": "Intel UHD Graphics" },
+        ],
+        "technicalData": [
+            { "label": "Keyboard", "value": "Chiclet keyboard with numeric keypad (possible based on images)" },
+            { "label": "Battery", "value": "Up to 7 hours (according to online sources, may vary depending on usage)" },
+            { "label": "Weight", "value": "1.59 kg (lightweight design)" },
+            { "label": "Ports", "value": "Likely includes USB-A ports, USB-C port, HDMI port, headphone jack (specific ports may vary)" },
+            { "label": "Connectivity", "value": "Wi-Fi 5 or Wi-Fi 6 (details to be confirmed)" },
+            { "label": "Camera", "value": "720p HD webcam (possible based on images)" },
+            { "label": "Dimensions", "value": "36.30 cm (W) x 25.70 cm (D) x 1.93 cm (H) (approximate based on online sources)" },
+        ],
+        sizeOptions: [
+            '512GB',
+            '1TB',
+        ],
+        colorOptions: [
+            AcerAspireLite12ThGen11,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [
+
+                ]
+            }
+
+        ]
+    };
 
 
     const getProductByName = (productName) => {
@@ -2448,6 +2968,20 @@ const ProductDetail = () => {
                 return iqoo12;
             case 'samsungZFold5':
                 return samsungZFold5;
+            case 'macBook-air-laptop-m1-chip':
+                return MacBookAirM1Chip;
+            case 'macBook-air-laptop-m3-chip':
+                return MacBookAirM3Chip;
+            case 'macbook-pro-m3-max-chip':
+                return MacBookProM3MaxChip;
+            case 'dell-15':
+                return Dell15;
+            case 'lenovo-ideaPad-slim-3':
+                return LenovoIdeaPadSlim3;
+            case 'asus-vivobook-14':
+                return AsusVivobook14;
+            case 'acer-aspire-lite-12th-gen':
+                return AcerAspireLite12ThGen;
             default:
                 return null;
         }
@@ -2472,10 +3006,6 @@ const ProductDetail = () => {
             setQuantity(quantity - 1);
         }
     };
-
-    if (!productDetails) {
-        return <div>Error: Product details not found</div>;
-    }
 
     return (
         <>
