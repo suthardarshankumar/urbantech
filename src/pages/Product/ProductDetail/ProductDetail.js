@@ -2421,7 +2421,7 @@ const ProductDetail = () => {
         heading: 'From the manufacturer',
     };
 
-    // Laptops Objects 
+    // Laptops Object
     const MacBookAirM1Chip = {
         name: 'Apple MacBook Air Laptop M1 chip, 13.3-inch/33.74 cm Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, FaceTime HD Camera, Touch ID. Works with iPhone/iPad',
         price: '₹76,999',
