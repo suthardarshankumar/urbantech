@@ -65,19 +65,19 @@ const MidRangeSmartphone = () => {
             img: samsungM34,
             name: "Samsung Galaxy M34",
             price: "₹15,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'samsungM34',
         },
         {
             img: honorX9B,
             name: "Honor X9b 5G",
             price: "₹25,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'samsungM34',
         },
         {
             img: oneplus12R,
             name: "OnePlus 12R",
             price: "₹39,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'oneplus12r',
         },
         {
             img: realme12Pro,

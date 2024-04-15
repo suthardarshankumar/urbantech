@@ -355,6 +355,161 @@ import iqooZ7ProSlider43 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqo
 import iqooZ7ProSlider44 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/detailImg/44.jpg';
 import iqooZ7ProSlider51 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqooZ7Pro/detailImg/51.jpg';
 
+
+// samsung M34
+import samsungM3411 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/11.jpg';
+import samsungM3412 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/12.jpg';
+import samsungM3413 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/13.jpg';
+import samsungM3414 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/14.jpg';
+import samsungM3415 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/15.jpg';
+import samsungM3421 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/21.jpg';
+import samsungM3422 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/22.jpg';
+import samsungM3423 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/23.jpg';
+import samsungM3424 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/24.jpg';
+import samsungM3425 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/25.jpg';
+import samsungM34Slider11 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/11.jpg';
+import samsungM34Slider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/21.jpg';
+import samsungM34Slider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/31.jpg';
+import samsungM34Slider32 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/32.jpg';
+import samsungM34Slider41 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/41.jpg';
+import samsungM34Slider42 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/42.jpg';
+import samsungM34Slider43 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/43.jpg';
+import samsungM34Slider44 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/44.jpg';
+import samsungM34Slider51 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/51.jpg';
+import samsungM34Slider52 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/52.jpg';
+import samsungM34Slider53 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/53.jpg';
+import samsungM34Slider54 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/54.jpg';
+import samsungM34Slider55 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/55.jpg';
+import samsungM34Slider61 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/61.jpg';
+import samsungM34Slider62 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/62.jpg';
+import samsungM34Slider63 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/63.jpg';
+import samsungM34Slider64 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungM34/detailImg/64.jpg';
+
+// oneplus 12R
+import oneplus12R11 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/oneplus12r.webp';
+import oneplus12R12 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/oneplus12r2.webp';
+import oneplus12R13 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/oneplus12r3.webp';
+import oneplus12R14 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/oneplus12r4.webp';
+import oneplus12R15 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/oneplus12r5.webp';
+import oneplus12R21 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/oneplus12r11.webp';
+import oneplus12R22 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/oneplus12r12.webp';
+import oneplus12R23 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/oneplus12r13.webp';
+import oneplus12R24 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/oneplus12r14.webp';
+import oneplus12R25 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/oneplus12r15.webp';
+import oneplus12RSlider11 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/11.webp';
+import oneplus12RSlider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/21.webp';
+import oneplus12RSlider22 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/22.webp';
+import oneplus12RSlider23 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/23.webp';
+import oneplus12RSlider24 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/24.webp';
+import oneplus12RSlider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/31.webp';
+import oneplus12RSlider41 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/41.webp';
+import oneplus12RSlider42 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/42.webp';
+import oneplus12RSlider51 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/51.webp';
+import oneplus12RSlider52 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/52.webp';
+import oneplus12RSlider53 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/53.webp';
+import oneplus12RSlider61 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/61.webp';
+import oneplus12RSlider62 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/62.webp';
+import oneplus12RSlider63 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/63.webp';
+import oneplus12RSlider71 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/71.webp';
+import oneplus12RSlider72 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/72.webp';
+import oneplus12RSlider73 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12r/detailImg/73.webp';
+
+// oneplus 12
+import oneplus1211 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/11.webp';
+import oneplus1212 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/12.webp';
+import oneplus1213 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/13.webp';
+import oneplus1214 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/14.webp';
+import oneplus1215 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/15.webp';
+import oneplus1221 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/21.jpg';
+import oneplus1222 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/22.webp';
+import oneplus1223 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/23.webp';
+import oneplus1224 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/24.webp';
+import oneplus1225 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/25.webp';
+import oneplus12Slider11 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/1.webp';
+import oneplus12Slider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/21.webp';
+import oneplus12Slider22 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/22.webp';
+import oneplus12Slider23 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/23.webp';
+import oneplus12Slider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/31.webp';
+import oneplus12Slider32 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/32.webp';
+import oneplus12Slider33 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/33.webp';
+import oneplus12Slider41 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/41.webp';
+import oneplus12Slider42 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/42.webp';
+import oneplus12Slider51 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/51.webp';
+import oneplus12Slider52 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/52.webp';
+import oneplus12Slider53 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/53.webp';
+import oneplus12Slider61 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/61.webp';
+import oneplus12Slider62 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/62.webp';
+import oneplus12Slider63 from '../../../assets/Img/ProductDetailsImg/Mobiles/oneplus12/detailImg/63.webp';
+
+// samsungZ flip 5
+import samsungZFlip511 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/11.jpg';
+import samsungZFlip512 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/12.jpg';
+import samsungZFlip513 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/13.jpg';
+import samsungZFlip514 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/14.jpg';
+import samsungZFlip521 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/21.jpg';
+import samsungZFlip5Slider11 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/11.jpg';
+import samsungZFlip5Slider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/21.jpg';
+import samsungZFlip5Slider22 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/22.jpg';
+import samsungZFlip5Slider23 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/23.jpg';
+import samsungZFlip5Slider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/31.jpg';
+import samsungZFlip5Slider32 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/32.jpg';
+import samsungZFlip5Slider41 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/41.jpg';
+import samsungZFlip5Slider42 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/42.jpg';
+import samsungZFlip5Slider43 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/43.jpg';
+import samsungZFlip5Slider44 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/44.jpg';
+import samsungZFlip5Slider51 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/51.jpg';
+import samsungZFlip5Slider52 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/52.jpg';
+import samsungZFlip5Slider53 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/53.jpg';
+import samsungZFlip5Slider61 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/61.jpg';
+import samsungZFlip5Slider62 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungflip5/detailImg/62.jpg';
+
+//iqoo 12
+import iqoo1211 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/11.jpg';
+import iqoo1212 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/12.jpg';
+import iqoo1213 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/13.jpg';
+import iqoo1214 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/14.jpg';
+import iqoo1215 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/15.jpg';
+import iqoo1221 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/21.jpg';
+import iqoo1222 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/22.jpg';
+import iqoo1223 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/23.jpg';
+import iqoo1224 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/24.jpg';
+import iqoo1225 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/25.jpg';
+import iqoo12Slider11 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/11.jpg';
+import iqoo12Slider12 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/12.jpg';
+import iqoo12Slider13 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/13.jpg';
+import iqoo12Slider14 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/14.jpg';
+import iqoo12Slider15 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/15.jpg';
+import iqoo12Slider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/21.jpg';
+import iqoo12Slider22 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/22.jpg';
+import iqoo12Slider23 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/23.jpg';
+import iqoo12Slider24 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/24.jpg';
+import iqoo12Slider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/31.jpg';
+import iqoo12Slider32 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/32.jpg';
+import iqoo12Slider33 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/33.jpg';
+import iqoo12Slider34 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/34.jpg';
+import iqoo12Slider35 from '../../../assets/Img/ProductDetailsImg/Mobiles/iqoo12/detailImg/35.jpg';
+
+// samsungZ fold 5
+import samsungZfold511 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/fold11.jpg';
+import samsungZfold512 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/fold12.jpg';
+import samsungZfold513 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/fold13.jpg';
+import samsungZfold514 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/fold14.jpg';
+import samsungZfold521 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/fold21.jpg';
+import samsungZFold5Slider11 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/11.jpg';
+import samsungZFold5Slider21 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/21.jpg';
+import samsungZFold5Slider22 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/22.jpg';
+import samsungZFold5Slider23 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/23.jpg';
+import samsungZFold5Slider24 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/24.jpg';
+import samsungZFold5Slider31 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/31.jpg';
+import samsungZFold5Slider41 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/41.jpg';
+import samsungZFold5Slider51 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/51.jpg';
+import samsungZFold5Slider61 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/61.jpg';
+import samsungZFold5Slider62 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/62.jpg';
+import samsungZFold5Slider63 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/63.jpg';
+import samsungZFold5Slider64 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/64.jpg';
+import samsungZFold5Slider65 from '../../../assets/Img/ProductDetailsImg/Mobiles/samsungfold5/detailImg/65.jpg';
+
+
 import Slider from '../../../components/DetailPages/Slider/Slider';
 
 
@@ -1745,6 +1900,506 @@ const ProductDetail = () => {
         ],
         heading: 'From the manufacturer',
     };
+    const samsungM34 = {
+        name: 'Samsung Galaxy M34 5G (8GB,128GB)|120Hz sAMOLED Display|50MP Triple No Shake Cam|6000 mAh Battery|4 Gen OS Upgrade & 5 Year Security Update|16GB RAM with RAM+|Android 13|Without Charger',
+        price: '₹17,999',
+        mrp: '₹25,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            samsungM3411,
+            samsungM3412,
+            samsungM3413,
+            samsungM3414,
+            samsungM3415,
+        ],
+        imgData2: [
+            samsungM3421,
+            samsungM3422,
+            samsungM3423,
+            samsungM3424,
+            samsungM3425,
+        ],
+        productData: [
+            { "label": "Brand", "value": "vivo" },
+            { "label": "Model Name", "value": "iQOO Z7 Pro" },
+            { "label": "Display", "value": "6.67-inch 120Hz AMOLED display" },
+            { "label": "Processor", "value": "MediaTek Dimensity 7200 5G Mobile Platform" },
+            { "label": "Operating System", "value": "Funtouch OS 13 (based on Android 13)" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Battery Capacity", "value": "4600mAh" },
+            { "label": "Battery Charging", "value": "66W FlashCharge fast charging" },
+        ],
+        technicalData: [
+            { "label": "Storage Capacity", "value": "Available in variants: 8GB RAM + 128GB storage, 12GB RAM + 256GB storage" },
+            { "label": "Rear Camera System", "value": "Triple camera system:" },
+            { "label": "Rear Camera 1", "value": "64MP main sensor with f/1.79 aperture" },
+            { "label": "Rear Camera 2", "value": "2MP depth sensor" },
+            { "label": "Rear Camera 3", "value": "Details on the third sensor may vary (possible macro sensor)" },
+            { "label": "Front Camera", "value": "16MP front-facing camera for selfies and video calls" },
+            { "label": "Fingerprint Sensor", "value": "In-display fingerprint sensor for secure unlocking" },
+            { "label": "Other Features", "value": "Wi-Fi 6, Bluetooth 5.3, GPS, Liquid Cooling System for better heat management" },
+            { "label": "Dimensions", "value": "165.2mm x 76.8mm x 8.50mm" },
+            { "label": "Weight", "value": "196g" }
+        ],
+
+        sizeOptions: [
+            '8GB + 128GB',
+            '8GB + 256GB',
+        ],
+        colorOptions: [
+            samsungM3411,
+            samsungM3421,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [samsungM34Slider11]
+            },
+            {
+                img: [samsungM34Slider21]
+            },
+            {
+                img: [samsungM34Slider31, samsungM34Slider32]
+            },
+            {
+                img: [samsungM34Slider41, samsungM34Slider42, samsungM34Slider43, samsungM34Slider44]
+            },
+            {
+                img: [samsungM34Slider51, samsungM34Slider52, samsungM34Slider53, samsungM34Slider54, samsungM34Slider55]
+            },
+            {
+                img: [samsungM34Slider61, samsungM34Slider62, samsungM34Slider63, samsungM34Slider64]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
+    const oneplus12r = {
+        name: 'OnePlus 12R (8GB RAM, 256GB Storage)',
+        price: '₹42,999',
+        mrp: '₹45,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            oneplus12R11,
+            oneplus12R12,
+            oneplus12R13,
+            oneplus12R14,
+            oneplus12R15,
+        ],
+        imgData2: [
+            oneplus12R21,
+            oneplus12R22,
+            oneplus12R23,
+            oneplus12R24,
+            oneplus12R25,
+        ],
+        productData: [
+            { "label": "Brand", "value": "OnePlus" },
+            { "label": "Model Name", "value": "12R" },
+            { "label": "Display", "value": "6.78-inch 1264 x 2780 pixels AMOLED display" },
+            { "label": "Refresh Rate", "value": "120Hz" },
+            { "label": "Processor", "value": "Qualcomm Snapdragon 8 Gen 2" },
+            { "label": "Operating System", "value": "OxygenOS 14.0 (based on Android 14)" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Battery Capacity", "value": "5500mAh (typical capacity, 5360mAh rated capacity)" },
+            { "label": "Battery Charging", "value": "100W SUPERVOOC fast charging" },
+            { "label": "Available Colors", "value": ["Cool Blue", "Iron Gray"] },
+        ],
+        technicalData: [
+            { "label": "Storage Capacity", "value": "Available in variants: 8GB RAM + 128GB storage, 12GB RAM + 256GB storage, 16GB RAM + 512GB storage" },
+            { "label": "Rear Camera System", "value": "Sony IMX890 flagship camera system" },
+            { "label": "Rear Camera 1", "value": "Details on megapixel count not confirmed yet (possible high-resolution main sensor)" },
+            { "label": "Rear Camera 2", "value": "Details on additional cameras may vary (possible ultrawide and telephoto lenses)" },
+            { "label": "Front Camera", "value": "Details on megapixel count not confirmed yet" },
+            { "label": "Fingerprint Sensor", "value": "Under-display fingerprint sensor for secure unlocking" },
+            { "label": "Cooling System", "value": "All-new Dual Cryo-velocity VC Cooling System for improved heat management" },
+            { "label": "Other Features", "value": "Wi-Fi 6E, Bluetooth 5.3, GPS, NFC (may vary depending on market)" },
+            { "label": "Dimensions", "value": "Check OnePlus website for details" },
+            { "label": "Weight", "value": "Check OnePlus website for details" },
+        ],
+
+        sizeOptions: [
+            '8GB + 256GB',
+        ],
+        colorOptions: [
+            oneplus12R11,
+            oneplus12R21,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [oneplus12RSlider11]
+            },
+            {
+                img: [oneplus12RSlider21, oneplus12RSlider22, oneplus12RSlider23, oneplus12RSlider24]
+            },
+            {
+                img: [oneplus12RSlider31]
+            },
+            {
+                img: [oneplus12RSlider41, oneplus12RSlider42]
+            },
+            {
+                img: [oneplus12RSlider51, oneplus12RSlider52, oneplus12RSlider53]
+            },
+            {
+                img: [oneplus12RSlider61, oneplus12RSlider62, oneplus12RSlider63]
+            },
+            {
+                img: [oneplus12RSlider71, oneplus12RSlider72, oneplus12RSlider73]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
+    const oneplus12 = {
+        name: 'OnePlus 12 (Flowy Emerald, 16GB RAM, 512GB Storage)',
+        price: '₹69,999',
+        mrp: '₹74,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            oneplus1211,
+            oneplus1212,
+            oneplus1213,
+            oneplus1214,
+            oneplus1215,
+        ],
+        imgData2: [
+            oneplus1221,
+            oneplus1222,
+            oneplus1223,
+            oneplus1224,
+            oneplus1225,
+        ],
+        productData: [
+            { "label": "Brand", "value": "OnePlus" },
+            { "label": "Model Name", "value": "12" },
+            { "label": "Display", "value": "6.82-inch 1440 x 3168 pixels Super Fluid AMOLED display" },
+            { "label": "Refresh Rate", "value": "120Hz" },
+            { "label": "Processor", "value": "Qualcomm Snapdragon 8 Gen 3 Mobile Platform" },
+            { "label": "Operating System", "value": "OxygenOS 14.0 (based on Android 14)" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Battery Capacity", "value": "5400mAh (typical capacity, 5260mAh rated capacity)" },
+            { "label": "Battery Charging", "value": "100W SUPERVOOC fast charging + 50W AIRVOOC wireless charging" },
+            { "label": "Available Colors", "value": "Details on available colors not yet confirmed" },
+        ],
+        technicalData: [
+            { "label": "Storage Capacity", "value": "Available in variants: Up to 16GB RAM and up to 512GB storage (specific configurations to be confirmed)" },
+            { "label": "Rear Camera System", "value": "4th Generation Hasselblad Camera System for Mobile" },
+            { "label": "Rear Camera 1", "value": "50MP primary sensor with OIS (Optical Image Stabilization)" },
+            { "label": "Rear Camera 2", "value": "Details on additional cameras may vary (possible ultrawide and telephoto lenses)" },
+            { "label": "Front Camera", "value": "Details on megapixel count not confirmed yet" },
+            { "label": "Fingerprint Sensor", "value": "In-display fingerprint sensor for secure unlocking" },
+            { "label": "Other Features", "value": "Wi-Fi 6E, Bluetooth 5.3, GPS, NFC (may vary depending on market)" },
+            { "label": "Dimensions", "value": "Check OnePlus website for details" },
+            { "label": "Weight", "value": "Check OnePlus website for details" },
+        ],
+
+        sizeOptions: [
+            '16GB + 512GB',
+        ],
+        colorOptions: [
+            oneplus1211,
+            oneplus1221,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [oneplus12Slider11]
+            },
+            {
+                img: [oneplus12Slider21, oneplus12Slider22, oneplus12Slider23]
+            },
+            {
+                img: [oneplus12Slider31, oneplus12Slider32, oneplus12Slider33]
+            },
+            {
+                img: [oneplus12Slider41, oneplus12Slider42]
+            },
+            {
+                img: [oneplus12Slider51, oneplus12Slider52, oneplus12Slider53]
+            },
+            {
+                img: [oneplus12Slider61, oneplus12Slider62, oneplus12Slider63]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
+    const samsungZFlip5 = {
+        name: 'Samsung Galaxy Z Flip5 5G AI Smartphone (8GB RAM, 256GB Storage)',
+        price: '₹94,999',
+        mrp: '₹99,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            samsungZFlip511,
+            samsungZFlip512,
+            samsungZFlip513,
+            samsungZFlip514,
+        ],
+        imgData2: [
+            samsungZFlip521,
+            samsungZFlip512,
+            samsungZFlip513,
+            samsungZFlip514,
+        ],
+        productData: [
+            { "label": "Brand", "value": "Samsung" },
+            { "label": "Model Name", "value": "Galaxy Z Flip5" },
+            { "label": "Display", "value": "Main: Foldable AMOLED display (size and resolution to be confirmed)" },
+            { "label": "Cover Screen", "value": "Improved cover screen (size and resolution to be confirmed)" },
+            { "label": "Processor", "value": "Latest Qualcomm Snapdragon 8+ Gen 1 or newer processor (to be confirmed)" },
+            { "label": "Operating System", "value": "Android 13 with One UI 5.1" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Battery Capacity", "value": "Details on battery capacity not yet confirmed" },
+            { "label": "Battery Charging", "value": "Fast charging supported (details to be confirmed)" },
+        ],
+        technicalData: [
+            { "label": "Rear Camera System", "value": "Improved camera system (details to be confirmed)" },
+            { "label": "Front Camera", "value": "Details on front camera not yet confirmed" },
+            { "label": "Fingerprint Sensor", "value": "Side-mounted fingerprint sensor (possible in-display sensor under development)" },
+            { "label": "Durability", "value": "Improved hinge and display durability (details to be confirmed)" },
+            { "label": "Other Features", "value": "Wi-Fi, Bluetooth, GPS, expandable storage (possible)" },
+            { "label": "Dimensions", "value": "Check Samsung website for details" },
+            { "label": "Weight", "value": "Check Samsung website for details" },
+        ],
+        sizeOptions: [
+            '8GB + 256GB',
+        ],
+        colorOptions: [
+            samsungZFlip511,
+            samsungZFlip521,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [samsungZFlip5Slider11]
+            },
+            {
+                img: [samsungZFlip5Slider21, samsungZFlip5Slider22, samsungZFlip5Slider23]
+            },
+            {
+                img: [samsungZFlip5Slider31, samsungZFlip5Slider32]
+            },
+            {
+                img: [samsungZFlip5Slider41, samsungZFlip5Slider42, samsungZFlip5Slider43, samsungZFlip5Slider44]
+            },
+            {
+                img: [samsungZFlip5Slider51, samsungZFlip5Slider52, samsungZFlip5Slider53]
+            },
+            {
+                img: [samsungZFlip5Slider61, samsungZFlip5Slider62]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
+    const iqoo12 = {
+        name: 'iQOO 12 5G (12GB RAM, 256GB Storage) |India 1st Snapdragon® 8 Gen 3 Mobile Platform | India only Flagship with 50MP + 50MP + 64MP Camera',
+        price: '₹62,999',
+        mrp: '₹69,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            iqoo1211,
+            iqoo1212,
+            iqoo1213,
+            iqoo1214,
+            iqoo1215,
+        ],
+        imgData2: [
+            iqoo1221,
+            iqoo1222,
+            iqoo1223,
+            iqoo1224,
+            iqoo1225,
+        ],
+        productData: [
+            { "label": "Brand", "value": "vivo" },
+            { "label": "Model Name", "value": "iQOO 12" },
+            { "label": "Display", "value": "6.67-inch AMOLED display with Full HD+ resolution (1080 x 2400 pixels)" },
+            { "label": "Refresh Rate", "value": "90Hz" },
+            { "label": "Processor", "value": "Qualcomm Snapdragon 888 Mobile Platform" },
+            { "label": "Operating System", "value": "Android 10 with Funtouch OS 10 (upgradable to newer versions)" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Battery Capacity", "value": "4000mAh" },
+            { "label": "Battery Charging", "value": "120W fast charging" },
+        ],
+        technicalData: [
+            { "label": "Storage Capacity", "value": "Available in variants: 8GB RAM + 128GB storage, 8GB RAM + 256GB storage, 12GB RAM + 256GB storage" },
+            { "label": "Rear Camera System", "value": "Triple camera system:" },
+            { "label": "Rear Camera 1", "value": "48MP main sensor with f/1.8 aperture" },
+            { "label": "Rear Camera 2", "value": "13MP telephoto lens with 2x optical zoom" },
+            { "label": "Rear Camera 3", "value": "8MP ultrawide sensor" },
+            { "label": "Front Camera", "value": "16MP front-facing camera for selfies and video calls" },
+            { "label": "Fingerprint Sensor", "value": "In-display fingerprint sensor for secure unlocking" },
+            { "label": "Other Features", "value": "Wi-Fi 6, Bluetooth 5.1, GPS" },
+            { "label": "Dimensions", "value": "162.3 x 75.8 x 8.9 mm" },
+            { "label": "Weight", "value": "196g" }
+        ],
+        sizeOptions: [
+            '12GB + 256GB',
+            '16BG + 512GB',
+        ],
+        colorOptions: [
+            iqoo1211,
+            iqoo1221,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [iqoo12Slider11, iqoo12Slider12, iqoo12Slider13, iqoo12Slider14, iqoo12Slider15]
+            },
+            {
+                img: [iqoo12Slider21, iqoo12Slider22, iqoo12Slider23, iqoo12Slider24]
+            },
+            {
+                img: [iqoo12Slider31, iqoo12Slider32, iqoo12Slider33, iqoo12Slider34, iqoo12Slider35]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
+    const samsungZFold5 = {
+        name: 'Samsung Galaxy Z Fold5 5G AI Smartphone (12GB RAM, 256GB Storage)',
+        price: '₹1,49,999',
+        mrp: '₹1,59,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            samsungZfold511,
+            samsungZfold512,
+            samsungZfold513,
+            samsungZfold514,
+        ],
+        imgData2: [
+            samsungZfold521,
+            samsungZfold512,
+            samsungZfold513,
+            samsungZfold514,
+        ],
+        productData: [
+            { "label": "Brand", "value": "Samsung" },
+            { "label": "Model Name", "value": "Galaxy Z Fold5" },
+            { "label": "Display", "value": "Main: Foldable AMOLED display (expected to be around 7.6 inches)" },
+            { "label": "Cover Screen", "value": "Improved cover screen (expected to be around 6.2 inches)" },
+            { "label": "Refresh Rate", "value": "Both displays likely to have a 120Hz refresh rate (to be confirmed)" },
+            { "label": "Processor", "value": "Latest Qualcomm Snapdragon 8+ Gen 1 or newer processor (to be confirmed)" },
+            { "label": "Operating System", "value": "Android 13 with One UI 5.1" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Battery Capacity", "value": "Details on battery capacity not yet confirmed (expected to be around 4400mAh)" },
+            { "label": "Battery Charging", "value": "Fast charging supported (details to be confirmed)" },
+        ],
+        technicalData: [
+            { "label": "Rear Camera System", "value": "Improved camera system (details to be confirmed)" },
+            { "label": "Front Camera", "value": "Details on front camera not yet confirmed (expected to be under the main display)" },
+            { "label": "Fingerprint Sensor", "value": "Possible in-display fingerprint sensor on the main display" },
+            { "label": "Durability", "value": "Improved hinge and display durability (details to be confirmed)" },
+            { "label": "S Pen Support", "value": "S Pen Fold Edition support likely" },
+            { "label": "Other Features", "value": "Wi-Fi, Bluetooth, GPS, expandable storage (possible)" },
+            { "label": "Dimensions", "value": "Check Samsung website for details" },
+            { "label": "Weight", "value": "Check Samsung website for details" },
+        ],
+        sizeOptions: [
+            '8GB + 256GB',
+            '12GB + 256GB',
+            '12GB + 512GB',
+        ],
+        colorOptions: [
+            samsungZfold511,
+            samsungZfold521,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [samsungZFold5Slider11]
+            },
+            {
+                img: [samsungZFold5Slider21, samsungZFold5Slider22, samsungZFold5Slider23, samsungZFold5Slider24]
+            },
+            {
+                img: [samsungZFold5Slider31]
+            },
+            {
+                img: [samsungZFold5Slider41]
+            },
+            {
+                img: [samsungZFold5Slider51]
+            },
+            {
+                img: [samsungZFold5Slider61, samsungZFold5Slider62, samsungZFold5Slider63, samsungZFold5Slider64, samsungZFold5Slider65]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
+
+
+
     const getProductByName = (productName) => {
         switch (productName) {
             case 'samsungS24Ultra':
@@ -1781,6 +2436,18 @@ const ProductDetail = () => {
                 return onePlusNordCE3;
             case 'iqooZ7Pro':
                 return iqooZ7Pro;
+            case 'samsungM34':
+                return samsungM34;
+            case 'oneplus12r':
+                return oneplus12r;
+            case 'oneplus12':
+                return oneplus12;
+            case 'samsungZFlip5':
+                return samsungZFlip5;
+            case 'iqoo12':
+                return iqoo12;
+            case 'samsungZFold5':
+                return samsungZFold5;
             default:
                 return null;
         }

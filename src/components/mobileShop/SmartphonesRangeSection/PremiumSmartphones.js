@@ -29,16 +29,22 @@ const PremiumSmartphones = () => {
     const premiumHeading = 'Premium Smartphones';
     const premiumSmartphonesDataSet = [
         {
-            img: iphone13,
-            name: "Apple iPhone13",
-            price: "₹51,999",
+            img: samsungS24,
+            name: "Samsung Galaxy S24",
+            price: "₹79,999",
             productNameId: 'samsungS24Ultra',
+        },
+        {
+            img: iphone15ProMax,
+            name: "Apple iPhone 15 Pro Max",
+            price: "₹1,49,999",
+            productNameId: 'iPhone15ProMax',
         },
         {
             img: oneplus12,
             name: "OnePlus 12",
-            price: "₹64,999",
-            productNameId: 'samsungS24Ultra',
+            price: "₹69,999",
+            productNameId: 'oneplus12',
         },
         {
             img: iphone15,
@@ -50,13 +56,13 @@ const PremiumSmartphones = () => {
             img: samsungZFlip5,
             name: "Samsung Galaxy Z Flip5 5G",
             price: "₹99,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'samsungZFlip5',
         },
         {
             img: iqoo12,
             name: "IQOO 12",
             price: "₹52,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'iqoo12',
         },
         {
             img: iphone14,
@@ -67,7 +73,13 @@ const PremiumSmartphones = () => {
             img: samsungZFold5,
             name: "Samsung Galaxy Z Fold5 5G",
             price: "₹1,54,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'samsungZFold5',
+        },
+        {
+            img: iphone15Pro,
+            name: "Apple iPhone 15 Pro",
+            price: "₹1,29,999",
+            productNameId: 'iPhone15Pro',
         },
         {
             img: iphone14Plus,
@@ -82,22 +94,10 @@ const PremiumSmartphones = () => {
             productNameId: 'samsungS24Ultra',
         },
         {
-            img: iphone15Pro,
-            name: "Apple iPhone 15 Pro",
-            price: "₹1,29,999",
-            productNameId: 'iPhone15Pro',
-        },
-        {
             img: onePlusOpen,
             name: "Oneplus Open",
             price: "₹1,39,999",
             productNameId: 'samsungS24Ultra',
-        },
-        {
-            img: iphone15ProMax,
-            name: "Apple iPhone 15 Pro Max",
-            price: "₹1,49,999",
-            productNameId: 'iPhone15ProMax',
         },
         {
             img: xiaomi14,
@@ -111,9 +111,9 @@ const PremiumSmartphones = () => {
             productNameId: 'samsungS24Ultra',
         },
         {
-            img: samsungS24,
-            name: "Samsung Galaxy S24",
-            price: "₹79,999",
+            img: iphone13,
+            name: "Apple iPhone13",
+            price: "₹51,999",
             productNameId: 'samsungS24Ultra',
         },
         {
