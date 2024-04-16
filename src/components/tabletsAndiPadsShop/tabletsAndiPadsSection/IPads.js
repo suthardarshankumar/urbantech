@@ -20,6 +20,12 @@ const Ipads = () => {
     const iPadsTitle = 'Apple iPad';
     const iPadsDataSet = [
         {
+            img: iPadAir5thGen,
+            name: "Apple iPad Air (5th Generation): with M1 chip",
+            price: "₹72,999",
+            productNameId: 'iPadAir5thGen',
+        },
+        {
             img: iPad10thGenA14,
             name: "Apple iPad (10th Generation): with A14 Bionic chip",
             price: "₹36,999",
@@ -38,12 +44,6 @@ const Ipads = () => {
             img: iPadMini6thGenA15,
             name: "Apple iPad Mini (6th Generation): with A15 Bionic chip",
             price: "₹49,999",
-            productNameId: 'samsungS24Ultra',
-        },
-        {
-            img: iPadAir5thGen,
-            name: "Apple iPad Air (5th Generation): with M1 chip",
-            price: "₹72,999",
             productNameId: 'samsungS24Ultra',
         },
         {

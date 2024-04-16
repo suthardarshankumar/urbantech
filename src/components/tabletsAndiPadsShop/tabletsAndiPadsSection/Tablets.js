@@ -21,8 +21,25 @@ const Tablets = () => {
         {
             img: samsungTabA9Plus,
             name: "Samsung Galaxy Tab A9+",
-            price: "₹18,999",
-            productNameId: 'samsungS24Ultra',
+            price: "₹19,999",
+            productNameId: 'samsung-tab-A9-plus',
+        },
+        {
+            img: OnePlusPad,
+            name: "OnePlus Pad",
+            price: "₹39,999",
+            productNameId: 'oneplus-pad',
+        },
+        {
+            img: XiaomiPad6,
+            name: "Xiaomi Pad 6",
+            price: "₹27,999",
+            productNameId: 'xiaomi-pad-6',
+        }, {
+            img: samsungTabS9FE,
+            name: "Samsung Galaxy Tab S9 FE",
+            price: "₹44,999",
+            productNameId: 'samsung-tab-A9-plus',
         },
         {
             img: OnePlusPadGo,
@@ -31,62 +48,46 @@ const Tablets = () => {
             productNameId: 'samsungS24Ultra',
         },
         {
-            img: XiaomiPad6,
-            name: "Xiaomi Pad 6",
-            price: "₹27,999",
-            productNameId: 'samsungS24Ultra',
-        }, {
-            img: OnePlusPad,
-            name: "OnePlus Pad",
-            price: "₹39,999",
-            productNameId: 'samsungS24Ultra',
-        }, {
-            img: samsungTabS9FE,
-            name: "Samsung Galaxy Tab S9 FE",
-            price: "₹44,999",
-            productNameId: 'samsungS24Ultra',
-        },
-        {
             img: samsungTabS9Ultra,
             name: "Samsung Galaxy Tab S9 Ultra",
             price: "₹1,22,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'samsung-tab-A9-plus',
         },
         {
             img: honorPad8,
             name: "HONOR PAD 8",
             price: "₹17,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'xiaomi-pad-6',
         }, {
             img: samsungTabS9Plus,
             name: "Samsung Galaxy Tab S9+",
             price: "₹99,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'samsung-tab-A9-plus',
         }, {
             img: samsungTabS9FEPlus,
             name: "Samsung Galaxy Tab S9 FE+",
             price: "₹54,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'samsung-tab-A9-plus',
         }, {
             img: LenovoTabM11,
             name: "Lenovo Tab M11",
             price: "₹17,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'xiaomi-pad-6',
         }, {
             img: motorolaTabG70,
             name: "Motorola Tab G70",
             price: "₹15,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'oneplus-pad',
         }, {
             img: samsungTabS9,
             name: "Samsung Galaxy Tab S9",
             price: "₹83,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'samsung-tab-A9-plus',
         }, {
             img: samsungTabS8Plus,
             name: "Samsung Galaxy Tab S8+",
             price: "₹94,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'samsung-tab-A9-plus',
         },
 
     ]

@@ -587,6 +587,89 @@ import AcerAspireLite12ThGen15 from '../../../assets/Img/ProductDetailsImg/Lapto
 import AcerAspireLite12ThGen16 from '../../../assets/Img/ProductDetailsImg/Laptop/AcerAspireLite12ThGen/16.jpg';
 import AcerAspireLite12ThGen17 from '../../../assets/Img/ProductDetailsImg/Laptop/AcerAspireLite12ThGen/17.jpg';
 
+// Tablets 
+
+// Samsung Tab A9 Plus
+import SamsungTabA9Plus11 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/11.jpg';
+import SamsungTabA9Plus12 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/12.jpg';
+import SamsungTabA9Plus13 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/13.jpg';
+import SamsungTabA9Plus14 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/14.jpg';
+import SamsungTabA9Plus15 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/15.jpg';
+import SamsungTabA9Plus16 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/16.jpg';
+import SamsungTabA9Plus21 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/21.jpg';
+import SamsungTabA9Plus22 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/22.jpg';
+import SamsungTabA9Plus23 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/23.jpg';
+import SamsungTabA9Plus24 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/24.jpg';
+import SamsungTabA9Plus25 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/25.jpg';
+import SamsungTabA9Plus26 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/26.jpg';
+import SamsungTabA9PlusSlider11 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/detailImg/11.jpg';
+import SamsungTabA9PlusSlider21 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/detailImg/21.jpg';
+import SamsungTabA9PlusSlider22 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/detailImg/22.jpg';
+import SamsungTabA9PlusSlider31 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/detailImg/31.jpg';
+import SamsungTabA9PlusSlider32 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/detailImg/32.jpg';
+import SamsungTabA9PlusSlider41 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/detailImg/41.jpg';
+import SamsungTabA9PlusSlider51 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/detailImg/51.jpg';
+import SamsungTabA9PlusSlider61 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/detailImg/61.jpg';
+import SamsungTabA9PlusSlider71 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/detailImg/71.jpg';
+import SamsungTabA9PlusSlider72 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/detailImg/72.jpg';
+import SamsungTabA9PlusSlider73 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/detailImg/73.jpg';
+import SamsungTabA9PlusSlider74 from '../../../assets/Img/ProductDetailsImg/Tablets/samsungTabA9Plus/detailImg/74.jpg';
+
+// OnePlus Pad
+import onePlusPad11 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/11.jpg';
+import onePlusPad12 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/12.jpeg';
+import onePlusPad13 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/13.jpeg';
+import onePlusPad14 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/14.jpg';
+import onePlusPad15 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/15.jpg';
+import onePlusPad16 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/16.jpg';
+import onePlusPadSlider11 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/11.jpg';
+import onePlusPadSlider21 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/21.jpg';
+import onePlusPadSlider31 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/31.jpg';
+import onePlusPadSlider32 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/32.jpg';
+import onePlusPadSlider33 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/33.jpg';
+import onePlusPadSlider41 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/41.jpg';
+import onePlusPadSlider42 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/42.jpg';
+import onePlusPadSlider43 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/43.jpg';
+import onePlusPadSlider51 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/51.jpg';
+import onePlusPadSlider52 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/52.jpg';
+import onePlusPadSlider53 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/53.jpg';
+import onePlusPadSlider54 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/54.jpg';
+import onePlusPadSlider61 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/61.jpg';
+import onePlusPadSlider62 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/62.jpg';
+import onePlusPadSlider63 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/63.jpg';
+import onePlusPadSlider64 from '../../../assets/Img/ProductDetailsImg/Tablets/onePlusPad/detailImg/64.jpg';
+
+// Xiaomi Pad 6
+import xiaomiPad611 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/11.jpg';
+import xiaomiPad612 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/12.jpg';
+import xiaomiPad613 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/13.jpg';
+import xiaomiPad614 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/14.jpg';
+import xiaomiPad615 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/15.jpg';
+import xiaomiPad616 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/16.jpg';
+import xiaomiPad621 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/21.jpg';
+import xiaomiPad622 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/22.jpg';
+import xiaomiPad623 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/23.jpg';
+import xiaomiPad624 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/24.jpg';
+import xiaomiPad625 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/25.jpg';
+import xiaomiPad626 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/26.jpg';
+import xiaomiPad6Slider11 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/11.jpg';
+import xiaomiPad6Slider21 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/21.jpg';
+import xiaomiPad6Slider22 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/22.jpg';
+import xiaomiPad6Slider23 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/23.jpg';
+import xiaomiPad6Slider31 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/31.jpg';
+import xiaomiPad6Slider32 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/32.jpg';
+import xiaomiPad6Slider41 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/41.jpg';
+import xiaomiPad6Slider42 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/42.jpg';
+import xiaomiPad6Slider43 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/43.jpg';
+import xiaomiPad6Slider44 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/44.jpg';
+import xiaomiPad6Slider45 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/45.jpg';
+import xiaomiPad6Slider46 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/46.jpg';
+import xiaomiPad6Slider51 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/51.jpg';
+import xiaomiPad6Slider52 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/52.jpg';
+import xiaomiPad6Slider61 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/61.jpg';
+import xiaomiPad6Slider71 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/71.jpg';
+
+
 
 import Slider from '../../../components/DetailPages/Slider/Slider';
 
@@ -2919,6 +3002,252 @@ const ProductDetail = () => {
         ]
     };
 
+    // Tablets and iPads
+    const samsungTabA9Plus = {
+        name: 'Samsung Galaxy Tab A9+ 27.94 cm (11.0 inch) Display, RAM 8 GB, ROM 128 GB Expandable, Wi-Fi Tablet, Graphite',
+        price: '₹19,999',
+        mrp: '₹28,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            SamsungTabA9Plus11,
+            SamsungTabA9Plus12,
+            SamsungTabA9Plus13,
+            SamsungTabA9Plus14,
+            SamsungTabA9Plus15,
+            SamsungTabA9Plus16,
+        ],
+        imgData2: [
+            SamsungTabA9Plus21,
+            SamsungTabA9Plus22,
+            SamsungTabA9Plus23,
+            SamsungTabA9Plus24,
+            SamsungTabA9Plus25,
+            SamsungTabA9Plus26,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "Samsung" },
+            { "label": "Model Name", "value": "Galaxy Tab A9+" },
+            { "label": "Display", "value": "10.5-inch or 11.0-inch WUXGA+ (1920 x 1200 or 2000 x 1200) TFT LCD display (display size may vary depending on model)" },
+            { "label": "Processor", "value": "Qualcomm Snapdragon 695 5G mobile platform" },
+            { "label": "Operating System", "value": "Android 12 with One UI 4.1" },
+            { "label": "Cellular Technology", "value": "5G" },
+            { "label": "Network Service Provider", "value": "Unlocked (varies by retailer)" },
+            { "label": "Memory", "value": "Available in variants: 6GB RAM + 128GB storage, 8GB RAM + 128GB storage" },
+            { "label": "Expandable Storage", "value": "MicroSD slot for expandable storage (up to 1TB)" },
+            { "label": "Battery Capacity", "value": "7040mAh battery" },
+        ],
+        "technicalData": [
+            { "label": "Rear Camera System", "value": "8MP main camera with autofocus, 5MP ultrawide camera" },
+            { "label": "Front Camera", "value": "5MP front-facing camera for selfies and video calls" },
+            { "label": "Fingerprint Sensor", "value": "Possible fingerprint sensor integrated into the power button" },
+            { "label": "S Pen Support", "value": "Not supported" },
+            { "label": "Other Features", "value": "Wi-Fi, Bluetooth 5.2, GPS" },
+            { "label": "Dimensions", "value": "Check Samsung website for details (may vary depending on display size)" },
+            { "label": "Weight", "value": "Check Samsung website for details (may vary depending on display size)" },
+        ],
+
+        sizeOptions: [
+            '8GB + 128GB (Only WiFi)',
+            '8GB + 128GB (WiFi + 5G)',
+        ],
+        colorOptions: [
+            SamsungTabA9Plus11,
+            SamsungTabA9Plus21,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            }
+        ],
+        sliderImgSet: [
+            {
+                img: [SamsungTabA9PlusSlider11]
+            },
+            {
+                img: [SamsungTabA9PlusSlider21, SamsungTabA9PlusSlider22]
+            },
+            {
+                img: [SamsungTabA9PlusSlider31, SamsungTabA9PlusSlider32]
+            },
+            {
+                img: [SamsungTabA9PlusSlider41]
+            },
+            {
+                img: [SamsungTabA9PlusSlider51]
+            },
+            {
+                img: [SamsungTabA9PlusSlider61]
+            },
+            {
+                img: [SamsungTabA9PlusSlider71, SamsungTabA9PlusSlider72, SamsungTabA9PlusSlider73, SamsungTabA9PlusSlider74]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
+    const onePlusPad = {
+        name: 'OnePlus Pad 29.49cm (11.61 inch) LCD Display, 12GB RAM,256GB Storage, MediaTek Dimensity 9000, Android 13.1, 144HZ Refresh Rate, Dolby Vision Atmos, Wi-Fi with Cellular Data Sharing Tablet',
+        price: '₹39,499',
+        mrp: '₹39,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            onePlusPad11,
+            onePlusPad12,
+            onePlusPad13,
+            onePlusPad14,
+            onePlusPad15,
+            onePlusPad16,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "OnePlus" },
+            { "label": "Model Name", "value": "Pad" },
+            { "label": "Display", "value": "11.61-inch LCD display with 144Hz refresh rate" },
+            { "label": "Processor", "value": "MediaTek Dimensity 9000" },
+            { "label": "Operating System", "value": "Android 13.1" },
+            { "label": "Memory", "value": "Available in variants: 8GB RAM + 128GB storage, 12GB RAM + 256GB storage" },
+            { "label": "Cellular Technology", "value": "Wi-Fi with Cellular Data Sharing" },
+            { "label": "Battery", "value": "Large battery with 67W SUPERVOOC charging" },
+        ],
+        "technicalData": [
+            { "label": "Rear Camera", "value": "Details on rear camera not yet confirmed" },
+            { "label": "Front Camera", "value": "Details on front camera not yet confirmed" },
+            { "label": "Fingerprint Sensor", "value": "Possible in-display fingerprint sensor" },
+            { "label": "Connectivity", "value": "Wi-Fi 6, Bluetooth 5.3 (expected)" },
+            { "label": "Other Features", "value": "Dolby Vision Atmos, Multitasking features with OnePlus Pad and phone" },
+            { "label": "Dimensions", "value": "Check OnePlus website for details" },
+            { "label": "Weight", "value": "Check OnePlus website for details" },
+        ],
+        sizeOptions: [
+            '8GB + 128G',
+            '12GB + 256GB',
+        ],
+        colorOptions: [
+            onePlusPad11,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [onePlusPadSlider11]
+            },
+            {
+                img: [onePlusPadSlider21]
+            },
+            {
+                img: [onePlusPadSlider31, onePlusPadSlider32, onePlusPadSlider33]
+            },
+            {
+                img: [onePlusPadSlider41, onePlusPadSlider42, onePlusPadSlider43]
+            },
+            {
+                img: [onePlusPadSlider51, onePlusPadSlider52, onePlusPadSlider53, onePlusPadSlider54]
+            },
+            {
+                img: [onePlusPadSlider61, onePlusPadSlider62, onePlusPadSlider63, onePlusPadSlider64]
+            },
+        ],
+        heading: 'From the manufacturer',
+    };
+    const xiaomiPad6 = {
+        name: 'Xiaomi Pad 6| Qualcomm Snapdragon 870| Powered by HyperOS |144Hz Refresh Rate| 8GB, 256GB| 2.8K+ Display (11-inch/27.81cm) Tablet| Dolby Vision Atmos| Quad Speakers| Wi-Fi| Mist Blue',
+        price: '₹27,499',
+        mrp: '₹41,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            xiaomiPad611,
+            xiaomiPad612,
+            xiaomiPad613,
+            xiaomiPad614,
+            xiaomiPad615,
+            xiaomiPad616,
+        ],
+        imgData2: [
+            xiaomiPad621,
+            xiaomiPad622,
+            xiaomiPad623,
+            xiaomiPad624,
+            xiaomiPad625,
+            xiaomiPad626,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "Xiaomi" },
+            { "label": "Model Name", "value": "Pad 6" },
+            { "label": "Display", "value": "11.0-inch 2.8K+ (2880 x 1800) LCD display with 120Hz refresh rate" },
+            { "label": "Processor", "value": "Qualcomm Snapdragon 870 5G mobile platform" },
+            { "label": "Operating System", "value": "Android 11 with MIUI 13 (upgradable to newer versions)" },
+            { "label": "Cellular Technology", "value": "Wi-Fi only or Wi-Fi + 5G (model dependent)" },
+            { "label": "Memory", "value": "Available in variants: 6GB RAM + 128GB storage, 8GB RAM + 256GB storage" },
+            { "label": "Expandable Storage", "value": "Not expandable" },
+            { "label": "Battery Capacity", "value": "8840mAh battery" },
+        ],
+        "technicalData": [
+            { "label": "Rear Camera System", "value": "13MP main camera, 5MP ultrawide camera" },
+            { "label": "Front Camera", "value": "8MP front-facing camera" },
+            { "label": "Speakers", "value": "Quad Speakers with Dolby Atmos support" },
+            { "label": "Accessories", "value": "Optional Xiaomi Smart Pen 2nd Gen and Xiaomi Pad 6 Keyboard" },
+            { "label": "Fingerprint Sensor", "value": "Side-mounted fingerprint sensor" },
+            { "label": "Other Features", "value": "Wi-Fi 6, Bluetooth 5.2, GPS" },
+            { "label": "Dimensions", "value": "254.7 x 165.8 x 6.85 mm" },
+            { "label": "Weight", "value": "490g" },
+        ],
+        sizeOptions: [
+            '6GB + 128G',
+            '8GB + 256GB',
+            '12GB + 256GB',
+        ],
+        colorOptions: [
+            xiaomiPad611,
+            xiaomiPad621,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [xiaomiPad6Slider11]
+            },
+            {
+                img: [xiaomiPad6Slider21, xiaomiPad6Slider22, xiaomiPad6Slider23]
+            },
+            {
+                img: [xiaomiPad6Slider31, xiaomiPad6Slider32]
+            },
+            {
+                img: [xiaomiPad6Slider41, xiaomiPad6Slider42, xiaomiPad6Slider43, xiaomiPad6Slider44, xiaomiPad6Slider45, xiaomiPad6Slider46]
+            },
+            {
+                img: [xiaomiPad6Slider51, xiaomiPad6Slider52]
+            },
+            {
+                img: [xiaomiPad6Slider61]
+            },
+            {
+                img: [xiaomiPad6Slider71]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
 
     const getProductByName = (productName) => {
         switch (productName) {
@@ -2982,6 +3311,12 @@ const ProductDetail = () => {
                 return AsusVivobook14;
             case 'acer-aspire-lite-12th-gen':
                 return AcerAspireLite12ThGen;
+            case 'samsung-tab-A9-plus':
+                return samsungTabA9Plus;
+            case 'oneplus-pad':
+                return onePlusPad;
+            case 'xiaomi-pad-6':
+                return xiaomiPad6;
             default:
                 return null;
         }
