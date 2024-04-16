@@ -27,19 +27,13 @@ const TWS = () => {
             img: onePlusBuds3,
             name: "OnePlus Buds 3 in Ear TWS Bluetooth Earbuds",
             price: "₹5,499",
-            productNameId: 'samsungS24Ultra',
-        },
-        {
-            img: onePlusNordBuds2,
-            name: "OnePlus Nord Buds 2 TWS in Ear Earbuds",
-            price: "₹2,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'oneplus-buds-3-in-ear-tws-bluetooth-earbuds',
         },
         {
             img: JBLtws,
             name: "JBL Newly Launched Wave Flex in-Ear Wireless Earbuds TWS",
             price: " ₹2,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'jbl-newly-launched-wave-flex-in-ear-wireless-earbuds-tws',
         },
         {
             img: realmeBudsT300,
@@ -58,6 +52,12 @@ const TWS = () => {
             name: "boAt Airdopes 200 Plus in Ear TWS Earbuds, 100 Hours Playback, Quad Mics ENx Technology",
             price: "₹1,599",
             productNameId: 'samsungS24Ultra',
+        },
+        {
+            img: onePlusNordBuds2,
+            name: "OnePlus Nord Buds 2 TWS in Ear Earbuds",
+            price: "₹2,999",
+            productNameId: 'oneplus-buds-3-in-ear-tws-bluetooth-earbuds',
         },
         {
             img: RedmiBuds5,

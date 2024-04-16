@@ -705,6 +705,37 @@ import iPad11Pro4ThGen25 from '../../../assets/Img/ProductDetailsImg/Tablets/iPa
 import iPad11Pro4ThGen26 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/26.jpg';
 import iPad11Pro4ThGen27 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/27.jpg';
 
+// Audio Product
+
+// OnePlus Buds 3
+import OnePlusBuds311 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/11.jpg';
+import OnePlusBuds312 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/12.jpg';
+import OnePlusBuds313 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/13.jpg';
+import OnePlusBuds314 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/14.jpg';
+import OnePlusBuds315 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/15.jpg';
+import OnePlusBuds316 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/16.jpg';
+import OnePlusBudsSlider11 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/11.jpg';
+import OnePlusBudsSlider21 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/21.jpg';
+import OnePlusBudsSlider22 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/22.jpg';
+import OnePlusBudsSlider23 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/23.jpg';
+import OnePlusBudsSlider31 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/31.jpg';
+import OnePlusBudsSlider32 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/32.jpg';
+import OnePlusBudsSlider33 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/33.jpg';
+import OnePlusBudsSlider41 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/41.jpg';
+import OnePlusBudsSlider42 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/42.jpg';
+import OnePlusBudsSlider43 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/43.jpg';
+import OnePlusBudsSlider51 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/51.jpg';
+import OnePlusBudsSlider52 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/52.jpg';
+import OnePlusBudsSlider53 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/53.jpg';
+import OnePlusBudsSlider54 from '../../../assets/Img/ProductDetailsImg/TWS/OnePlusBuds3/detailsImg/54.jpg';
+
+// JBL Wave Flex
+import JBLWaveFlex11 from '../../../assets/Img/ProductDetailsImg/TWS/JBLWaveFlex/11.jpg';
+import JBLWaveFlex12 from '../../../assets/Img/ProductDetailsImg/TWS/JBLWaveFlex/12.jpg';
+import JBLWaveFlex13 from '../../../assets/Img/ProductDetailsImg/TWS/JBLWaveFlex/13.jpg';
+import JBLWaveFlex14 from '../../../assets/Img/ProductDetailsImg/TWS/JBLWaveFlex/14.jpg';
+import JBLWaveFlex15 from '../../../assets/Img/ProductDetailsImg/TWS/JBLWaveFlex/15.jpg';
+import JBLWaveFlex16 from '../../../assets/Img/ProductDetailsImg/TWS/JBLWaveFlex/16.jpg';
 
 import Slider from '../../../components/DetailPages/Slider/Slider';
 
@@ -3440,6 +3471,136 @@ const ProductDetail = () => {
         heading: '',
     };
 
+    // Audio Product 
+    const OnePlusBuds3 = {
+        name: 'OnePlus Buds 3 in Ear TWS Bluetooth Earbuds with Upto 49dB Smart Adaptive Noise Cancellation,Hi-Res Sound Quality,Sliding Volume Control,10mins for 7Hours Fast Charging with Upto 44Hrs Playback',
+        price: '₹5,499',
+        mrp: '₹6,499',
+        tax: 'Inclusive of all taxes',
+        size: '',
+        color: 'Color:',
+        imgData: [
+            OnePlusBuds311,
+            OnePlusBuds312,
+            OnePlusBuds313,
+            OnePlusBuds314,
+            OnePlusBuds315,
+            OnePlusBuds316,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "OnePlus" },
+            { "label": "Model Name", "value": "Buds 3" },
+            { "label": "Form Factor", "value": "In-Ear (TWS - True Wireless Stereo)" },
+            { "label": "Connectivity", "value": "Bluetooth 5.3" },
+            { "label": "Audio Drivers", "value": "Dual drivers: 10.4mm woofer + 6mm tweeter" },
+            { "label": "Active Noise Cancellation (ANC)", "value": "Up to 49dB" },
+            { "label": "Audio Codecs", "value": "LHDC 5.0, AAC, SBC" },
+            { "label": "Water Resistance", "value": "IP55 rating (water and dust resistant)" },
+            { "label": "Battery Life", "value": "Up to 7 hours playback (buds only), up to 44 hours playback with charging case (according to OnePlus)" },
+            { "label": "Charging", "value": "10 minutes charge for 7 hours playback" },
+        ],
+        "technicalData": [
+            { "label": "Touch Controls", "value": "Yes (volume control, music playback, call control)" },
+            { "label": "OnePlus Audio ID 2.0", "value": "Personalized audio experience" },
+            { "label": "Weight", "value": "4.3 grams per bud" },
+            { "label": "Colors", "value": "Splendid Blue, Metallic Gray" },
+        ],
+        sizeOptions: [
+            '',
+            '',
+        ],
+        colorOptions: [
+            OnePlusBuds311,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [OnePlusBudsSlider11]
+            },
+            {
+                img: [OnePlusBudsSlider21, OnePlusBudsSlider22, OnePlusBudsSlider23]
+            },
+            {
+                img: [OnePlusBudsSlider31, OnePlusBudsSlider32, OnePlusBudsSlider33]
+            },
+            {
+                img: [OnePlusBudsSlider41, OnePlusBudsSlider42, OnePlusBudsSlider43]
+            },
+            {
+                img: [OnePlusBudsSlider51, OnePlusBudsSlider52, OnePlusBudsSlider53, OnePlusBudsSlider54]
+            },
+        ],
+        heading: 'From the manufacturer',
+    };
+    const JBLWaveFlex = {
+        name: 'JBL Newly Launched Wave Flex in-Ear Wireless Earbuds TWS with Mic,App for Custom Extra Bass EQ, 32Hrs Battery, Quick Charge, IP54 Water & Dust Proof, Ambient Aware, Talk-Thru,Google FastPair (Black)',
+        price: '₹2,999',
+        mrp: '₹4,999',
+        tax: 'Inclusive of all taxes',
+        size: '',
+        color: 'Color:',
+        imgData: [
+            JBLWaveFlex11,
+            JBLWaveFlex12,
+            JBLWaveFlex13,
+            JBLWaveFlex14,
+            JBLWaveFlex15,
+            JBLWaveFlex16,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "JBL" },
+            { "label": "Model Name", "value": "Wave Flex" },
+            { "label": "Form Factor", "value": "In-Ear (TWS - True Wireless Stereo)" },
+            { "label": "Microphone", "value": "Yes" },
+            { "label": "App Support", "value": "JBL Headphones App for EQ customization and other features" },
+        ],
+        "technicalData": [
+            { "label": "Drivers", "value": "12mm drivers" },
+            { "label": "Water Resistance", "value": "IP54 rating (dust and water resistant)" },
+            { "label": "Battery Life", "value": "Up to 8 hours playback (buds only), up to 24 hours playback with charging case (according to JBL)" },
+            { "label": "Charging", "value": "Speed charge: 2 hours playback time in 10 minutes" },
+            { "label": "Connectivity", "value": "Bluetooth (version not confirmed yet, check JBL website for details)" },
+            { "label": "Special Features", "value": "Ambient Aware and TalkThru technology for situational awareness" },
+            { "label": "VoiceAware", "value": "Balance your own voice during calls" },
+        ],
+        sizeOptions: [
+            '',
+            '',
+        ],
+        colorOptions: [
+            JBLWaveFlex11,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [OnePlusBudsSlider11]
+            },
+            {
+                img: [OnePlusBudsSlider21, OnePlusBudsSlider22, OnePlusBudsSlider23]
+            },
+            {
+                img: [OnePlusBudsSlider31, OnePlusBudsSlider32, OnePlusBudsSlider33]
+            },
+            {
+                img: [OnePlusBudsSlider41, OnePlusBudsSlider42, OnePlusBudsSlider43]
+            },
+            {
+                img: [OnePlusBudsSlider51, OnePlusBudsSlider52, OnePlusBudsSlider53, OnePlusBudsSlider54]
+            },
+        ],
+        heading: 'From the manufacturer',
+    };
+
     const getProductByName = (productName) => {
         switch (productName) {
             case 'samsungS24Ultra':
@@ -3512,6 +3673,10 @@ const ProductDetail = () => {
                 return iPad10ThGen;
             case 'apple-iPad-pro-11″-(4th-Generation):-with-M2-chip':
                 return iPad11Pro4Gen;
+            case 'oneplus-buds-3-in-ear-tws-bluetooth-earbuds':
+                return OnePlusBuds3;
+            case 'jbl-newly-launched-wave-flex-in-ear-wireless-earbuds-tws':
+                return JBLWaveFlex;
             default:
                 return null;
         }
