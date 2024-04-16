@@ -689,6 +689,22 @@ import iPad10ThGen34 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10G
 import iPad10ThGen35 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/35.jpg';
 import iPad10ThGen36 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/36.jpg';
 
+//ipad 11 Pro 4th Gen
+import iPad11Pro4ThGen11 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/11.jpg';
+import iPad11Pro4ThGen12 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/12.jpg';
+import iPad11Pro4ThGen13 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/13.jpg';
+import iPad11Pro4ThGen14 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/14.jpg';
+import iPad11Pro4ThGen15 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/15.jpg';
+import iPad11Pro4ThGen16 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/16.jpg';
+import iPad11Pro4ThGen17 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/17.jpg';
+import iPad11Pro4ThGen21 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/21.jpg';
+import iPad11Pro4ThGen22 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/22.jpg';
+import iPad11Pro4ThGen23 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/23.jpg';
+import iPad11Pro4ThGen24 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/24.jpg';
+import iPad11Pro4ThGen25 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/25.jpg';
+import iPad11Pro4ThGen26 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/26.jpg';
+import iPad11Pro4ThGen27 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad11Pro4Gen/27.jpg';
+
 
 import Slider from '../../../components/DetailPages/Slider/Slider';
 
@@ -3321,9 +3337,8 @@ const ProductDetail = () => {
             { "label": "Accessories", "value": "Compatible with Apple Pencil (1st generation) and Magic Keyboard Folio (sold separately)" },
         ],
         sizeOptions: [
-            '6GB + 128G',
-            '8GB + 256GB',
-            '12GB + 256GB',
+            '128G',
+            '256GB',
         ],
         colorOptions: [
             iPad10ThGen11,
@@ -3342,6 +3357,79 @@ const ProductDetail = () => {
             () => {
                 setImgShow(productDetails.imgData3);
                 setMainImg(firstImgData3);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: []
+            },
+        ],
+        heading: '',
+    };
+    const iPad11Pro4Gen = {
+        name: 'Apple iPad (10th Generation): with A14 Bionic chip, 27.69 cm (10.9″) Liquid Retina Display, 64GB, Wi-Fi 6, 12MP front/12MP Back Camera, Touch ID, All-Day Battery Life – Blue',
+        price: '₹89,999',
+        mrp: '₹94,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            iPad11Pro4ThGen11,
+            iPad11Pro4ThGen12,
+            iPad11Pro4ThGen13,
+            iPad11Pro4ThGen14,
+            iPad11Pro4ThGen15,
+            iPad11Pro4ThGen16,
+            iPad11Pro4ThGen17,
+        ],
+        imgData2: [
+            iPad11Pro4ThGen21,
+            iPad11Pro4ThGen22,
+            iPad11Pro4ThGen23,
+            iPad11Pro4ThGen24,
+            iPad11Pro4ThGen25,
+            iPad11Pro4ThGen26,
+            iPad11Pro4ThGen27,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "Apple" },
+            { "label": "Model Name", "value": "iPad Pro 11-inch (4th generation)" },
+            { "label": "Year", "value": "2023" },
+            { "label": "Chip", "value": "Apple M2 chip with an 8-core CPU, 10-core GPU, and 16-core Neural Engine" },
+            { "label": "Display", "value": "11-inch Liquid Retina display with 2388 x 1668 resolution, ProMotion technology (120Hz refresh rate), wide color (P3), True Tone, and fingerprint-resistant oleophobic coating" },
+            { "label": "Operating System", "value": "iPadOS 16 (latest version)" },
+        ],
+        "technicalData": [
+            { "label": "Storage Capacity", "value": "Available in variants: 128GB, 256GB, 512GB, 1TB, 2TB" },
+            { "label": "Memory", "value": "8GB RAM for models with 128GB, 256GB, or 512GB storage; 16GB RAM for models with 1TB or 2TB storage" },
+            { "label": "Front Camera", "value": "12MP TrueDepth camera with Center Stage for video calls" },
+            { "label": "Rear Camera System", "value": "Dual-camera system with a 12MP wide camera and a 10MP ultrawide camera" },
+            { "label": "Battery", "value": "Up to 10 hours of battery life (according to Apple)" },
+            { "label": "Connectivity", "value": "Wi-Fi 6E for ultrafast wireless connections" },
+            { "label": "Cellular Technology", "value": "Wi-Fi only or Wi-Fi + Cellular (model dependent)" },
+            { "label": "Ports", "value": "Thunderbolt 4 port for charging and high-speed data transfer" },
+            { "label": "Audio", "value": "Four-speaker sound system with support for Dolby Atmos" },
+            { "label": "Accessories", "value": "Compatible with Apple Pencil (2nd generation) and Magic Keyboard (sold separately)" },
+            { "label": "Dimensions", "value": "248.6 mm (9.79 inches) height, 167.1 mm (6.58 inches) width, and 5.9 mm (0.23 inches) thickness" },
+            { "label": "Weight", "value": "466 grams (1.03 pounds) for Wi-Fi model, 512 grams (1.13 pounds) for Wi-Fi + Cellular model" },
+        ],
+        sizeOptions: [
+            '128G',
+            '256GB',
+            '512GB',
+        ],
+        colorOptions: [
+            iPad11Pro4ThGen11,
+            iPad11Pro4ThGen21,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
             },
         ],
         sliderImgSet: [
@@ -3422,6 +3510,8 @@ const ProductDetail = () => {
                 return xiaomiPad6;
             case 'apple-ipad-10th-gen-with-A14-bionic-chip':
                 return iPad10ThGen;
+            case 'apple-iPad-pro-11″-(4th-Generation):-with-M2-chip':
+                return iPad11Pro4Gen;
             default:
                 return null;
         }
