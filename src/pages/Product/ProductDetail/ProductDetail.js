@@ -669,6 +669,25 @@ import xiaomiPad6Slider52 from '../../../assets/Img/ProductDetailsImg/Tablets/Xi
 import xiaomiPad6Slider61 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/61.jpg';
 import xiaomiPad6Slider71 from '../../../assets/Img/ProductDetailsImg/Tablets/XiaomiPad6/detailsImg/71.jpg';
 
+// iPad 10Th Gen with A14 Chip
+import iPad10ThGen11 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/11.jpg';
+import iPad10ThGen12 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/12.jpg';
+import iPad10ThGen13 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/13.jpg';
+import iPad10ThGen14 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/14.jpg';
+import iPad10ThGen15 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/15.jpg';
+import iPad10ThGen16 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/16.jpg';
+import iPad10ThGen21 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/21.jpg';
+import iPad10ThGen22 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/22.jpg';
+import iPad10ThGen23 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/23.jpg';
+import iPad10ThGen24 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/24.jpg';
+import iPad10ThGen25 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/25.jpg';
+import iPad10ThGen26 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/26.jpg';
+import iPad10ThGen31 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/31.jpg';
+import iPad10ThGen32 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/32.jpg';
+import iPad10ThGen33 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/33.jpg';
+import iPad10ThGen34 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/34.jpg';
+import iPad10ThGen35 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/35.jpg';
+import iPad10ThGen36 from '../../../assets/Img/ProductDetailsImg/Tablets/iPad10Gen/36.jpg';
 
 
 import Slider from '../../../components/DetailPages/Slider/Slider';
@@ -3249,6 +3268,90 @@ const ProductDetail = () => {
         heading: 'From the manufacturer',
     };
 
+    const iPad10ThGen = {
+        name: 'Apple iPad (10th Generation): with A14 Bionic chip, 27.69 cm (10.9″) Liquid Retina Display, 64GB, Wi-Fi 6, 12MP front/12MP Back Camera, Touch ID, All-Day Battery Life – Blue',
+        price: '₹36,499',
+        mrp: '₹39,999',
+        tax: 'Inclusive of all taxes',
+        size: 'Size:',
+        color: 'Color:',
+        imgData: [
+            iPad10ThGen11,
+            iPad10ThGen12,
+            iPad10ThGen13,
+            iPad10ThGen14,
+            iPad10ThGen15,
+            iPad10ThGen16,
+        ],
+        imgData2: [
+            iPad10ThGen21,
+            iPad10ThGen22,
+            iPad10ThGen23,
+            iPad10ThGen24,
+            iPad10ThGen25,
+            iPad10ThGen26,
+        ],
+        imgData3: [
+            iPad10ThGen31,
+            iPad10ThGen32,
+            iPad10ThGen33,
+            iPad10ThGen34,
+            iPad10ThGen35,
+            iPad10ThGen36,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "Apple" },
+            { "label": "Model Name", "value": "iPad (10th generation)" },
+            { "label": "Year", "value": "2022" },
+            { "label": "Chip", "value": "A14 Bionic chip" },
+            { "label": "Display", "value": "10.9-inch Liquid Retina display with 2360 x 1640 resolution and True Tone" },
+            { "label": "Operating System", "value": "iPadOS 16 (latest version)" },
+            { "label": "Security", "value": "Touch ID fingerprint sensor" },
+        ],
+        "technicalData": [
+            { "label": "Front Camera", "value": "12MP Ultra Wide camera with Center Stage for video calls" },
+            { "label": "Rear Camera", "value": "12MP Wide camera" },
+            { "label": "Battery", "value": "Up to 10 hours of battery life (according to Apple)" },
+            { "label": "Storage Capacity", "value": "Available in variants: 64GB, 256GB" },
+            { "label": "Connectivity", "value": "Wi-Fi 6 for fast internet" },
+            { "label": "Cellular Technology", "value": "Wi-Fi only or Wi-Fi + Cellular (model dependent)" },
+            { "label": "Audio", "value": "Stereo speakers" },
+            { "label": "Dimensions", "value": "257.9 mm (10.15 inches) height, 173 mm (6.81 inches) width, and 7.5 mm (0.29 inches) thickness" },
+            { "label": "Weight", "value": "487 grams (1.07 pounds) for Wi-Fi model, 498 grams (1.1 pounds) for Wi-Fi + Cellular model" },
+            { "label": "Accessories", "value": "Compatible with Apple Pencil (1st generation) and Magic Keyboard Folio (sold separately)" },
+        ],
+        sizeOptions: [
+            '6GB + 128G',
+            '8GB + 256GB',
+            '12GB + 256GB',
+        ],
+        colorOptions: [
+            iPad10ThGen11,
+            iPad10ThGen21,
+            iPad10ThGen31,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+            () => {
+                setImgShow(productDetails.imgData2);
+                setMainImg(firstImgData2);
+            },
+            () => {
+                setImgShow(productDetails.imgData3);
+                setMainImg(firstImgData3);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: []
+            },
+        ],
+        heading: '',
+    };
+
     const getProductByName = (productName) => {
         switch (productName) {
             case 'samsungS24Ultra':
@@ -3317,6 +3420,8 @@ const ProductDetail = () => {
                 return onePlusPad;
             case 'xiaomi-pad-6':
                 return xiaomiPad6;
+            case 'apple-ipad-10th-gen-with-A14-bionic-chip':
+                return iPad10ThGen;
             default:
                 return null;
         }

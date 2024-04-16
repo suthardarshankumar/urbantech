@@ -29,7 +29,7 @@ const Ipads = () => {
             img: iPad10thGenA14,
             name: "Apple iPad (10th Generation): with A14 Bionic chip",
             price: "₹36,999",
-            productNameId: 'samsungS24Ultra',
+            productNameId: 'apple-ipad-10th-gen-with-A14-bionic-chip',
         }, {
             img: iPadPro114thGen,
             name: "Apple iPad Pro 11″ (4th Generation): with M2 chip",
