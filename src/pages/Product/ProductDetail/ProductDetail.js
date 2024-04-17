@@ -737,6 +737,22 @@ import JBLWaveFlex14 from '../../../assets/Img/ProductDetailsImg/TWS/JBLWaveFlex
 import JBLWaveFlex15 from '../../../assets/Img/ProductDetailsImg/TWS/JBLWaveFlex/15.jpg';
 import JBLWaveFlex16 from '../../../assets/Img/ProductDetailsImg/TWS/JBLWaveFlex/16.jpg';
 
+// realmeBudsT300
+import realmeBudsT30011 from '../../../assets/Img/ProductDetailsImg/TWS/realmeBudsT300/11.jpg';
+import realmeBudsT30012 from '../../../assets/Img/ProductDetailsImg/TWS/realmeBudsT300/12.jpg';
+import realmeBudsT30013 from '../../../assets/Img/ProductDetailsImg/TWS/realmeBudsT300/13.jpg';
+import realmeBudsT30014 from '../../../assets/Img/ProductDetailsImg/TWS/realmeBudsT300/14.jpg';
+import realmeBudsT30015 from '../../../assets/Img/ProductDetailsImg/TWS/realmeBudsT300/15.jpg';
+import realmeBudsT30016 from '../../../assets/Img/ProductDetailsImg/TWS/realmeBudsT300/16.jpg';
+
+// boatAirdopes141
+import boatAirdopes14111 from '../../../assets/Img/ProductDetailsImg/TWS/boatAirdopes141/11.jpg';
+import boatAirdopes14112 from '../../../assets/Img/ProductDetailsImg/TWS/boatAirdopes141/12.jpg';
+import boatAirdopes14113 from '../../../assets/Img/ProductDetailsImg/TWS/boatAirdopes141/13.jpg';
+import boatAirdopes14114 from '../../../assets/Img/ProductDetailsImg/TWS/boatAirdopes141/14.jpg';
+import boatAirdopes14115 from '../../../assets/Img/ProductDetailsImg/TWS/boatAirdopes141/15.jpg';
+import boatAirdopes14116 from '../../../assets/Img/ProductDetailsImg/TWS/boatAirdopes141/16.jpg';
+
 import Slider from '../../../components/DetailPages/Slider/Slider';
 
 
@@ -3506,8 +3522,6 @@ const ProductDetail = () => {
             { "label": "Colors", "value": "Splendid Blue, Metallic Gray" },
         ],
         sizeOptions: [
-            '',
-            '',
         ],
         colorOptions: [
             OnePlusBuds311,
@@ -3569,8 +3583,6 @@ const ProductDetail = () => {
             { "label": "VoiceAware", "value": "Balance your own voice during calls" },
         ],
         sizeOptions: [
-            '',
-            '',
         ],
         colorOptions: [
             JBLWaveFlex11,
@@ -3599,6 +3611,110 @@ const ProductDetail = () => {
             },
         ],
         heading: 'From the manufacturer',
+    };
+    const realmeBudsT300 = {
+        name: 'realme Buds T300 TWS Earbuds with 40H Play time,30dB ANC, 360° Spatial Audio with Dolby Atmos, 12.4 mm Dynamic Bass Boost Driver, IP55 Water & Dust Resistant, BT v5.3 (Stylish Black)',
+        price: '₹2,999',
+        mrp: '₹3,999',
+        tax: 'Inclusive of all taxes',
+        size: '',
+        color: 'Color',
+        imgData: [
+            realmeBudsT30011,
+            realmeBudsT30012,
+            realmeBudsT30013,
+            realmeBudsT30014,
+            realmeBudsT30015,
+            realmeBudsT30016,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "realme" },
+            { "label": "Model Name", "value": "Buds T300" },
+            { "label": "Form Factor", "value": "In-Ear (TWS - True Wireless Stereo)" },
+            { "label": "Battery Life", "value": "Up to 40 hours total playback (buds and charging case combined)" },
+            { "label": "Charging", "value": "10 minutes charge for 7 hours playback" },
+            { "label": "Active Noise Cancellation (ANC)", "value": "Yes, up to 30dB" },
+            { "label": "Audio Drivers", "value": "12.4mm dynamic bass boost driver" },
+            { "label": "Water Resistance", "value": "IP55 dust and water resistant" },
+        ],
+        "technicalData": [
+            { "label": "Connectivity", "value": "Bluetooth 5.3" },
+            { "label": "Audio Codecs", "value": "Supports Dolby Atmos (with compatible devices)" },
+            { "label": "Latency", "value": "50ms ultra-low latency for gaming" },
+            { "label": "Touch Controls", "value": "Yes (music playback, call control, volume control)" },
+            { "label": "Voice Assistant", "value": "Supports voice assistant activation" },
+            { "label": "Colors", "value": "Stylish Black (other colors may be available)" },
+        ],
+        sizeOptions: [
+        ],
+        colorOptions: [
+            realmeBudsT30011,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: []
+            },
+        ],
+        heading: '',
+    };
+
+    const boatAirdopes141 = {
+        name: 'boAt Airdopes 141 Bluetooth TWS Earbuds with 42H Playtime,Low Latency Mode for Gaming, ENx Tech, IWP, IPX4 Water Resistance, Smooth Touch Controls(Bold Black)',
+        price: '₹1,299',
+        mrp: '₹4,499',
+        tax: 'Inclusive of all taxes',
+        size: '',
+        color: 'Color',
+        imgData: [
+            boatAirdopes14111,
+            boatAirdopes14112,
+            boatAirdopes14113,
+            boatAirdopes14114,
+            boatAirdopes14115,
+            boatAirdopes14116,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "boAt" },
+            { "label": "Model Name", "value": "Airdopes 141" },
+            { "label": "Form Factor", "value": "In-Ear (TWS - True Wireless Stereo)" },
+            { "label": "Playtime", "value": "Up to 6 hours per charge and additional 36 hours with case (at 60% volume)" },
+            { "label": "Total Playtime", "value": "Up to 42 hours" },
+            { "label": "Charging", "value": "ASAP™ Charge: 75 minutes of playback with just a 5-minute charge" },
+            { "label": "Drivers", "value": "8mm drivers" },
+            { "label": "Water Resistance", "value": "IPX4 sweat and water resistant" },
+            { "label": "Bluetooth", "value": "Bluetooth v5.0" },
+            { "label": "Microphone", "value": "Yes, with ENx™ Technology for clear calling" },
+        ],
+        "technicalData": [
+            { "label": "Connectivity Range", "value": "10 meters" },
+            { "label": "Touch Controls", "value": "Yes (multiple functions like music playback, calls, and voice assistant)" },
+            { "label": "Voice Assistant", "value": "Supports voice assistant activation" },
+            { "label": "Low Latency Mode", "value": "Yes, for gaming" },
+            { "label": "Compatibility", "value": "Wide compatibility with various devices" },
+        ],
+        sizeOptions: [
+        ],
+        colorOptions: [
+            boatAirdopes14111,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: []
+            },
+        ],
+        heading: '',
     };
 
     const getProductByName = (productName) => {
@@ -3677,6 +3793,10 @@ const ProductDetail = () => {
                 return OnePlusBuds3;
             case 'jbl-newly-launched-wave-flex-in-ear-wireless-earbuds-tws':
                 return JBLWaveFlex;
+            case 'realme-Buds-T300-TWS-Earbuds-with-40H-Play-time':
+                return realmeBudsT300;
+            case 'boAt-Airdopes-141-Bluetooth-TWS-Earbuds-with-42H-Playtime':
+                return boatAirdopes141;
             default:
                 return null;
         }
