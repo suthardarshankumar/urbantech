@@ -753,6 +753,37 @@ import boatAirdopes14114 from '../../../assets/Img/ProductDetailsImg/TWS/boatAir
 import boatAirdopes14115 from '../../../assets/Img/ProductDetailsImg/TWS/boatAirdopes141/15.jpg';
 import boatAirdopes14116 from '../../../assets/Img/ProductDetailsImg/TWS/boatAirdopes141/16.jpg';
 
+// zebronicsThunder
+import zebronicsThunder11 from '../../../assets/Img/ProductDetailsImg/TWS/zebronicsThunder/11.jpg';
+import zebronicsThunder12 from '../../../assets/Img/ProductDetailsImg/TWS/zebronicsThunder/12.jpg';
+import zebronicsThunder13 from '../../../assets/Img/ProductDetailsImg/TWS/zebronicsThunder/13.jpg';
+import zebronicsThunder14 from '../../../assets/Img/ProductDetailsImg/TWS/zebronicsThunder/14.jpg';
+import zebronicsThunder15 from '../../../assets/Img/ProductDetailsImg/TWS/zebronicsThunder/15.jpg';
+import zebronicsThunder16 from '../../../assets/Img/ProductDetailsImg/TWS/zebronicsThunder/16.jpg';
+
+// boat Rockerz 550
+import boatRockerz55011 from '../../../assets/Img/ProductDetailsImg/TWS/boatRockerz550/11.jpg';
+import boatRockerz55012 from '../../../assets/Img/ProductDetailsImg/TWS/boatRockerz550/12.jpg';
+import boatRockerz55013 from '../../../assets/Img/ProductDetailsImg/TWS/boatRockerz550/13.jpg';
+import boatRockerz55014 from '../../../assets/Img/ProductDetailsImg/TWS/boatRockerz550/14.jpg';
+import boatRockerz55015 from '../../../assets/Img/ProductDetailsImg/TWS/boatRockerz550/15.jpg';
+import boAtRockerz550Slider11 from '../../../assets/Img/ProductDetailsImg/TWS/boatRockerz550/detailsImg/11.jpg';
+import boAtRockerz550Slider12 from '../../../assets/Img/ProductDetailsImg/TWS/boatRockerz550/detailsImg/12.jpg';
+import boAtRockerz550Slider13 from '../../../assets/Img/ProductDetailsImg/TWS/boatRockerz550/detailsImg/13.jpg';
+import boAtRockerz550Slider21 from '../../../assets/Img/ProductDetailsImg/TWS/boatRockerz550/detailsImg/21.jpg';
+import boAtRockerz550Slider31 from '../../../assets/Img/ProductDetailsImg/TWS/boatRockerz550/detailsImg/31.jpg';
+import boAtRockerz550Slider32 from '../../../assets/Img/ProductDetailsImg/TWS/boatRockerz550/detailsImg/32.jpg';
+import boAtRockerz550Slider33 from '../../../assets/Img/ProductDetailsImg/TWS/boatRockerz550/detailsImg/33.jpg';
+
+// JBLTune510BT
+import JBLTune510BT11 from '../../../assets/Img/ProductDetailsImg/TWS/JBLTune510BT/11.jpg';
+import JBLTune510BT12 from '../../../assets/Img/ProductDetailsImg/TWS/JBLTune510BT/12.jpg';
+import JBLTune510BT13 from '../../../assets/Img/ProductDetailsImg/TWS/JBLTune510BT/13.jpg';
+import JBLTune510BT14 from '../../../assets/Img/ProductDetailsImg/TWS/JBLTune510BT/14.jpg';
+import JBLTune510BT15 from '../../../assets/Img/ProductDetailsImg/TWS/JBLTune510BT/15.jpg';
+import JBLTune510BT16 from '../../../assets/Img/ProductDetailsImg/TWS/JBLTune510BT/16.jpg';
+
+
 import Slider from '../../../components/DetailPages/Slider/Slider';
 
 
@@ -3663,7 +3694,6 @@ const ProductDetail = () => {
         ],
         heading: '',
     };
-
     const boatAirdopes141 = {
         name: 'boAt Airdopes 141 Bluetooth TWS Earbuds with 42H Playtime,Low Latency Mode for Gaming, ENx Tech, IWP, IPX4 Water Resistance, Smooth Touch Controls(Bold Black)',
         price: '₹1,299',
@@ -3702,6 +3732,162 @@ const ProductDetail = () => {
         ],
         colorOptions: [
             boatAirdopes14111,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: []
+            },
+        ],
+        heading: '',
+    };
+    const boAtRockerz550 = {
+        name: 'boAt Rockerz 550 Bluetooth Wireless Over Ear Headphones with Mic Upto 20 Hours Playback, 50MM Drivers, Soft Padded Ear Cushions and Physical Noise Isolation',
+        price: '₹1,999',
+        mrp: '₹4,999',
+        tax: 'Inclusive of all taxes',
+        size: '',
+        color: 'Color:',
+        imgData: [
+            boatRockerz55011,
+            boatRockerz55012,
+            boatRockerz55013,
+            boatRockerz55014,
+            boatRockerz55015,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "boAt" },
+            { "label": "Model Name", "value": "Rockerz 550" },
+            { "label": "Form Factor", "value": "Over-Ear" },
+            { "label": "Connectivity", "value": "Bluetooth v5.0" },
+            { "label": "Battery", "value": "Up to 20 hours playback time (according to boAt)" },
+            { "label": "Drivers", "value": "50mm dynamic drivers" },
+            { "label": "Playback Controls", "value": "Yes (on-ear cup controls)" },
+            { "label": "Microphone", "value": "Yes" },
+            { "label": "Water Resistance", "value": "No (check for updates on boAt website)" },
+            { "label": "Noise Cancellation", "value": "No Active Noise Cancellation (ANC)" },
+        ],
+        "technicalData": [
+            { "label": "Other Features", "value": "Ergonomic design for comfort, Dual connectivity (Bluetooth and AUX)" },
+            { "label": "Weight", "value": "Available in various sources, check boAt website for details" },
+            { "label": "Colors", "value": "Multiple color options available (check retailer websites)" },
+        ],
+        sizeOptions: [
+        ],
+        colorOptions: [
+            boatRockerz55011,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: [boAtRockerz550Slider11, boAtRockerz550Slider12, boAtRockerz550Slider13]
+            },
+            {
+                img: [boAtRockerz550Slider21]
+            },
+            {
+                img: [boAtRockerz550Slider31, boAtRockerz550Slider32, boAtRockerz550Slider33]
+            }
+        ],
+        heading: 'From the manufacturer',
+    };
+    const zebronicsThunder = {
+        name: 'ZEBRONICS Thunder Bluetooth 5.3 Wireless Over Ear Headphones with 60H Backup, Gaming Mode, Dual Pairing, ENC, AUX, Micro SD, Voice Assistant, Comfortable Earcups, Call Function',
+        price: '₹699',
+        mrp: '₹1,599',
+        tax: 'Inclusive of all taxes',
+        size: '',
+        color: 'Color',
+        imgData: [
+            zebronicsThunder11,
+            zebronicsThunder12,
+            zebronicsThunder13,
+            zebronicsThunder14,
+            zebronicsThunder15,
+            zebronicsThunder16,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "ZEBRONICS" },
+            { "label": "Model Name", "value": "Thunder" },
+            { "label": "Form Factor", "value": "Over-Ear" },
+            { "label": "Playback Type", "value": "Wireless (Bluetooth)" },
+            { "label": "Battery Life", "value": "Up to 60 hours playback time (according to ZEBRONICS)" },
+            { "label": "Drivers", "value": "40mm drivers" },
+            { "label": "Playback Controls", "value": "Yes (on-ear cup controls)" },
+            { "label": "Microphone", "value": "Yes, with built-in mic for calls" },
+            { "label": "Multiple Connectivity Options", "value": "Bluetooth 5.3, AUX input, MicroSD card slot" },
+            { "label": "FM Radio", "value": "Yes" },
+        ],
+        "technicalData": [
+            { "label": "Water Resistance", "value": "No information available (check ZEBRONICS website for updates)" },
+            { "label": "Noise Cancellation", "value": "No mention of Active Noise Cancellation (ANC)" },
+            { "label": "Colors", "value": "Multiple color options available (Black, Blue, Brown, Neon Yellow, Red, Sea Green, Teal Green)" },
+        ],
+        sizeOptions: [
+        ],
+        colorOptions: [
+            zebronicsThunder11,
+        ],
+        colorChange: [
+            () => {
+                setImgShow(productDetails.imgData);
+                setMainImg(firstImgData);
+            },
+        ],
+        sliderImgSet: [
+            {
+                img: []
+            },
+        ],
+        heading: '',
+    };
+    const JBLTune510BT = {
+        name: 'JBL Tune 510BT, On Ear Wireless Headphones with Mic, up to 40 Hours Playtime, Pure Bass, Quick Charging, Dual Pairing, Bluetooth 5.0 & Voice Assistant Support for Mobile Phones',
+        price: '₹3,499',
+        mrp: '₹4,499',
+        tax: 'Inclusive of all taxes',
+        size: '',
+        color: 'Color',
+        imgData: [
+            JBLTune510BT11,
+            JBLTune510BT12,
+            JBLTune510BT13,
+            JBLTune510BT14,
+            JBLTune510BT15,
+            JBLTune510BT16,
+        ],
+        "productData": [
+            { "label": "Brand", "value": "JBL" },
+            { "label": "Model Name", "value": "Tune 510BT" },
+            { "label": "Form Factor", "value": "On-Ear" },
+            { "label": "Wireless Playback", "value": "Bluetooth 5.0" },
+            { "label": "Battery Life", "value": "Up to 40 hours playtime (according to JBL)" },
+            { "label": "Pure Bass Sound", "value": "JBL signature sound for clear audio with strong bass" },
+            { "label": "Quick Charge", "value": "5-minute charge for 2 hours of playback" },
+            { "label": "Multi-Point Connection", "value": "Effortlessly switch between two devices" },
+            { "label": "Hands-Free Calls", "value": "Built-in microphone for easy call management" },
+            { "label": "Lightweight Design", "value": "Comfortable for long listening sessions" },
+        ],
+        "technicalData": [
+            { "label": "Voice Assistant Support", "value": "Access Siri or Google Assistant through a button" },
+            { "label": "App Support", "value": "Not applicable (basic Bluetooth headphones)" },
+            { "label": "Water Resistance", "value": "No information on water resistance (check JBL website for details)" },
+            { "label": "Colors", "value": "Multiple color options available (check retailer websites)" },
+        ],
+        sizeOptions: [
+        ],
+        colorOptions: [
+            JBLTune510BT11,
         ],
         colorChange: [
             () => {
@@ -3797,6 +3983,12 @@ const ProductDetail = () => {
                 return realmeBudsT300;
             case 'boAt-Airdopes-141-Bluetooth-TWS-Earbuds-with-42H-Playtime':
                 return boatAirdopes141;
+            case 'boAt-Rockerz-550-Bluetooth-Wireless-Over-Ear-Headphones':
+                return boAtRockerz550;
+            case 'zebronics-thunder':
+                return zebronicsThunder;
+            case 'JBL-Tune-510BT':
+                return JBLTune510BT;
             default:
                 return null;
         }
