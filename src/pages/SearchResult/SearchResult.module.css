@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    display: flex;
+    padding: 2vh 5vw;
+    gap: 2vw;
+    margin-top: 5vh;
+}
+
+.input {
+    width: 10vw;
+    padding: 1vh 1vw;
+    font-size: 2.5vh;
+    font-family: "Roboto Condensed", sans-serif;
+    border-radius: 3vh;
+    border: 1.5px solid #171717;
+}
+
+.label {
+    font-family: "Nunito", sans-serif;
+    font-size: 2.5vh;
+    margin-right: 1vw;
+}
+
+.input:focus {
+    outline: 1.5px solid #ff5722;
+    border: 1.5px solid #ff5722;
+    color: #ff5722;
+}
