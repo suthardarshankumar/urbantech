@@ -21,6 +21,8 @@ import Accessories from './pages/Accessories/Accessories';
 import SmartWatch from './pages/SmartWatch/SmartWatch';
 import LogInPage from './pages/LogIn/LogInPage';
 import ProductDetails from './pages/Product/ProductDetail/ProductDetail';
+import AddToCart from './pages/AddToCart/AddToCart';
+import { CartProvider } from './context/CartContext'
 
 
 
@@ -124,6 +126,10 @@ const router = createBrowserRouter([
       {
         path: '/product-details/:productNameId',
         element: <ProductDetails />,
+      },
+      {
+        path: '/add-to-cart',
+        element: <AddToCart />,
       }
     ],
   }
@@ -132,7 +138,9 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <CartProvider>
+      <RouterProvider router={router} />
+    </CartProvider>
   </React.StrictMode>
 );
 

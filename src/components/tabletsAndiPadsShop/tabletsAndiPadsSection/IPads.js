@@ -8,12 +8,6 @@ import iPad9thGen from '../../../assets/Img/TabletsAndiPads/iPads/iPad9thGen.png
 import iPadPro2021 from '../../../assets/Img/TabletsAndiPads/iPads/iPadPro2021.png';
 import iPadAir5thGen from '../../../assets/Img/TabletsAndiPads/iPads/iPadAir5thGen.png';
 
-// import  from '../../../assets/Img/TabletsAndiPads/iPads';
-// {
-//     img: ,
-//     name: "",
-//     price: "₹",
-// },
 
 const Ipads = () => {
 

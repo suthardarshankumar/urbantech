@@ -49,7 +49,7 @@ const FirstNavbar = () => {
                         <div className={styles['link-contain']}><Link to='logInPage' className={`${styles['profile-link']} ${styles['profile-LogIn']}`} onClick={closeDropdowns}>LogIn</Link></div>
                         <div className={styles['link-contain']}><Link to='' className={styles['profile-link']} onClick={closeDropdowns}>My Profile</Link></div>
                         <div className={styles['link-contain']}><Link to='' className={styles['profile-link']} onClick={closeDropdowns}>My Orders</Link></div>
-                        <div className={styles['link-contain']}><Link to='' className={styles['profile-link']} onClick={closeDropdowns}>Cart</Link></div>
+                        <div className={styles['link-contain']}><Link to='add-to-cart' className={styles['profile-link']} onClick={closeDropdowns}>Cart</Link></div>
                         <div className={styles['link-contain']}><Link to='contact-us' className={styles['profile-link']} onClick={closeDropdowns}>Contact Us</Link></div>
                         <div className={styles['link-contain']}><Link to='' className={styles['profile-link']} onClick={closeDropdowns}>My Service Requests</Link></div>
                     </div>

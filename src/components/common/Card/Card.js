@@ -1,15 +1,12 @@
-import React, { useState } from 'react';
+// Card.js
+import React from 'react';
 import { PiShoppingCart } from "react-icons/pi";
 import styles from './Card.module.css';
 import { Link } from 'react-router-dom';
+import { useCart } from '../../../context/CartContext';
 
 const Card = ({ title, heading, images }) => {
-
-    const [visibleCount, setVisibleCount] = useState(8);
-
-    const handleViewMore = () => {
-        setVisibleCount(prevCount => prevCount + 8);
-    };
+    const { addToCart } = useCart();
 
     return (
         <div className={styles.container}>
@@ -18,7 +15,7 @@ const Card = ({ title, heading, images }) => {
                 <span className={styles.title}>{title}</span>
             </h1>
             <div className={styles.row}>
-                {images.slice(0, visibleCount).map((image, index) => (
+                {images.map((image, index) => (
                     <div className={styles.card} key={index}>
                         <Link to={`/product-details/${image.productNameId}`} className={styles.cardLink}>
                             <div className={styles.imageContainer}>
@@ -32,17 +29,14 @@ const Card = ({ title, heading, images }) => {
                             </div>
                             <div className={styles.cardRight}>
                                 <span className={styles.iconContain}>
-                                    <PiShoppingCart className={styles.cartIcon} />
+                                    <button className={styles.cartButton} onClick={() => addToCart(image)}>
+                                        <PiShoppingCart className={styles.cartIcon} />
+                                    </button>
                                 </span>
                             </div>
                         </div>
                     </div>
                 ))}
-            </div>
-            <div className={styles.btnRow}>
-                {images.length > visibleCount && (
-                    <button onClick={handleViewMore} className={styles.btn}>View More</button>
-                )}
             </div>
         </div>
     );

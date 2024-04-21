@@ -132,6 +132,11 @@
     border: 0.1vw solid #F2F2F2;
 }
 
+.cartButton {
+    background-color: transparent;
+    border: none;
+}
+
 
 
 /* .card {
