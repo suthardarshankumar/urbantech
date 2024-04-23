@@ -6,7 +6,6 @@ import { AiOutlineDelete } from "react-icons/ai";
 
 const AddToCart = () => {
     const { cartItems, clearCart, removeFromCart } = useCart();
-    console.log(cartItems)
     const totalPrice = cartItems.reduce((acc, item) => acc + parseFloat(item.price.replace(/[₹,]/g, '')), 0);
 
     return (
@@ -33,7 +32,9 @@ const AddToCart = () => {
                                     </div>
                                     <div className={styles.cardRight}>
                                         <span className={styles.iconContain}>
-                                            <button className={styles.cartButton} onClick={() => removeFromCart(item.productNameId)}>
+                                            <button
+                                                className={styles.cartButton}
+                                                onClick={() => removeFromCart(item.productNameId)}>
                                                 <AiOutlineDelete className={styles.cartIcon} />
                                             </button>
                                         </span>
@@ -45,10 +46,17 @@ const AddToCart = () => {
                 </div>
             )}
             {cartItems.length > 0 && (
-                <button
-                    className={styles.clearCartBtn}
-                    onClick={clearCart}>Clear All Items</button>
+                <div className={styles.btnContainer}>
+                    <button
+                        className={styles.clearCartBtn}
+                        onClick={clearCart}>Clear All Items</button>
+                    <Link to='/shipping-address'>
+                        <button
+                            className={styles.buyBtn}>Buy</button>
+                    </Link>
+                </div>
             )}
+
         </div>
     );
 };

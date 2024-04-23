@@ -7,6 +7,7 @@ import { IoMdAdd } from 'react-icons/io';
 import styles from './ProductDetail.module.css';
 import Collapsible from '../../../components/DetailPages/Collapsible/Collapsible';
 
+
 // Samsung S24 Ultra
 import SamsungS24Ultra1 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra.webp';
 import SamsungS24Ultra2 from '../../../assets/Img//ProductDetailsImg/Mobiles/SamsungS24Ultra/samsungs24ultra2.webp';

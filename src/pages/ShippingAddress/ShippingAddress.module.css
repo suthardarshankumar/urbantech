@@ -1,0 +1,14 @@
+.container {
+    width: 100%;
+    padding: 10vh 15vw;
+    min-height: 89vh;
+}
+
+.heading {
+    margin-bottom: 3vh;
+}
+
+.headingSec {
+    margin-top: 7vh;
+    margin-bottom: 3vh;
+}

@@ -192,10 +192,17 @@
     border: none;
 }
 
-.clearCartBtn {
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clearCartBtn,
+.buyBtn {
     margin-top: 5vh;
     font-size: 2vh;
-    padding: 1.5vh 1.5vw;
+    width: 13vw;
+    height: 6vh;
     border-radius: 10px;
     border: 1.5px solid #171717;
     background-color: #fff;
@@ -203,9 +210,16 @@
     transition: 0.2s ease-in-out;
 }
 
-.clearCartBtn:hover {
+.clearCartBtn:hover,
+.buyBtn:hover,
+.buyLink:hover {
     background-color: #171717;
     color: #F2F2F2;
     border: 1.5px solid #F2F2F2;
     box-shadow: 0 0 5vh 1vh #171717;
+}
+
+.buyLink {
+    text-decoration: none;
+    color: #171717;
 }
