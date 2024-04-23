@@ -1,5 +1,4 @@
-// Card.js
-import React from 'react';
+import React, { useState } from 'react';
 import { PiShoppingCart } from "react-icons/pi";
 import styles from './Card.module.css';
 import { Link } from 'react-router-dom';
@@ -8,6 +7,12 @@ import { useCart } from '../../../context/CartContext';
 const Card = ({ title, heading, images }) => {
     const { addToCart } = useCart();
 
+    const [visibleCount, setVisibleCount] = useState(8);
+
+    const handleViewMore = () => {
+        setVisibleCount(prevCount => prevCount + 8);
+    };
+
     return (
         <div className={styles.container}>
             <h1 className={styles.heading}>
@@ -15,7 +20,7 @@ const Card = ({ title, heading, images }) => {
                 <span className={styles.title}>{title}</span>
             </h1>
             <div className={styles.row}>
-                {images.map((image, index) => (
+                {images.slice(0, visibleCount).map((image, index) => (
                     <div className={styles.card} key={index}>
                         <Link to={`/product-details/${image.productNameId}`} className={styles.cardLink}>
                             <div className={styles.imageContainer}>
@@ -37,6 +42,11 @@ const Card = ({ title, heading, images }) => {
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className={styles.btnRow}>
+                {images.length > visibleCount && (
+                    <button onClick={handleViewMore} className={styles.btn}>View More</button>
+                )}
             </div>
         </div>
     );
