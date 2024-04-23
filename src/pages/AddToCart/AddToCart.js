@@ -2,9 +2,12 @@ import React from 'react';
 import { useCart } from '../../context/CartContext';
 import styles from './AddToCart.module.css';
 import { Link } from 'react-router-dom';
+import { AiOutlineDelete } from "react-icons/ai";
 
 const AddToCart = () => {
-    const { cartItems, clearCart } = useCart();
+    const { cartItems, clearCart, removeFromCart } = useCart();
+    console.log(cartItems)
+    const totalPrice = cartItems.reduce((acc, item) => acc + parseFloat(item.price.replace(/[₹,]/g, '')), 0);
 
     return (
         <div className={styles.container}>
@@ -12,7 +15,9 @@ const AddToCart = () => {
                 <h1 className={styles.heading}>Your Cart is Empty</h1>
             ) : (
                 <div>
-                    <h1 className={styles.heading}>Your Cart</h1>
+                    <div className={styles.headingContain}>
+                        <h1 className={styles.heading}>Your Cart</h1> <h1 className={styles.totalPrice}>Total Price: ₹{totalPrice.toFixed(2)}</h1>
+                    </div>
                     <div className={styles.row}>
                         {cartItems.map((item, index) => (
                             <div className={styles.card} key={index}>
@@ -25,6 +30,13 @@ const AddToCart = () => {
                                     <div className={styles.cardLeft}>
                                         <h1 className={styles.cardHeading}>{item.name}</h1>
                                         <h3 className={styles.price}>{item.price}</h3>
+                                    </div>
+                                    <div className={styles.cardRight}>
+                                        <span className={styles.iconContain}>
+                                            <button className={styles.cartButton} onClick={() => removeFromCart(item.productNameId)}>
+                                                <AiOutlineDelete className={styles.cartIcon} />
+                                            </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
