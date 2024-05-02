@@ -22,7 +22,7 @@ import SmartWatch from './pages/SmartWatch/SmartWatch';
 import LogInPage from './pages/LogIn/LogInPage';
 import ProductDetails from './pages/Product/ProductDetail/ProductDetail';
 import AddToCart from './pages/AddToCart/AddToCart';
-import { CartProvider } from './context/CartContext'
+import { CartProvider } from './context/CartContext';
 import ShippingAddress from './pages/ShippingAddress/ShippingAddress';
 
 
