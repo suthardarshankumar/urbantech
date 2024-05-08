@@ -21,6 +21,7 @@ import Accessories from './pages/Accessories/Accessories';
 import SmartWatch from './pages/SmartWatch/SmartWatch';
 import LogInPage from './pages/LogIn/LogInPage';
 import ProductDetails from './pages/Product/ProductDetail/ProductDetail';
+import ProductPage from './pages/Product/ProductDetail/ProductPage';
 import AddToCart from './pages/AddToCart/AddToCart';
 import { CartProvider } from './context/CartContext';
 import ShippingAddress from './pages/ShippingAddress/ShippingAddress';
@@ -127,6 +128,10 @@ const router = createBrowserRouter([
       {
         path: '/product-details/:productNameId',
         element: <ProductDetails />,
+      },
+      {
+        path: '/product-page/:productNameId',
+        element: <ProductPage />,
       },
       {
         path: '/add-to-cart',

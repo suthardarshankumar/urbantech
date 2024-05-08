@@ -3995,7 +3995,7 @@ const ProductDetail = () => {
         }
     };
 
-    const productDetails = getProductByName(productNameId);;
+    const productDetails = getProductByName(productNameId);
 
 
     const firstImgData = productDetails.imgData?.[0];
