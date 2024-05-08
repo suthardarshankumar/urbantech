@@ -10,9 +10,9 @@ const NewAUT = () => {
             <div className={`${styles['container']}`}>
                 <h1 className={`${styles['heading']}`}>New Product</h1>
                 <div className={`${styles['new-row']}`}>
-                    <img className={`${styles['big-banner-img']}`} src={New1Img} alt='' />
-                    <img className={`${styles['small-banner-img']}`} src={New2Img} alt='' />
-                    <img className={`${styles['small-banner-img']}`} src={New3Img} alt='' />
+                    <img className={`${styles['big-banner-img']} ${styles['img']}`} src={New1Img} alt='' />
+                    <img className={`${styles['small-banner-img']} ${styles['img']}`} src={New2Img} alt='' />
+                    <img className={`${styles['small-banner-img']} ${styles['img']}`} src={New3Img} alt='' />
                 </div>
             </div>
         </>

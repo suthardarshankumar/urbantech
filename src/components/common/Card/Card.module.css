@@ -32,9 +32,14 @@
     flex-direction: row;
 }
 
+.row:hover>.card:not(:hover) {
+    filter: grayscale(100%) blur(1px);
+}
+
 .card {
     width: 19vw;
     height: 42vh;
+    transition: 0.4s;
 }
 
 .imageContainer {
@@ -193,117 +198,3 @@
     background-color: transparent;
     border: none;
 }
-
-
-
-/* .card {
-    width: 19vw;
-    height: 47.5vh;
-    background-color: white;
-    padding: 0.5vh;
-    border: 0.1vh solid lightgray;
-    border-radius: 1.5vh;
-    margin-bottom: 5vh;
-
-}
-
-.containImg {
-    width: 100%;
-    height: 25vh;
-    border-radius: 1vh 1vh 3vh 3vh;
-    background-color: #e3f6f5;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.img {
-    width: 80%;
-    height: 90%;
-    border-radius: 1vh;
-    position: absolute;
-    top: 0;
-    transition: transform 0.7s ease-in;
-}
-
-.details {
-    width: 18vw;
-    height: 22vh;
-    margin-top: 0.5vh;
-    position: relative;
-    padding: 1vh;
-}
-
-.name {
-    font-size: 3vh;
-    color: #171717;
-    font-weight: 300;
-    font-family: "Roboto Condensed", sans-serif;
-}
-
-.priceSection {
-    width: calc(100% + 0vh);
-    margin-top: 0.1vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-    font-size: 2vh;
-    color: rgba(23, 23, 23, 0.57);
-}
-
-.priceLabel {
-    word-spacing: 1px;
-}
-
-.price {
-    font-size: 2.5vh;
-    color: rgb(23, 23, 23);
-    font-weight: 500;
-    font-family: "Roboto Condensed", sans-serif;
-}
-
-.rating {
-    color: #171717;
-    font-family: "Roboto Condensed", sans-serif;
-}
-
-.btnContainer {
-    width: calc(100% - 2vh);
-    position: absolute;
-    bottom: 3vh;
-    display: flex;
-    justify-content: space-around;
-}
-
-.btn {
-    width: 7vw;
-    padding: 1vh 0px;
-    border-radius: 1vw;
-    transition: all 0.5s ease-in 0s;
-}
-
-.addToCartBtn {
-    color: rgb(23, 23, 23);
-    background-color: transparent;
-    border: 0.1vw solid #171717;
-}
-
-.addToCartBtn:hover {
-    color: snow;
-    background-color: #171717;
-    border: 0.vw solid snow;
-}
-
-.buyNowBtn {
-    color: snow;
-    background-color: rgb(23, 23, 23);
-    border: 0.1vw solid snow;
-}
-
-.buyNowBtn:hover {
-    color: #171717;
-    background-color: snow;
-    border: 0.1vw solid #171717;
-} */
