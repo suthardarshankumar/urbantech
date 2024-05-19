@@ -21,6 +21,7 @@
 .footer-ul {
     font-size: 2.3vh;
     list-style: none;
+    margin-left: -25px;
 }
 
 .footer-para {
