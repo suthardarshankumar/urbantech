@@ -32,9 +32,9 @@
     flex-direction: row;
 }
 
-.row:hover>.card:not(:hover) {
+/* .row:hover>.card:not(:hover) {
     filter: grayscale(100%) blur(1px);
-}
+} */
 
 .card {
     width: 19vw;

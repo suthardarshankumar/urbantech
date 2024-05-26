@@ -2,31 +2,32 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { Route, RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { Route, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
-import AudioProduct from './pages/AudioProduct/AudioProduct';
-import Home from './pages/Home/Home';
-import Laptop from './pages/Laptop/Laptop';
-import MobileShop from './pages/MobileShop/MobileShop';
-import Shop from './pages/Shop/Shop';
-import TabletsAndiPads from './pages/TabletsAndiPads/TabletsAndiPads';
-import AllProduct from './pages/AllProduct/AllProduct';
-
-import SignUp from './pages/SignUp/SignUp';
-import LogIn from './pages/LogIn/Login';
-import ResetPassword from './pages/ResetPassword/ResetPassword';
-import SearchResult from './pages/SearchResult/SearchResult';
-import ContactUs from './pages/contact/ContactUs';
-import Accessories from './pages/Accessories/Accessories';
-import SmartWatch from './pages/SmartWatch/SmartWatch';
-import LogInPage from './pages/LogIn/LogInPage';
-import ProductDetails from './pages/Product/ProductDetail/ProductDetail';
-import ProductPage from './pages/Product/ProductDetail/ProductPage';
-import AddToCart from './pages/AddToCart/AddToCart';
 import { CartProvider } from './context/CartContext';
-import ShippingAddress from './pages/ShippingAddress/ShippingAddress';
+import { Suspense, lazy } from 'react';
+import Loading from './components/common/Loading/Loading';
 
-
+// Lazy loaded components
+const AudioProduct = lazy(() => import('./pages/AudioProduct/AudioProduct'));
+const Home = lazy(() => import('./pages/Home/Home'));
+const Laptop = lazy(() => import('./pages/Laptop/Laptop'));
+const MobileShop = lazy(() => import('./pages/MobileShop/MobileShop'));
+const Shop = lazy(() => import('./pages/Shop/Shop'));
+const TabletsAndiPads = lazy(() => import('./pages/TabletsAndiPads/TabletsAndiPads'));
+const AllProduct = lazy(() => import('./pages/AllProduct/AllProduct'));
+const SignUp = lazy(() => import('./pages/SignUp/SignUp'));
+const LogIn = lazy(() => import('./pages/LogIn/Login'));
+const ResetPassword = lazy(() => import('./pages/ResetPassword/ResetPassword'));
+const SearchResult = lazy(() => import('./pages/SearchResult/SearchResult'));
+const ContactUs = lazy(() => import('./pages/contact/ContactUs'));
+const Accessories = lazy(() => import('./pages/Accessories/Accessories'));
+const SmartWatch = lazy(() => import('./pages/SmartWatch/SmartWatch'));
+const LogInPage = lazy(() => import('./pages/LogIn/LogInPage'));
+const ProductDetails = lazy(() => import('./pages/Product/ProductDetail/ProductDetail'));
+const ProductPage = lazy(() => import('./pages/Product/ProductDetail/ProductPage'));
+const AddToCart = lazy(() => import('./pages/AddToCart/AddToCart'));
+const ShippingAddress = lazy(() => import('./pages/ShippingAddress/ShippingAddress'));
 
 const router = createBrowserRouter([
   {
@@ -35,111 +36,111 @@ const router = createBrowserRouter([
     children: [
       {
         path: '',
-        element: <Home />,
+        element: <Suspense fallback={<Loading />}><Home /></Suspense>,
       },
       {
         path: 'shop',
-        element: <Shop />,
+        element: <Suspense fallback={<Loading />}><Shop /></Suspense>,
         children: [
           {
             path: '',
-            element: <AllProduct />,
+            element: <Suspense fallback={<Loading />}><AllProduct /></Suspense>,
           },
           {
             path: 'mobile-shop',
-            element: <MobileShop />,
+            element: <Suspense fallback={<Loading />}><MobileShop /></Suspense>,
           },
           {
             path: 'tablets-and-ipads',
-            element: <TabletsAndiPads />,
+            element: <Suspense fallback={<Loading />}><TabletsAndiPads /></Suspense>,
           },
           {
             path: 'laptop',
-            element: <Laptop />,
+            element: <Suspense fallback={<Loading />}><Laptop /></Suspense>,
           },
           {
             path: 'smartwatch',
-            element: <SmartWatch />,
+            element: <Suspense fallback={<Loading />}><SmartWatch /></Suspense>,
           },
           {
             path: 'audio-product',
-            element: <AudioProduct />,
+            element: <Suspense fallback={<Loading />}><AudioProduct /></Suspense>,
           },
           {
             path: 'accessories',
-            element: <Accessories />,
+            element: <Suspense fallback={<Loading />}><Accessories /></Suspense>,
           },
           {
             path: 'search-result',
-            element: <SearchResult />,
+            element: <Suspense fallback={<Loading />}><SearchResult /></Suspense>,
           }
         ],
       },
       {
         path: 'mobile-shop',
-        element: <MobileShop />,
+        element: <Suspense fallback={<Loading />}><MobileShop /></Suspense>,
       },
       {
         path: 'tablets-and-ipads',
-        element: <TabletsAndiPads />,
+        element: <Suspense fallback={<Loading />}><TabletsAndiPads /></Suspense>,
       },
       {
         path: 'laptop',
-        element: <Laptop />,
+        element: <Suspense fallback={<Loading />}><Laptop /></Suspense>,
       },
       {
         path: 'smartwatch',
-        element: <SmartWatch />,
+        element: <Suspense fallback={<Loading />}><SmartWatch /></Suspense>,
       },
       {
         path: 'audio-product',
-        element: <AudioProduct />,
+        element: <Suspense fallback={<Loading />}><AudioProduct /></Suspense>,
       },
       {
         path: 'accessories',
-        element: <Accessories />,
+        element: <Suspense fallback={<Loading />}><Accessories /></Suspense>,
       },
       {
         path: 'logInPage',
-        element: <LogInPage />,
+        element: <Suspense fallback={<Loading />}><LogInPage /></Suspense>,
         children: [
           {
             path: '',
-            element: <LogIn />,
+            element: <Suspense fallback={<Loading />}><LogIn /></Suspense>,
           },
           {
             path: 'signUp',
-            element: <SignUp />,
+            element: <Suspense fallback={<Loading />}><SignUp /></Suspense>,
           },
           {
             path: 'forget-password',
-            element: <ResetPassword />,
+            element: <Suspense fallback={<Loading />}><ResetPassword /></Suspense>,
           },
         ],
       },
       {
         path: 'contact-us',
-        element: <ContactUs />,
+        element: <Suspense fallback={<Loading />}><ContactUs /></Suspense>,
       },
       {
         path: 'search-result',
-        element: <SearchResult />,
+        element: <Suspense fallback={<Loading />}><SearchResult /></Suspense>,
       },
       {
         path: '/product-details/:productNameId',
-        element: <ProductDetails />,
+        element: <Suspense fallback={<Loading />}><ProductDetails /></Suspense>,
       },
       {
         path: '/product-page/:productNameId',
-        element: <ProductPage />,
+        element: <Suspense fallback={<Loading />}><ProductPage /></Suspense>,
       },
       {
         path: '/add-to-cart',
-        element: <AddToCart />,
+        element: <Suspense fallback={<Loading />}><AddToCart /></Suspense>,
       },
       {
         path: '/shipping-address',
-        element: <ShippingAddress />
+        element: <Suspense fallback={<Loading />}><ShippingAddress /></Suspense>
       }
     ],
   }
@@ -154,7 +155,4 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
