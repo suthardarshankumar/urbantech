@@ -12,10 +12,6 @@
     margin-bottom: 5vh;
 }
 
-.secContainer {
-    display: flex;
-    justify-content: space-between;
-}
 
 .atheading {
     color: #171717;
@@ -28,11 +24,17 @@
     text-transform: uppercase;
 }
 
+.mainRow {
+    width: 100%;
+    display: flex;
+}
+
 .row {
+    width: calc(100% - 10vw);
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
-    gap: 3vh 4.5vw;
+    gap: 3vh 2.5vw;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -42,14 +44,14 @@
 } */
 
 .card {
-    width: 19vw;
-    height: 42vh;
+    width: 18vw;
+    height: 40vh;
     transition: 0.4s;
 }
 
 .imageContainer {
-    width: 19vw;
-    height: 35vh;
+    width: 18vw;
+    height: 33vh;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,0 +1,13 @@
+.box-container {
+    width: 10vw;
+}
+
+.label-container {
+    padding: 5px;
+    display: block;
+    font-family: "Nunito", sans-serif;
+}
+
+.checkbox {
+    margin-right: 5px;
+}
