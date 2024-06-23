@@ -20,6 +20,7 @@ import FilterCard from '../../common/Card/FilterCard';
 
 const BudgetSmartphones = () => {
 
+    const mobileBrands = ['Samsung', 'Apple', 'OnePlus', 'Vivo', 'Lava', 'Oppo', 'Realme', 'Redmi', 'Poco', 'iQOO', 'Honor', 'Nothing', 'Motorola'];
     const head = 'Budget Smartphones'
     const budgetSmartphonesDataSet = [
         {
@@ -124,7 +125,7 @@ const BudgetSmartphones = () => {
 
     return (
         <>
-            <FilterCard images={budgetSmartphonesDataSet} heading={head} />
+            <FilterCard images={budgetSmartphonesDataSet} heading={head} brands={mobileBrands} />
         </>
     )
 }

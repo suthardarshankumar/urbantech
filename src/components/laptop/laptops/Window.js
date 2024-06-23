@@ -1,5 +1,6 @@
 import React from 'react';
-import Card from '../../common/Card/Card';
+// import Card from '../../common/Card/Card';
+import FilterCard from '../../common/Card/FilterCard';
 
 import AcerAspireLite12Gen from '../../../assets/Img/Laptops/Window/AcerAspireLite12Gen.png';
 import ASUSROGStrixG17 from '../../../assets/Img/Laptops/Window/ASUSROGStrixG17.png';
@@ -25,84 +26,99 @@ const Window = () => {
             name: "Dell 15 Laptop, Intel Core i5-1135G7 Processor",
             price: "₹46,999",
             productNameId: 'dell-15',
+            brand: 'Dell',
         },
         {
             img: LenovoIdeaPadSlim3,
             name: "Lenovo IdeaPad Slim 3 Intel Core i7 12th Gen",
             price: "₹62,999",
             productNameId: 'lenovo-ideaPad-slim-3',
+            brand: 'Lenovo',
         },
         {
             img: ASUSVivobook14,
             name: "ASUS Vivobook 14, Intel Core i3-1115G4 11th Gen",
             price: "₹31,499",
             productNameId: 'asus-vivobook-14',
+            brand: 'Asus',
         },
         {
             img: ASUSVivobook15,
             name: "ASUS Vivobook 15, Intel Core i3-1220P 12th Gen",
             price: " ₹38,999",
             productNameId: 'asus-vivobook-14',
+            brand: 'Asus',
         },
         {
             img: LenovoThinkBook15,
             name: "Lenovo ThinkBook 15 Intel 12th Gen Core i7",
             price: "₹57,999",
             productNameId: 'lenovo-ideaPad-slim-3',
+            brand: 'Lenovo',
         },
         {
             img: AcerAspireLite12Gen,
             name: "Acer Aspire Lite 12th Gen Intel Core i3-1215U Premium Metal Laptop",
             price: " ₹32,999",
             productNameId: 'acer-aspire-lite-12th-gen',
+            brand: 'Acer',
+
         },
         {
             img: MicrosoftNewSurfaceLaptop5,
             name: "Microsoft New Surface Laptop5 13.5 Intel evo 12 Gen i5",
             price: "₹1,01,799",
             productNameId: 'lenovo-ideaPad-slim-3',
+            brand: 'Microsoft',
         },
         {
             img: LenovoThinkPadE14,
             name: "Lenovo ThinkPad E14 Intel Core i5 13th Gen 14",
             price: "₹73,999",
             productNameId: 'lenovo-ideaPad-slim-3',
+            brand: 'Lenovo',
         },
         {
             img: LenovoIdeaPad311thGen,
             name: "Lenovo IdeaPad 3 11th Gen",
             price: "₹33,499",
             productNameId: 'lenovo-ideaPad-slim-3',
+            brand: 'Lenovo',
         },
         {
             img: HP15s,
             name: "HP 15s, Ryzen 5-5500U",
             price: "₹43,999",
             productNameId: 'acer-aspire-lite-12th-gen',
+            brand: 'HP',
         },
         {
             img: HONORMagicBookX16,
             name: "HONOR MagicBook X16 (2024), 12th Gen Intel Core i5-12450H",
             price: "₹48,999",
             productNameId: 'dell-15',
+            brand: 'Honor',
         },
         {
             img: HP14s,
             name: "HP Laptop 14s, AMD Ryzen 5 5500U, 14-inch",
             price: "₹42,999",
             productNameId: 'acer-aspire-lite-12th-gen',
+            brand: 'HP',
         },
         {
             img: ASUSROGStrixG17,
             name: "ASUS ROG Strix G17",
             price: " ₹79,999",
             productNameId: 'asus-vivobook-14',
+            brand: 'Asus',
         },
     ]
+    const windowBrands = ['HP', 'Asus', 'Dell', 'Microsoft', 'Lenovo', 'Honor']
 
     return (
         <>
-            <Card images={windowLaptopDataSet} heading={windowHeading} />
+            <FilterCard images={windowLaptopDataSet} heading={windowHeading} brands={windowBrands} />
         </>
     )
 }

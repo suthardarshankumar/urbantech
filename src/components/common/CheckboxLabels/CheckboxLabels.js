@@ -2,8 +2,8 @@
 import React from 'react';
 import './CheckboxLabels.css'
 
-const CheckboxLabels = ({ selectedBrands, handleBrandChange, isVisible }) => {
-    const brands = ['Samsung', 'Apple', 'OnePlus', 'Vivo', 'Lava', 'Oppo', 'Realme', 'Redmi', 'Poco', 'iQOO', 'Honor', 'Nothing', 'Motorola'];
+const CheckboxLabels = ({ selectedBrands, handleBrandChange, brand }) => {
+    const brands = Array.isArray(brand) ? brand : [];
 
     return (
         <div className="box-container">
@@ -20,7 +20,7 @@ const CheckboxLabels = ({ selectedBrands, handleBrandChange, isVisible }) => {
                 </label>
             ))}
         </div>
-    )
+    );
 };
 
 export default CheckboxLabels;

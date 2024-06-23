@@ -25,7 +25,7 @@ import motorolaRazr40Ultra from '../../../assets/Img/MobileShop/PremiumSmartphon
 
 
 const PremiumSmartphones = () => {
-
+    const mobileBrands = ['Samsung', 'Apple', 'OnePlus', 'Vivo', 'Lava', 'Oppo', 'Realme', 'Redmi', 'Poco', 'iQOO', 'Honor', 'Nothing', 'Motorola'];
     const premiumHeading = 'Premium Smartphones';
     const premiumSmartphonesDataSet = [
         {
@@ -170,7 +170,7 @@ const PremiumSmartphones = () => {
 
     return (
         <>
-            <FilterCard images={premiumSmartphonesDataSet} heading={premiumHeading} />
+            <FilterCard images={premiumSmartphonesDataSet} heading={premiumHeading} brands={mobileBrands} />
         </>
     )
 }

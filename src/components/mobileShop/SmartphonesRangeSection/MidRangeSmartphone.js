@@ -29,6 +29,7 @@ import samsungA54 from '../../../assets/Img/MobileShop/MidrangeSmartphones/samsu
 import samsungA35 from '../../../assets/Img/MobileShop/MidrangeSmartphones/samsungA35.png';
 
 const MidRangeSmartphone = () => {
+    const mobileBrands = ['Samsung', 'Apple', 'OnePlus', 'Vivo', 'Lava', 'Oppo', 'Realme', 'Redmi', 'Poco', 'iQOO', 'Honor', 'Nothing', 'Motorola'];
     const midRangeHeading = 'Midrange Smartphones';
     const midRangeSmartphonesDataSet = [
         {
@@ -224,7 +225,7 @@ const MidRangeSmartphone = () => {
 
     return (
         <>
-            <FilterCard images={midRangeSmartphonesDataSet} heading={midRangeHeading} />
+            <FilterCard images={midRangeSmartphonesDataSet} heading={midRangeHeading} brands={mobileBrands} />
         </>
     )
 }

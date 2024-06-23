@@ -5,16 +5,15 @@ import { Link } from 'react-router-dom';
 import { useCart } from '../../../context/CartContext';
 import CheckboxLabels from '../CheckboxLabels/CheckboxLabels';
 
-const FilterCard = ({ title, heading, images }) => {
-    const { addToCart } = useCart();
 
+const FilterCard = ({ title, heading, images, brands }) => {
+    const { addToCart } = useCart();
     const [visibleCount, setVisibleCount] = useState(8);
+    const [selectedBrands, setSelectedBrands] = useState([]);
 
     const handleViewMore = () => {
-        setVisibleCount(prevCount => prevCount + 8);
+        setVisibleCount((prevCount) => prevCount + 8);
     };
-
-    const [selectedBrands, setSelectedBrands] = useState([]);
 
     const handleBrandChange = (brand) => {
         setSelectedBrands((prevSelectedBrands) =>
@@ -37,7 +36,11 @@ const FilterCard = ({ title, heading, images }) => {
                 </h1>
             </div>
             <div className={styles.mainRow}>
-                <CheckboxLabels selectedBrands={selectedBrands} handleBrandChange={handleBrandChange} />
+                <CheckboxLabels
+                    selectedBrands={selectedBrands}
+                    handleBrandChange={handleBrandChange}
+                    brand={brands}
+                />
                 <div className={styles.row}>
                     {filteredProducts.slice(0, visibleCount).map((image, index) => (
                         <div className={styles.card} key={index}>
@@ -63,7 +66,6 @@ const FilterCard = ({ title, heading, images }) => {
                     ))}
                 </div>
             </div>
-
             <div className={styles.btnRow}>
                 {images.length > visibleCount && (
                     <button onClick={handleViewMore} className={styles.btn}>View More</button>
@@ -74,3 +76,4 @@ const FilterCard = ({ title, heading, images }) => {
 };
 
 export default FilterCard;
+
