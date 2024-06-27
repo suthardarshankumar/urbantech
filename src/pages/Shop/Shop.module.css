@@ -5,6 +5,7 @@
 
 .container {
     width: 100%;
+    position: relative;
 }
 
 .headingContainer {
@@ -114,4 +115,82 @@
 
 .nav-part2 h4:hover .nav-link {
     color: #f2f2f2;
+}
+
+.filterContainer {
+    position: absolute;
+    text-align: right;
+    right: 6vw;
+    top: 22vh;
+}
+
+.filterHeading {
+    font-size: 3.5vh;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    color: #171717;
+    transition: 0.5s ease-in;
+}
+
+.filterHeading:hover {
+    cursor: pointer;
+}
+
+.dropdownIcon {
+    font-size: 5vh;
+    padding: 0 0 0 0.2vw;
+    transition: 0.5s ease-in;
+}
+
+.iconUp {
+    transform: translateY(1.1vh) rotateX(0deg);
+}
+
+.iconDown {
+    transform: translateY(1.1vh) rotateX(180deg);
+}
+
+.dropDownMenuSection {
+    position: absolute;
+    z-index: 10;
+    top: 9vh;
+    right: 0;
+    width: 17vw;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in;
+    background-color: transparent;
+}
+
+.dropdownListContainer {
+    width: 17vw;
+    padding: 2vh;
+    border-radius: 1.25vh;
+    border: 0.1vh solid #171717;
+    /* background-color: #f8f8ff; */
+    /* background-color: #0d1717; */
+    /* color: #f2f2f2; */
+    background-color: rgb(250, 250, 250);
+    color: #0d1717;
+    text-align: right;
+}
+
+.dropDownMenuOpen {
+    max-height: 70vh;
+}
+
+.dropDownMenuClose {
+    max-height: 0;
+}
+
+.filterName {
+    font-family: "Nunito", sans-serif;
+    font-size: 4vh;
+    transition: 0.5s ease-in;
+}
+
+.filterName:hover {
+    background: linear-gradient(45deg, #FF5722, #FF7E22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
 }
