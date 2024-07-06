@@ -203,3 +203,83 @@
     background-color: transparent;
     border: none;
 }
+
+@media only screen and (min-width:320px) and (max-width: 479px) {
+    .row {
+        gap: 5vh 4.5vw;
+    }
+
+    .card {
+        width: 42vw;
+        height: 33vh;
+    }
+
+    .imageContainer {
+        width: 42vw;
+        height: 28vh;
+    }
+
+    .cardLeft {
+        width: 90%;
+    }
+
+    .btnRow {
+        margin-top: 5vh;
+    }
+
+    .btn {
+        border-radius: 1vw;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width: 599px) {
+    .row {
+        gap: 5vh 6vw;
+    }
+
+    .card {
+        width: 42vw;
+        height: 39vh;
+    }
+
+    .imageContainer {
+        width: 42vw;
+        height: 34vh;
+    }
+
+    .cardLeft {
+        width: 90%;
+    }
+
+    .btnRow {
+        margin-top: 5vh;
+    }
+
+    .btn {
+        border-radius: 1vw;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 767px) {
+    .row {
+        gap: 5vh 4.5vw;
+    }
+
+    .card {
+        width: 19vw;
+        height: 32vh;
+    }
+
+    .imageContainer {
+        width: 19vw;
+        height: 25vh;
+    }
+
+    .btnRow {
+        margin-top: 5vh;
+    }
+
+    .btn {
+        border-radius: 1vw;
+    }
+}

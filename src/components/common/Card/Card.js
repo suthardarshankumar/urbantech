@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { PiShoppingCart } from "react-icons/pi";
 import styles from './Card.module.css';
 import { Link } from 'react-router-dom';
@@ -6,11 +6,28 @@ import { useCart } from '../../../context/CartContext';
 
 const Card = ({ title, heading, images }) => {
     const { addToCart } = useCart();
-
     const [visibleCount, setVisibleCount] = useState(8);
 
+    const determineVisibleCount = (width) => {
+        if (width < 599) return 6;
+        return 8;
+    };
+
+    useEffect(() => {
+        const handleResize = () => {
+            setVisibleCount(determineVisibleCount(window.innerWidth));
+        };
+
+        window.addEventListener('resize', handleResize);
+        handleResize();
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     const handleViewMore = () => {
-        setVisibleCount(prevCount => prevCount + 8);
+        setVisibleCount(prevCount => prevCount + determineVisibleCount(window.innerWidth));
     };
 
     return (
@@ -24,7 +41,7 @@ const Card = ({ title, heading, images }) => {
                     <div className={styles.card} key={index}>
                         <Link to={`/product-details/${image.productNameId}`} className={styles.cardLink}>
                             <div className={styles.imageContainer}>
-                                <img className={styles.cardImage} src={image.img} alt="" />
+                                <img className={styles.cardImage} src={image.img} alt={image.name} />
                             </div>
                         </Link>
                         <div className={styles.cardDetail}>

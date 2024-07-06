@@ -181,6 +181,50 @@
     max-height: 0;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+    .title {
+        font-size: 3.25vh;
+    }
+
+    .nav-part2 {
+        gap: 1vw;
+    }
+
+    .nav-part2 h4 {
+        padding: 1vh 1.5vw;
+        font-size: 1.5vh;
+        border-radius: 2.25vh;
+    }
+
+    .profile-link {
+        font-size: 3vh;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .title {
+        font-size: 3vh;
+    }
+
+    .nav-part2 {
+        gap: 1.25vw;
+    }
+
+    .nav-part2 h4 {
+        padding: 1vh 1.5vw;
+        font-size: 1.5vh;
+        border-radius: 2.5vh;
+    }
+
+    .profile-link {
+        font-size: 3vh;
+    }
+}
+
+
 /* .shop-menu {
     display: none;
     position: absolute;

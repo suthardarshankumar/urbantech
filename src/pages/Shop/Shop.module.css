@@ -194,3 +194,43 @@
     -webkit-text-fill-color: transparent;
     cursor: pointer;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .dropDownMenuSection {
+        width: 50vw;
+    }
+
+    .dropdownListContainer {
+        width: 50vw;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    .dropDownMenuSection {
+        width: 37vw;
+    }
+
+    .dropdownListContainer {
+        width: 37vw;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .dropDownMenuSection {
+        width: 27vw;
+    }
+
+    .dropdownListContainer {
+        width: 27vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .dropDownMenuSection {
+        width: 24vw;
+    }
+
+    .dropdownListContainer {
+        width: 24vw;
+    }
+}

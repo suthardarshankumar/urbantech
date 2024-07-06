@@ -1,18 +1,35 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { PiShoppingCart } from "react-icons/pi";
 import styles from './FilterCard.module.css';
 import { Link } from 'react-router-dom';
 import { useCart } from '../../../context/CartContext';
 import CheckboxLabels from '../CheckboxLabels/CheckboxLabels';
 
-
 const FilterCard = ({ title, heading, images, brands }) => {
     const { addToCart } = useCart();
     const [visibleCount, setVisibleCount] = useState(8);
     const [selectedBrands, setSelectedBrands] = useState([]);
 
+    const determineVisibleCount = (width) => {
+        if (width < 599) return 6;
+        return 8;
+    };
+
+    useEffect(() => {
+        const handleResize = () => {
+            setVisibleCount(determineVisibleCount(window.innerWidth));
+        };
+
+        window.addEventListener('resize', handleResize);
+        handleResize();
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     const handleViewMore = () => {
-        setVisibleCount((prevCount) => prevCount + 8);
+        setVisibleCount(prevCount => prevCount + determineVisibleCount(window.innerWidth));
     };
 
     const handleBrandChange = (brand) => {
@@ -46,7 +63,7 @@ const FilterCard = ({ title, heading, images, brands }) => {
                         <div className={styles.card} key={index}>
                             <Link to={`/product-details/${image.productNameId}`} className={styles.cardLink}>
                                 <div className={styles.imageContainer}>
-                                    <img className={styles.cardImage} src={image.img} alt="" />
+                                    <img className={styles.cardImage} src={image.img} alt={image.name} />
                                 </div>
                             </Link>
                             <div className={styles.cardDetail}>
@@ -67,7 +84,7 @@ const FilterCard = ({ title, heading, images, brands }) => {
                 </div>
             </div>
             <div className={styles.btnRow}>
-                {images.length > visibleCount && (
+                {filteredProducts.length > visibleCount && (
                     <button onClick={handleViewMore} className={styles.btn}>View More</button>
                 )}
             </div>
@@ -76,4 +93,3 @@ const FilterCard = ({ title, heading, images, brands }) => {
 };
 
 export default FilterCard;
-

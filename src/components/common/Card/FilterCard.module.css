@@ -10,9 +10,12 @@
     font-weight: 600;
     color: #171717;
     margin-bottom: 5vh;
-    margin-left: 10vw;
 }
 
+.secContainer {
+    display: flex;
+    justify-content: space-between;
+}
 
 .atheading {
     color: #171717;
@@ -25,17 +28,11 @@
     text-transform: uppercase;
 }
 
-.mainRow {
-    width: 100%;
-    display: flex;
-}
-
 .row {
-    width: calc(100% - 10vw);
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
-    gap: 3vh 2.5vw;
+    gap: 3vh 4.5vw;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -45,14 +42,14 @@
 } */
 
 .card {
-    width: 18vw;
-    height: 40vh;
+    width: 19vw;
+    height: 42vh;
     transition: 0.4s;
 }
 
 .imageContainer {
-    width: 18vw;
-    height: 33vh;
+    width: 19vw;
+    height: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,4 +202,84 @@
 .cartButton {
     background-color: transparent;
     border: none;
+}
+
+@media only screen and (min-width:320px) and (max-width: 479px) {
+    .row {
+        gap: 5vh 4.5vw;
+    }
+
+    .card {
+        width: 42vw;
+        height: 33vh;
+    }
+
+    .imageContainer {
+        width: 42vw;
+        height: 28vh;
+    }
+
+    .cardLeft {
+        width: 90%;
+    }
+
+    .btnRow {
+        margin-top: 5vh;
+    }
+
+    .btn {
+        border-radius: 1vw;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width: 599px) {
+    .row {
+        gap: 5vh 6vw;
+    }
+
+    .card {
+        width: 42vw;
+        height: 39vh;
+    }
+
+    .imageContainer {
+        width: 42vw;
+        height: 34vh;
+    }
+
+    .cardLeft {
+        width: 90%;
+    }
+
+    .btnRow {
+        margin-top: 5vh;
+    }
+
+    .btn {
+        border-radius: 1vw;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 767px) {
+    .row {
+        gap: 5vh 4.5vw;
+    }
+
+    .card {
+        width: 19vw;
+        height: 32vh;
+    }
+
+    .imageContainer {
+        width: 19vw;
+        height: 25vh;
+    }
+
+    .btnRow {
+        margin-top: 5vh;
+    }
+
+    .btn {
+        border-radius: 1vw;
+    }
 }

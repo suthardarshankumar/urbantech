@@ -21,7 +21,7 @@
 .footer-ul {
     font-size: 2.3vh;
     list-style: none;
-    margin-left: -25px;
+    margin-left: 0px;
 }
 
 .footer-para {
@@ -40,4 +40,36 @@
 
 .footer-list:hover {
     transform: translate(5px);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .footerContent {
+        display: block;
+    }
+
+    .footer-para:nth-last-child(1),
+    .footer-list:nth-last-child(1) {
+        margin-bottom: 5vh;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+    .footerContent {
+        display: block;
+    }
+
+    .footer-para:nth-last-child(1),
+    .footer-list:nth-last-child(1) {
+        margin-bottom: 5vh;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .footer-heading {
+        font-size: 3.25vh;
+    }
+
+    .footer-ul {
+        font-size: 2vh;
+    }
 }

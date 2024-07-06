@@ -117,3 +117,13 @@ font-family: "Nunito", sans-serif;
 
 font-family: "Lato", sans-serif;
 */
+
+/*
+@media only screen and (min-width: 1450px) and (max-width : 1500px)
+@media only screen and (max-width : 376px)
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+*/
