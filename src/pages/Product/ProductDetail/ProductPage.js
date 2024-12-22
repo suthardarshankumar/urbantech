@@ -11,9 +11,8 @@ import { useCart } from '../../../context/CartContext';
 
 const ProductPage = () => {
     const [quantity, setQuantity] = useState(1);
-    const { productPageDetails } = useCart(); // Changed from { ProductPage } to { productPageDetails }
+    const { productPageDetails } = useCart();
 
-    // Ensure productPageDetails is defined before accessing its properties
     const firstImgData = productPageDetails?.imgData?.[0];
     const firstImgData2 = productPageDetails?.imgData2?.[0];
     const firstImgData3 = productPageDetails?.imgData3?.[0];

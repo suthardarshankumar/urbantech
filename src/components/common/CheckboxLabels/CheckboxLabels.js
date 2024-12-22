@@ -1,4 +1,3 @@
-// src/components/CheckboxLabels.js
 import React from 'react';
 import './CheckboxLabels.css'
 
