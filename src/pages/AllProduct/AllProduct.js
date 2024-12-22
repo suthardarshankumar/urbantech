@@ -196,7 +196,6 @@ import { faL } from '@fortawesome/free-solid-svg-icons';
 
 const AllProduct = () => {
 
-    // object for card
     const headingName = 'All Product';
     const allProductData = [
         {
